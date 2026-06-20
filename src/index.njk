@@ -1,12 +1,12 @@
 ---
 layout: layout.njk
 ---
-{% set sorted = listings | sort(false, false, "priceNum") %}
+{% set sorted = listings | sort(true, false, "score") %}
 
 <section class="hero">
   <h1>{{ site.title }}</h1>
   <p class="lede">{{ site.tagline }}</p>
-  <p class="count"><strong id="visible-count">{{ listings | length }}</strong> listings · filter below</p>
+  <p class="count"><strong id="visible-count">{{ listings | length }}</strong> listings · ranked by target score · filter &amp; sort below</p>
 </section>
 
 <div class="filters" id="filters">
@@ -32,12 +32,32 @@ layout: layout.njk
     <button class="chip" data-filter="beds" data-val="2">2+</button>
     <button class="chip" data-filter="beds" data-val="3">3+</button>
   </div>
+  <div class="fgroup sortgroup">
+    <span class="flabel">Sort by</span>
+    <select id="sort" class="sortsel">
+      <option value="score">Best target (score)</option>
+      <option value="price">Price: low → high</option>
+      <option value="price-desc">Price: high → low</option>
+      <option value="recency">Most recently posted</option>
+      <option value="movein">Earliest move-in</option>
+      <option value="location">Closest location</option>
+    </select>
+  </div>
 </div>
 
 <div class="grid" id="grid">
   {% for l in sorted %}
   {% set zm = l.zone | zoneMeta %}
-  <article class="card" data-zone="{{ l.zone }}" data-price="{{ l.priceNum }}" data-beds="{{ l.beds or 0 }}">
+  {% set sc = l.score %}
+  {% if sc >= 85 %}{% set scol = "#1f8a4c" %}{% elif sc >= 70 %}{% set scol = "#3f9d62" %}{% elif sc >= 60 %}{% set scol = "#c98a1a" %}{% else %}{% set scol = "#b14b4b" %}{% endif %}
+  <article class="card"
+    data-zone="{{ l.zone }}"
+    data-price="{{ l.priceNum }}"
+    data-beds="{{ l.beds or 0 }}"
+    data-score="{{ l.score }}"
+    data-recency="{{ l.scoreBreakdown.recency.sub }}"
+    data-movein="{{ l.scoreBreakdown.moveIn.sub }}"
+    data-location="{{ l.scoreBreakdown.location.sub }}">
     <a class="card-media" href="/listings/{{ l.slug }}/">
       {% if l.images | length %}
         <img loading="lazy" src="{{ l.images[0] }}" alt="{{ l.title }}">
@@ -45,6 +65,7 @@ layout: layout.njk
         <span class="noimg">no photo</span>
       {% endif %}
       <span class="zbadge" style="background:{{ zm.color }}">{{ zm.label }}</span>
+      <span class="score-badge" style="background:{{ scol }}" title="Target score {{ l.score }}/100">{{ l.score }}<small>/100</small></span>
       {% if l.imgCount %}<span class="imgcount">{{ l.imgCount }} photos</span>{% endif %}
     </a>
     <div class="card-body">
@@ -63,7 +84,10 @@ layout: layout.njk
 
 <script>
   const state = { zone: "all", price: 99999, beds: 0 };
+  const grid = document.getElementById("grid");
   const cards = [...document.querySelectorAll(".card")];
+
+  // --- filters ---
   document.querySelectorAll(".chip").forEach(btn => {
     btn.addEventListener("click", () => {
       const f = btn.dataset.filter;
@@ -86,4 +110,26 @@ layout: layout.njk
     document.getElementById("visible-count").textContent = n;
     document.getElementById("empty").hidden = n > 0;
   }
+
+  // --- sort ---
+  // Each entry: [data-attribute, direction] where -1 = descending, 1 = ascending.
+  const SORTS = {
+    score:      ["score", -1],
+    price:      ["price", 1],
+    "price-desc": ["price", -1],
+    recency:    ["recency", -1],
+    movein:     ["movein", -1],
+    location:   ["location", -1]
+  };
+  function sortBy(key) {
+    const [attr, dir] = SORTS[key] || SORTS.score;
+    // Stable tiebreak on score (desc) so equal keys still rank sensibly.
+    const ordered = [...cards].sort((a, b) => {
+      const av = Number(a.dataset[attr]), bv = Number(b.dataset[attr]);
+      if (av !== bv) return (av - bv) * dir;
+      return Number(b.dataset.score) - Number(a.dataset.score);
+    });
+    ordered.forEach(c => grid.appendChild(c));
+  }
+  document.getElementById("sort").addEventListener("change", e => sortBy(e.target.value));
 </script>

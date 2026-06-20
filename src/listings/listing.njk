@@ -38,6 +38,20 @@ eleventyComputed:
       <p>{{ l.description or "—" }}</p>
     </div>
     <aside class="detail-side">
+      {% if l.score is defined %}
+      {% set sc = l.score %}
+      {% if sc >= 85 %}{% set scol = "#1f8a4c" %}{% elif sc >= 70 %}{% set scol = "#3f9d62" %}{% elif sc >= 60 %}{% set scol = "#c98a1a" %}{% else %}{% set scol = "#b14b4b" %}{% endif %}
+      <h3>Target score</h3>
+      <div class="scorecard">
+        <div class="score-big" style="color:{{ scol }}">{{ l.score }}<small>/100</small></div>
+        <ul class="score-factors">
+          <li><span class="sf-name">Move-in</span><span class="sf-bar"><i style="width:{{ (l.scoreBreakdown.moveIn.sub * 100) | round }}%"></i></span><b>{{ l.scoreBreakdown.moveIn.points }}<small>/40</small></b></li>
+          <li><span class="sf-name">Location</span><span class="sf-bar"><i style="width:{{ (l.scoreBreakdown.location.sub * 100) | round }}%"></i></span><b>{{ l.scoreBreakdown.location.points }}<small>/25</small></b></li>
+          <li><span class="sf-name">Recency</span><span class="sf-bar"><i style="width:{{ (l.scoreBreakdown.recency.sub * 100) | round }}%"></i></span><b>{{ l.scoreBreakdown.recency.points }}<small>/20</small></b></li>
+          <li><span class="sf-name">Price</span><span class="sf-bar"><i style="width:{{ (l.scoreBreakdown.price.sub * 100) | round }}%"></i></span><b>{{ l.scoreBreakdown.price.points }}<small>/15</small></b></li>
+        </ul>
+      </div>
+      {% endif %}
       <h3>Details</h3>
       <dl>
         <dt>Source</dt><dd>{{ l.source_site }}</dd>
