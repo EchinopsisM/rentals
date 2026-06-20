@@ -2573,5 +2573,177 @@
         "points": 7.5
       }
     }
+  },
+  {
+    "id": "hf4bb1c83e35e0",
+    "slug": "hf4bb1c83e35e0-hang-dong-chiang-mai",
+    "title": "For rent studio condo in Hang Dong, Chiang Mai",
+    "price": "10500",
+    "priceNum": 10500,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Hang Dong, Chiang Mai",
+    "zone": "out",
+    "rental_location": "Hang Dong, Chiang Mai",
+    "listed": null,
+    "move_in_date": null,
+    "description": "Inbox directly owner <br> <br> <br>A condo common room with a private bathroom for the tenant's own use.<br> <br><button data-test=obfuscated_content_ph\n\n(Rent listed as USD297/mo on Hipflat; ≈฿10500 at ฿35/USD.)",
+    "source_site": "Hipflat",
+    "url": "https://www.hipflat.co.th/en/ads/n3unt2n98h2ellcc70089ulc3u0c4huu",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Hipflat listing",
+    "images": [
+      "/img/hf4bb1c83e35e0/0.jpg"
+    ],
+    "imgCount": 1,
+    "score": 38.8,
+    "scoreBreakdown": {
+      "moveIn": {
+        "sub": 0.4,
+        "points": 16
+      },
+      "location": {
+        "sub": 0.1,
+        "points": 2.5
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 6
+      },
+      "price": {
+        "sub": 0.95,
+        "points": 14.25
+      }
+    }
+  },
+  {
+    "id": "hfb6c747793d45",
+    "slug": "hfb6c747793d45-mueang-chiang-mai-chiang-mai",
+    "title": "For rent 1 bed condo in Mueang Chiang Mai, Chiang Mai",
+    "price": "10500",
+    "priceNum": 10500,
+    "beds": 4,
+    "beds_baths": "4 beds",
+    "area": "Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Mueang Chiang Mai, Chiang Mai",
+    "listed": null,
+    "move_in_date": null,
+    "description": "Mountrain view.Serene lake N.2\n\n(Rent listed as USD303/mo on Hipflat; ≈฿10500 at ฿35/USD.)",
+    "source_site": "Hipflat",
+    "url": "https://www.hipflat.co.th/en/ads/t293l4ea88tc7c498132c3en3u0c2e7n",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Hipflat listing",
+    "images": [
+      "/img/hfb6c747793d45/0.jpg"
+    ],
+    "imgCount": 1,
+    "score": 45,
+    "scoreBreakdown": {
+      "moveIn": {
+        "sub": 0.4,
+        "points": 16
+      },
+      "location": {
+        "sub": 0.35,
+        "points": 8.75
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 6
+      },
+      "price": {
+        "sub": 0.95,
+        "points": 14.25
+      }
+    }
+  },
+  {
+    "id": "hfa7b2ac7fa511",
+    "slug": "hfa7b2ac7fa511-mueang-chiang-mai-chiang-mai",
+    "title": "For rent 1 bed condo in Mueang Chiang Mai, Chiang Mai",
+    "price": "16000",
+    "priceNum": 16000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Mueang Chiang Mai, Chiang Mai",
+    "zone": "target",
+    "rental_location": "Mueang Chiang Mai, Chiang Mai",
+    "listed": null,
+    "move_in_date": null,
+    "description": "Stylish condo second floor for rent for 15,000 Baht 1 year contract<br>42 sqm 2nd floor fully furnished. Near CMU \n\n(Rent listed as USD455/mo on Hipflat; ≈฿16000 at ฿35/USD.)",
+    "source_site": "Hipflat",
+    "url": "https://www.hipflat.co.th/en/ads/79a349uh8t4e1une3aceltce3u0ch90t",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Hipflat listing",
+    "images": [
+      "/img/hfa7b2ac7fa511/0.jpg"
+    ],
+    "imgCount": 1,
+    "score": 53,
+    "scoreBreakdown": {
+      "moveIn": {
+        "sub": 0.4,
+        "points": 16
+      },
+      "location": {
+        "sub": 1,
+        "points": 25
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 6
+      },
+      "price": {
+        "sub": 0.4,
+        "points": 6
+      }
+    }
+  },
+  {
+    "id": "hfc797219a8b82",
+    "slug": "hfc797219a8b82-mueang-chiang-mai-chiang-mai",
+    "title": "For rent studio condo in Mueang Chiang Mai, Chiang Mai",
+    "price": "5000",
+    "priceNum": 5000,
+    "beds": 4,
+    "beds_baths": "4 beds",
+    "area": "Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Mueang Chiang Mai, Chiang Mai",
+    "listed": null,
+    "move_in_date": null,
+    "description": "‎Kindly Follow the instructions of the Unit HereHere🔥🔥 BY 🏡,Sending A message Via(WhatsApp) Fully furnished non sharing Available to move in ASAP. Go\n\n(Rent listed as USD145/mo on Hipflat; ≈฿5000 at ฿35/USD.)",
+    "source_site": "Hipflat",
+    "url": "https://www.hipflat.co.th/en/ads/8ac842ah8a0429uhtl2ce2243u0ccnu2",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Hipflat listing",
+    "images": [
+      "/img/hfc797219a8b82/0.jpg"
+    ],
+    "imgCount": 1,
+    "score": 45.8,
+    "scoreBreakdown": {
+      "moveIn": {
+        "sub": 0.4,
+        "points": 16
+      },
+      "location": {
+        "sub": 0.35,
+        "points": 8.75
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 6
+      },
+      "price": {
+        "sub": 1,
+        "points": 15
+      }
+    }
   }
 ]

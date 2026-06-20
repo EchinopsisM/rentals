@@ -21,39 +21,18 @@
     "note": "Guides, community and classifieds. Worth a scan but unlikely to beat the Thai-language portals."
   },
   {
-    "name": "Hipflat",
-    "url": "https://www.hipflat.co.th/en/condo-for-rent/chiang-mai",
-    "kind": "Portal (condos)",
-    "likelihood": "Medium",
-    "note": "Owner + agent condo listings with good price filters. Candidate for a future scraper adapter."
+    "name": "RentHub",
+    "url": "https://www.renthub.in.th/en/apartment/chiang-mai",
+    "kind": "Portal (apartment buildings)",
+    "likelihood": "Low-medium",
+    "note": "Not auto-scraped: organised by apartment building (mixed room types, mostly studio/1BR) rather than per-unit 2BR listings, so it doesn't fit the 2-room filter. Useful to browse by hand if you'll consider building-managed apartments."
   },
   {
     "name": "DDproperty",
     "url": "https://www.ddproperty.com/en/property-for-rent/in-chiang-mai-th50",
     "kind": "Portal (mainstream)",
     "likelihood": "Low-medium",
-    "note": "880+ CM rentals incl. 104 condos under ฿15k, but heavily agent-listed. Good backup; candidate for a future adapter."
-  },
-  {
-    "name": "Thailand-Property",
-    "url": "https://www.thailand-property.com/properties-for-rent/chiang-mai",
-    "kind": "Portal (mainstream)",
-    "likelihood": "Medium",
-    "note": "Private homeowners and agents. Backup source; candidate for a future adapter."
-  },
-  {
-    "name": "RentHub",
-    "url": "https://www.renthub.in.th/en/apartment/chiang-mai",
-    "kind": "Portal (apartments)",
-    "likelihood": "Low-medium",
-    "note": "734+ CM apartment-building listings incl. cheap monthly rooms. Building-direct possible. Candidate for a future adapter."
-  },
-  {
-    "name": "Craigslist Chiang Mai",
-    "url": "https://bangkok.craigslist.org/search/hhh?query=chiang+mai",
-    "kind": "Classifieds",
-    "likelihood": "Medium, low inventory",
-    "note": "Sparse and often stale, but the kind of place odd owner-direct listings appear. Worth a manual scan."
+    "note": "Not auto-scraped: blocks bots (HTTP 403 anti-bot challenge). 880+ CM rentals incl. 104 condos under ฿15k, but heavily agent-listed. Browse by hand."
   },
   {
     "name": "FazWaz / Thaiger Property / PropertyScout",
