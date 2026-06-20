@@ -1,0 +1,41 @@
+---
+layout: layout.njk
+title: "Buildings to ask directly — CMU / Suthep rentals"
+description: "Condos and managed apartment buildings near CMU/Suthep where you can walk in and ask the juristic office / front desk for vacant units."
+---
+<p class="back"><a href="/">← all listings</a></p>
+
+<section class="hero">
+  <h1>Buildings to ask directly</h1>
+  <p class="lede">Condos and managed apartment buildings near CMU/Suthep with recent rental turnover. The local move: walk in and ask the <strong>juristic office</strong> (นิติบุคคล, usually ground floor) or the apartment <strong>front desk</strong> — they hold keys and owner contacts, and many owners only list with them, not online.</p>
+  <p class="count">Most are pulled from listings this site already found (so they have active units); a few well-known ones are marked <em>verify on the ground</em>.</p>
+</section>
+
+{% set zones = [["target","In the target zone (Suthep / Canal / CMU)"],["target-edge","Suthep edge"],["fallback","Close by (Huay Kaew / Nimman / Santitham)"],["backup","Further out (east / central) — easy walk-ins"]] %}
+{% for z in zones %}
+<h2 class="bgroup-title">{{ z[1] }}</h2>
+<div class="leads">
+  {% for b in buildings %}
+  {% if b.zone == z[0] %}
+  <article class="lead">
+    <div class="lead-head">
+      <h2>{{ b.name }}</h2>
+      <span class="lead-kind">{{ b.type }}</span>
+    </div>
+    <p class="lead-meta">📍 {{ b.area }}{% if b.verified %} · <span class="veritag">seen in listings</span>{% else %} · <span class="veritag unverified">verify on ground</span>{% endif %}</p>
+    <p class="lead-note">{{ b.note }}</p>
+  </article>
+  {% endif %}
+  {% endfor %}
+</div>
+{% endfor %}
+
+<section class="walkin-tip">
+  <h3>How to ask</h3>
+  <ul>
+    <li>Go to the building's <strong>juristic office</strong> (condo) or <strong>front desk</strong> (apartment), ideally on a weekday daytime.</li>
+    <li>Ask: <em>"มีห้องว่างให้เช่าไหมครับ/คะ 2 ห้องนอน?"</em> — any 2-bedroom vacant to rent? They often know owner units not listed online.</li>
+    <li>Ask for the owner's contact, the monthly rent, deposit (usually 2 months + 1), and whether pets/contract length are flexible.</li>
+    <li>Bigger condos (Hillside, Chom Doi, Escent) turn over constantly — worth a visit even if nothing shows online today.</li>
+  </ul>
+</section>

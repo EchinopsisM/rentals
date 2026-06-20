@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Suthep Hill House",
+    "type": "Managed apartment",
+    "area": "Suthep — opposite CMU Engineering",
+    "zone": "target",
+    "verified": true,
+    "note": "2BR seen ~฿12k. Building-managed; walk in and ask the front office for vacant units — they hold the keys and owner contacts."
+  },
+  {
+    "name": "JJ Hometown",
+    "type": "Managed apartment",
+    "area": "Suthep (50200)",
+    "zone": "target",
+    "verified": true,
+    "note": "2BR ~฿12.5k seen. On-site management; ask at the office."
+  },
+  {
+    "name": "Chom Doi House (round tower)",
+    "type": "Managed apartment",
+    "area": "Suthep / Canal Road",
+    "zone": "target",
+    "verified": true,
+    "note": "2BR ~฿14k seen. Distinctive round tower on the Canal Rd / Suthep side; ask reception."
+  },
+  {
+    "name": "Chom Doi Condominium",
+    "type": "Condominium (juristic office)",
+    "area": "Canal Road (Khlong Chonprathan), near CMU",
+    "zone": "target",
+    "verified": true,
+    "note": "~12-storey condo with mountain views, 2BR ~฿16k seen. Juristic office on the ground floor keeps a list of owners renting out."
+  },
+  {
+    "name": "North 4 Condominium",
+    "type": "Condominium (juristic office)",
+    "area": "Suthep, Mueang Chiang Mai",
+    "zone": "target",
+    "verified": true,
+    "note": "2BR ~฿16k seen (BaanFinder). Ask the juristic office for vacant/owner-rented units."
+  },
+  {
+    "name": "OnePlus Business Park 1",
+    "type": "Condominium (juristic office)",
+    "area": "Canal / Suthep area",
+    "zone": "target",
+    "verified": true,
+    "note": "2BR ~฿18.5k seen. One of several 'One Plus' projects on this side of town."
+  },
+  {
+    "name": "The Star Hill Condo",
+    "type": "Condominium (juristic office)",
+    "area": "Suthep, Mueang Chiang Mai",
+    "zone": "target",
+    "verified": true,
+    "note": "Seen on Thailand-Property (units ran >฿20k there, but the building has turnover — worth asking the juristic for cheaper owner deals)."
+  },
+  {
+    "name": "One Plus Nineteen (3 & 4)",
+    "type": "Condominium (juristic office)",
+    "area": "Suthep edge / near airport",
+    "zone": "target-edge",
+    "verified": true,
+    "note": "2BR ~฿15k seen. Corner units, mountain views. Slightly south toward the airport."
+  },
+  {
+    "name": "Hillside Condominium 1–4",
+    "type": "Condominium (juristic office)",
+    "area": "Huay Kaew Road (walk to CMU front gate, Nimman, Maya)",
+    "zone": "fallback",
+    "verified": false,
+    "note": "Well-known cluster of large condos on Huay Kaew with constant rental turnover and on-site juristic offices — arguably the best single walk-in near CMU. Verify on the ground (not from this scrape)."
+  },
+  {
+    "name": "Punna Residence (Nimman / Oasis)",
+    "type": "Condominium (juristic office)",
+    "area": "Nimman / CMU area",
+    "zone": "fallback",
+    "verified": false,
+    "note": "Popular with students/staff near CMU/Nimman; multiple Punna projects. General knowledge — verify the specific building and office on site."
+  },
+  {
+    "name": "My Hip Condo",
+    "type": "Condominium (juristic office)",
+    "area": "Huay Kaew / Santitham side",
+    "zone": "fallback",
+    "verified": true,
+    "note": "2BR ~฿18k seen. Ask the juristic office; close to Nimman/CMU."
+  },
+  {
+    "name": "Rooks Condotel",
+    "type": "Condominium / serviced",
+    "area": "Mueang Chiang Mai (central)",
+    "zone": "backup",
+    "verified": true,
+    "note": "2BR 66 sqm ~฿15k seen. Has a management desk."
+  },
+  {
+    "name": "Escent Chiang Mai / Escent Park Ville",
+    "type": "Condominium (juristic office)",
+    "area": "Next to Central Festival (east side)",
+    "zone": "backup",
+    "verified": true,
+    "note": "2BR ~฿19k seen. Further from CMU (east), but large with lots of rentals — easy to walk in and ask."
+  },
+  {
+    "name": "D Condo Nim",
+    "type": "Condominium (juristic office)",
+    "area": "Nim City, east (near Central Festival — NOT Nimman)",
+    "zone": "backup",
+    "verified": true,
+    "note": "2BR ~฿20k seen. Name says 'Nim' but it's the east side, not Nimmanhaemin."
+  }
+]

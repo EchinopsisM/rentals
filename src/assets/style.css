@@ -99,7 +99,14 @@ main { max-width: 1180px; margin: 0 auto; padding: 0 clamp(1rem, 4vw, 3rem); }
 .lead-head h2 a:hover { color: var(--accent); }
 .lead-kind { font-size: .68rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); white-space: nowrap; }
 .lead-note { font-size: .85rem; color: var(--ink); margin: .5rem 0 .6rem; }
-.lead-meta { font-size: .78rem; color: var(--muted); margin: 0; }
+.lead-meta { font-size: .78rem; color: var(--muted); margin: 0 0 .4rem; }
+.bgroup-title { font-family: Fraunces, serif; font-weight: 600; font-size: 1.15rem; margin: 1.8rem 0 .2rem; }
+.veritag { color: var(--accent); font-weight: 600; }
+.veritag.unverified { color: #c98a1a; }
+.walkin-tip { margin: 2rem 0 3rem; padding: 1.2rem 1.4rem; background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+.walkin-tip h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 0 0 .6rem; }
+.walkin-tip ul { margin: 0; padding-left: 1.1rem; font-size: .9rem; }
+.walkin-tip li { margin: .35rem 0; }
 
 /* Detail */
 .back { padding-top: 1.4rem; }
