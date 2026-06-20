@@ -1,0 +1,24 @@
+---
+layout: layout.njk
+title: "Manual-check leads — CMU / Suthep rentals"
+description: "Community forums, classifieds and agencies worth checking by hand for Chiang Mai rentals near CMU/Suthep."
+---
+<p class="back"><a href="/">← all listings</a></p>
+
+<section class="hero">
+  <h1>Manual-check leads</h1>
+  <p class="lede">Sources the scraper does <strong>not</strong> auto-collect — either community forums (leads, not structured listings) or agency/lead-gen portals (low owner-direct yield). Worth a manual scan, especially the ones marked candidates for a future adapter.</p>
+</section>
+
+<div class="leads">
+  {% for s in leads %}
+  <article class="lead">
+    <div class="lead-head">
+      <h2><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }} ↗</a></h2>
+      <span class="lead-kind">{{ s.kind }}</span>
+    </div>
+    <p class="lead-note">{{ s.note }}</p>
+    <p class="lead-meta">Owner-direct: <strong>{{ s.likelihood }}</strong></p>
+  </article>
+  {% endfor %}
+</div>

@@ -90,6 +90,17 @@ main { max-width: 1180px; margin: 0 auto; padding: 0 clamp(1rem, 4vw, 3rem); }
 .card-meta { font-size: .76rem; color: var(--muted); margin: 0; }
 .empty { text-align: center; color: var(--muted); padding: 2rem 0 4rem; }
 
+/* Leads page */
+.leads { display: grid; gap: 1rem; padding: 1rem 0 3rem; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.lead { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; box-shadow: var(--shadow); }
+.lead-head { display: flex; align-items: baseline; justify-content: space-between; gap: .6rem; flex-wrap: wrap; }
+.lead-head h2 { font-size: 1rem; margin: 0; }
+.lead-head h2 a { text-decoration: none; }
+.lead-head h2 a:hover { color: var(--accent); }
+.lead-kind { font-size: .68rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); white-space: nowrap; }
+.lead-note { font-size: .85rem; color: var(--ink); margin: .5rem 0 .6rem; }
+.lead-meta { font-size: .78rem; color: var(--muted); margin: 0; }
+
 /* Detail */
 .back { padding-top: 1.4rem; }
 .back a { color: var(--muted); text-decoration: none; font-size: .85rem; }

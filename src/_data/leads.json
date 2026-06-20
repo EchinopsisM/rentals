@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Reddit r/chiangmai",
+    "url": "https://www.reddit.com/r/chiangmai/",
+    "kind": "Community / forum",
+    "likelihood": "Leads, not listings",
+    "note": "Best for asking locals/expats where they found places, which agencies are stale, and which buildings to walk into. Threads repeatedly favour walking in and asking management over web listings."
+  },
+  {
+    "name": "ASEAN NOW forums",
+    "url": "https://aseannow.com/forum/59-real-estate-housing-house-and-land-ownership/",
+    "kind": "Community / forum",
+    "likelihood": "Leads",
+    "note": "Real-estate/housing forum with 11k+ topics and an 'Advertise Your Property For Sale or Rent' thread. Good for landlord norms and older expat-owner leads."
+  },
+  {
+    "name": "Expat.com",
+    "url": "https://www.expat.com/en/housing/asia/thailand/chiang-mai/",
+    "kind": "Community / classifieds",
+    "likelihood": "Low-medium",
+    "note": "Guides, community and classifieds. Worth a scan but unlikely to beat the Thai-language portals."
+  },
+  {
+    "name": "Hipflat",
+    "url": "https://www.hipflat.co.th/en/condo-for-rent/chiang-mai",
+    "kind": "Portal (condos)",
+    "likelihood": "Medium",
+    "note": "Owner + agent condo listings with good price filters. Candidate for a future scraper adapter."
+  },
+  {
+    "name": "DDproperty",
+    "url": "https://www.ddproperty.com/en/property-for-rent/in-chiang-mai-th50",
+    "kind": "Portal (mainstream)",
+    "likelihood": "Low-medium",
+    "note": "880+ CM rentals incl. 104 condos under ฿15k, but heavily agent-listed. Good backup; candidate for a future adapter."
+  },
+  {
+    "name": "Thailand-Property",
+    "url": "https://www.thailand-property.com/properties-for-rent/chiang-mai",
+    "kind": "Portal (mainstream)",
+    "likelihood": "Medium",
+    "note": "Private homeowners and agents. Backup source; candidate for a future adapter."
+  },
+  {
+    "name": "RentHub",
+    "url": "https://www.renthub.in.th/en/apartment/chiang-mai",
+    "kind": "Portal (apartments)",
+    "likelihood": "Low-medium",
+    "note": "734+ CM apartment-building listings incl. cheap monthly rooms. Building-direct possible. Candidate for a future adapter."
+  },
+  {
+    "name": "Craigslist Chiang Mai",
+    "url": "https://bangkok.craigslist.org/search/hhh?query=chiang+mai",
+    "kind": "Classifieds",
+    "likelihood": "Medium, low inventory",
+    "note": "Sparse and often stale, but the kind of place odd owner-direct listings appear. Worth a manual scan."
+  },
+  {
+    "name": "FazWaz / Thaiger Property / PropertyScout",
+    "url": "https://www.thaigerproperty.com/property-for-rent/thailand/chiang-mai",
+    "kind": "Agency / lead-gen",
+    "likelihood": "Low (agent-heavy)",
+    "note": "Large databases with good filters (incl. pet-friendly pages). Useful for market comps and seeing what exists, not for owner-direct."
+  },
+  {
+    "name": "Perfect Homes / 66 Property / Expat Homes",
+    "url": "https://perfecthomes.co.th/",
+    "kind": "Agency",
+    "likelihood": "Low (fallback)",
+    "note": "Real agencies — use as inventory/reference. Perfect Homes notes it cannot currently offer pet-friendly condos due to condo regulations."
+  }
+]
