@@ -6,7 +6,8 @@ pagination:
   alias: l
 permalink: "/listings/{{ l.slug }}/"
 eleventyComputed:
-  title: "{{ l.area }} — ฿{{ l.price }}/mo"
+  title: "{{ l.area }} — ฿{{ l.price }}/mo{% if l.score is defined %} · score {{ l.score }}{% endif %}"
+  description: "Target score {{ l.score }}/100 · ฿{{ l.price }}/mo · {{ l.beds_baths or '—' }} · {{ (l.zone | zoneMeta).label }} · {{ l.listed }}. {{ l.area }}."
 ---
 {% set zm = l.zone | zoneMeta %}
 

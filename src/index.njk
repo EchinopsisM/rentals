@@ -45,6 +45,17 @@ layout: layout.njk
   </div>
 </div>
 
+<details class="legend">
+  <summary>How the target score works</summary>
+  <p>Each listing is scored <strong>0–100</strong> from four weighted factors. Move-in date is weighted most strongly, per the brief.</p>
+  <ul>
+    <li><b>Move-in</b> <span>/40</span> — earliest move-in wins (“Ready now” = full marks).</li>
+    <li><b>Location</b> <span>/25</span> — closeness to the CMU/Suthep target zone.</li>
+    <li><b>Recency</b> <span>/20</span> — more recently posted = more likely still available.</li>
+    <li><b>Price</b> <span>/15</span> — cheaper scores higher across the 10k–20k THB band.</li>
+  </ul>
+</details>
+
 <div class="grid" id="grid">
   {% for l in sorted %}
   {% set zm = l.zone | zoneMeta %}
