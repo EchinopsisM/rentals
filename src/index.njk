@@ -1,0 +1,89 @@
+---
+layout: layout.njk
+---
+{% set sorted = listings | sort(false, false, "priceNum") %}
+
+<section class="hero">
+  <h1>{{ site.title }}</h1>
+  <p class="lede">{{ site.tagline }}</p>
+  <p class="count"><strong id="visible-count">{{ listings | length }}</strong> listings · filter below</p>
+</section>
+
+<div class="filters" id="filters">
+  <div class="fgroup">
+    <span class="flabel">Zone</span>
+    <button class="chip active" data-filter="zone" data-val="all">All</button>
+    <button class="chip" data-filter="zone" data-val="target">Target</button>
+    <button class="chip" data-filter="zone" data-val="target-edge">Suthep edge</button>
+    <button class="chip" data-filter="zone" data-val="fallback">Fallback</button>
+    <button class="chip" data-filter="zone" data-val="backup">Backup</button>
+    <button class="chip" data-filter="zone" data-val="out">Out of zone</button>
+  </div>
+  <div class="fgroup">
+    <span class="flabel">Max price</span>
+    <button class="chip active" data-filter="price" data-val="99999">Any</button>
+    <button class="chip" data-filter="price" data-val="13000">≤13k</button>
+    <button class="chip" data-filter="price" data-val="16000">≤16k</button>
+    <button class="chip" data-filter="price" data-val="20000">≤20k</button>
+  </div>
+  <div class="fgroup">
+    <span class="flabel">Beds</span>
+    <button class="chip active" data-filter="beds" data-val="0">Any</button>
+    <button class="chip" data-filter="beds" data-val="2">2+</button>
+    <button class="chip" data-filter="beds" data-val="3">3+</button>
+  </div>
+</div>
+
+<div class="grid" id="grid">
+  {% for l in sorted %}
+  {% set zm = l.zone | zoneMeta %}
+  <article class="card" data-zone="{{ l.zone }}" data-price="{{ l.priceNum }}" data-beds="{{ l.beds or 0 }}">
+    <a class="card-media" href="/listings/{{ l.slug }}/">
+      {% if l.images | length %}
+        <img loading="lazy" src="{{ l.images[0] }}" alt="{{ l.title }}">
+      {% else %}
+        <span class="noimg">no photo</span>
+      {% endif %}
+      <span class="zbadge" style="background:{{ zm.color }}">{{ zm.label }}</span>
+      {% if l.imgCount %}<span class="imgcount">{{ l.imgCount }} photos</span>{% endif %}
+    </a>
+    <div class="card-body">
+      <div class="card-top">
+        <span class="price">฿{{ l.price }}<small>/mo</small></span>
+        <span class="beds">{{ l.beds_baths or "—" }}</span>
+      </div>
+      <h2 class="card-area"><a href="/listings/{{ l.slug }}/">{{ l.area }}</a></h2>
+      <p class="card-meta">{{ l.listed }}{% if l.move_in_date and l.move_in_date != "-" %} · {{ l.move_in_date }}{% endif %}</p>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<p class="empty" id="empty" hidden>No listings match these filters.</p>
+
+<script>
+  const state = { zone: "all", price: 99999, beds: 0 };
+  const cards = [...document.querySelectorAll(".card")];
+  document.querySelectorAll(".chip").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const f = btn.dataset.filter;
+      btn.parentElement.querySelectorAll(".chip").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      state[f] = f === "zone" ? btn.dataset.val : Number(btn.dataset.val);
+      apply();
+    });
+  });
+  function apply() {
+    let n = 0;
+    cards.forEach(c => {
+      const okZone = state.zone === "all" || c.dataset.zone === state.zone;
+      const okPrice = Number(c.dataset.price) <= state.price;
+      const okBeds = Number(c.dataset.beds) >= state.beds;
+      const show = okZone && okPrice && okBeds;
+      c.hidden = !show;
+      if (show) n++;
+    });
+    document.getElementById("visible-count").textContent = n;
+    document.getElementById("empty").hidden = n > 0;
+  }
+</script>

@@ -1,0 +1,53 @@
+---
+layout: layout.njk
+pagination:
+  data: listings
+  size: 1
+  alias: l
+permalink: "/listings/{{ l.slug }}/"
+eleventyComputed:
+  title: "{{ l.area }} — ฿{{ l.price }}/mo"
+---
+{% set zm = l.zone | zoneMeta %}
+
+<p class="back"><a href="/">← all listings</a></p>
+
+<article class="detail">
+  <header class="detail-head">
+    <span class="zbadge" style="background:{{ zm.color }}">{{ zm.label }}</span>
+    <h1>{{ l.area }}</h1>
+    <div class="detail-stats">
+      <span class="price">฿{{ l.price }}<small>/mo</small></span>
+      <span>{{ l.beds_baths or "—" }}</span>
+      <span>{{ l.listed }}</span>
+      {% if l.move_in_date and l.move_in_date != "-" %}<span>Move-in: {{ l.move_in_date }}</span>{% endif %}
+    </div>
+  </header>
+
+  {% if l.images | length %}
+  <div class="gallery">
+    {% for img in l.images %}
+      <a class="ph" href="{{ img }}" target="_blank" rel="noopener"><img loading="lazy" src="{{ img }}" alt="{{ l.area }} photo {{ loop.index }}"></a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="detail-cols">
+    <div class="detail-desc">
+      <h3>Description</h3>
+      <p>{{ l.description or "—" }}</p>
+    </div>
+    <aside class="detail-side">
+      <h3>Details</h3>
+      <dl>
+        <dt>Source</dt><dd>{{ l.source_site }}</dd>
+        <dt>Posted</dt><dd>{{ l.listed }}</dd>
+        <dt>Reported location</dt><dd>{{ l.rental_location or "—" }}</dd>
+        <dt>Posted by</dt><dd>{{ l.seller_name or "—" }}</dd>
+        <dt>Contact</dt><dd>{{ l.contact or "—" }}</dd>
+      </dl>
+      <a class="btn" href="{{ l.url }}" target="_blank" rel="noopener">Open on Facebook ↗</a>
+      {% if l.seller_profile %}<a class="btn ghost" href="{{ l.seller_profile }}" target="_blank" rel="noopener">Poster's profile ↗</a>{% endif %}
+    </aside>
+  </div>
+</article>

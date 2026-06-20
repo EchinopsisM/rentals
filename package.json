@@ -1,0 +1,13 @@
+{
+  "name": "chiangmai-rentals",
+  "version": "1.0.0",
+  "description": "Chiang Mai rental shortlist — CMU / Suthep / Canal Road, scraped from Facebook Marketplace",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
