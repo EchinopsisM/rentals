@@ -12,7 +12,7 @@ const fs = require("fs");
 const path = require("path");
 
 const DIR = __dirname;
-const LST = "/home/noah/chiangmai-rentals/src/_data/listings.json";
+const LST = "/home/noah/chiangmai-rentals/src/_data/feed.json";
 const GROUP_SCROLLS = process.env.FB_SCROLLS || "8";
 
 function run(script, args, ms) {

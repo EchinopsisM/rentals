@@ -5,7 +5,7 @@ const fs = require("fs");
 const https = require("https");
 
 const RES = "/home/noah/bot/results.json";
-const LST = "/home/noah/chiangmai-rentals/src/_data/listings.json";
+const LST = "/home/noah/chiangmai-rentals/src/_data/feed.json";
 const SITE = "/home/noah/chiangmai-rentals";
 // Set your Netlify build hook via env: NETLIFY_HOOK=https://api.netlify.com/build_hooks/XXXX
 const NETLIFY_HOOK = process.env.NETLIFY_HOOK || "";
@@ -51,8 +51,8 @@ try {
       fs.writeFileSync(RES, JSON.stringify(keepResults, null, 1));
       fs.writeFileSync(LST, JSON.stringify(keepListings, null, 2));
       console.log(`[cron-scrape] dropped ${dropped} stale listings`);
-      // re-score
-      execFileSync("node", [`${SITE}/score.js`], { stdio: "pipe" });
+      // re-score (optional helper; never let its absence abort the deploy)
+      try { execFileSync("node", [`${SITE}/score.js`], { stdio: "pipe" }); } catch (e) { /* no score.js — fine */ }
     }
   }
 
