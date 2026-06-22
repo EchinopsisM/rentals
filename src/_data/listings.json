@@ -174,13 +174,14 @@
   "listed": "Listed this week",
   "move_in_date": "Ready now",
   "description": "บ้านให้เช่า 13,000.- ใกล้เมือง วัดช่างทอง สุเทพ เลี้ยงสัตว์เล็กได้ · 3 ห้องนอน 2 ห้องน้ำ · 1 ครัว 1 เก็บของ · จอดรถ 1-2 คัน · แอร์ 2 · เครื่องทำน้ำอุ่น.\n\nHouse ฿13,000, near town, Wat Chang Thong, Suthep. Small pets OK. 3BR/2 bath.",
-  "source_site": "Facebook Group — REAL ESTATE CHIANG MAI",
+  "source_site": "Facebook Group (curated) — REAL ESTATE CHIANG MAI",
   "url": "https://www.facebook.com/groups/realestatechiangmai/permalink/27281665124839201/",
   "seller_name": "",
   "seller_profile": "",
   "contact": "View on Facebook group post (link)",
   "images": [],
   "imgCount": 0,
+  "pinned": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -215,13 +216,14 @@
   "listed": "Listed this week",
   "move_in_date": "Ready now",
   "description": "ด่วน!! ให้เช่าบ้าน 2 ชั้น โซนสุเทพ ซอยทรายคำ แถวร้านเบญจรงค์ขันโตก #อนุญาตให้เลี้ยงแมว · ห่าง มช. ~5 กม. · ที่ดิน 86 ตร.ว. · 2 ห้องนอน 3 ห้องน้ำ · แอร์ 3 · เครื่องซักผ้า · เฟอร์ครบ · ค่าเช่า 12,900/เดือน.\n\nUrgent! 2-storey house, Suthep (Soi Sai Kham). Cats allowed. ~5 km from CMU. 2BR/3 bath, furnished. ฿12,900/mo.",
-  "source_site": "Facebook Group — หาหอ มช.",
+  "source_site": "Facebook Group (curated) — หาหอ มช.",
   "url": "https://www.facebook.com/groups/251125079442673/permalink/1703853164169850/",
   "seller_name": "",
   "seller_profile": "",
   "contact": "View on Facebook group post (link)",
   "images": [],
   "imgCount": 0,
+  "pinned": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -521,13 +523,14 @@
   "listed": "Listed this week",
   "move_in_date": "Ready now",
   "description": "For Rent รุคส์คอนโดเทล · ห้องใหม่ เฟอร์ใหม่ · วิวดอยสุเทพ · เดินไป รพ.สวนดอกได้ · ใกล้ มช. · 2 ห้องนอน 1 ห้องน้ำ ชั้น 10 · 66 ตร.ม. · จอดรถใต้ตึก · 20,000/เดือน.\n\nNew 2BR, Doi Suthep view, fl.10, 66 sqm. Walkable to Suan Dok Hospital, near CMU. ฿20,000/mo.",
-  "source_site": "Facebook Group — หาหอพัก อพาร์ทเมนท์ ใกล้ มช.",
+  "source_site": "Facebook Group (curated) — หาหอพัก อพาร์ทเมนท์ ใกล้ มช.",
   "url": "https://www.facebook.com/groups/898379905639923/permalink/1446707520807156/",
   "seller_name": "",
   "seller_profile": "",
   "contact": "View on Facebook group post (link)",
   "images": [],
   "imgCount": 0,
+  "pinned": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -710,103 +713,19 @@
   }
  },
  {
-  "id": "1742519273591287",
-  "slug": "1742519273591287-marketplace-location-unsure",
-  "title": "฿8,500 | 2 ห้องนอน 2 ห้องน้ำ - ทาวน์เฮาส์",
-  "price": "8,500",
-  "priceNum": 8500,
-  "beds": 2,
-  "beds_baths": "2 beds · 2 baths",
-  "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
-  "zone": "out",
-  "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
-  "listed": "Listed recently",
-  "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: ฿8,500 | 2 ห้องนอน 2 ห้องน้ำ - ทาวน์เฮาส์ | Chiang Mai, Thailand",
-  "source_site": "Facebook Marketplace (location unsure)",
-  "url": "https://www.facebook.com/marketplace/item/1742519273591287",
-  "seller_name": "",
-  "seller_profile": "",
-  "contact": "Open on FB Marketplace to view location & message seller",
-  "images": [],
-  "imgCount": 0,
-  "locationUnsure": true,
-  "scoreBreakdown": {
-   "moveIn": {
-    "sub": 1,
-    "points": 40
-   },
-   "location": {
-    "sub": 0.3,
-    "points": 7.5
-   },
-   "recency": {
-    "sub": 0.9,
-    "points": 18
-   },
-   "price": {
-    "sub": 1,
-    "points": 15
-   }
-  },
-  "score": 80.5
- },
- {
-  "id": "796759350188841",
-  "slug": "796759350188841-marketplace-location-unsure",
-  "title": "฿4,500 | 2 ห้องนอน 1 ห้องน้ำ - อพาร์ทเมนท์",
-  "price": "4,500",
-  "priceNum": 4500,
-  "beds": 2,
-  "beds_baths": "2 beds · 1 baths",
-  "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
-  "zone": "out",
-  "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
-  "listed": "Listed recently",
-  "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿4,500 | 2 ห้องนอน 1 ห้องน้ำ - อพาร์ทเมนท์ | Chiang Mai, Thailand",
-  "source_site": "Facebook Marketplace (location unsure)",
-  "url": "https://www.facebook.com/marketplace/item/796759350188841",
-  "seller_name": "",
-  "seller_profile": "",
-  "contact": "Open on FB Marketplace to view location & message seller",
-  "images": [],
-  "imgCount": 0,
-  "locationUnsure": true,
-  "scoreBreakdown": {
-   "moveIn": {
-    "sub": 1,
-    "points": 40
-   },
-   "location": {
-    "sub": 0.3,
-    "points": 7.5
-   },
-   "recency": {
-    "sub": 0.9,
-    "points": 18
-   },
-   "price": {
-    "sub": 1,
-    "points": 15
-   }
-  },
-  "score": 80.5
- },
- {
   "id": "1715021012951576",
-  "slug": "1715021012951576-marketplace-location-unsure",
+  "slug": "1715021012951576-fb-mp-unsure",
   "title": "฿8,000 | 2 ห้องนอน 1 ห้องน้ำ - บ้าน",
   "price": "8,000",
   "priceNum": 8000,
   "beds": 2,
-  "beds_baths": "2 beds · 1 baths",
+  "beds_baths": "2 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿8,000 | 2 ห้องนอน 1 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿8,000 | 2 ห้องนอน 1 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
   "url": "https://www.facebook.com/marketplace/item/1715021012951576",
   "seller_name": "",
@@ -814,7 +733,7 @@
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -837,18 +756,18 @@
  },
  {
   "id": "1325792375806398",
-  "slug": "1325792375806398-marketplace-location-unsure",
+  "slug": "1325792375806398-fb-mp-unsure",
   "title": "฿8,000 | 2 ห้องนอน 1 ห้องน้ำ - บ้าน",
   "price": "8,000",
   "priceNum": 8000,
   "beds": 2,
-  "beds_baths": "2 beds · 1 baths",
+  "beds_baths": "2 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿8,000 | 2 ห้องนอน 1 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿8,000 | 2 ห้องนอน 1 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
   "url": "https://www.facebook.com/marketplace/item/1325792375806398",
   "seller_name": "",
@@ -856,7 +775,7 @@
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -879,18 +798,18 @@
  },
  {
   "id": "2552890041836621",
-  "slug": "2552890041836621-marketplace-location-unsure",
+  "slug": "2552890041836621-fb-mp-unsure",
   "title": "฿8,000 | 2 ห้องนอน 1 ห้องน้ำ - บ้าน",
   "price": "8,000",
   "priceNum": 8000,
   "beds": 2,
-  "beds_baths": "2 beds · 1 baths",
+  "beds_baths": "2 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿8,000 | 2 ห้องนอน 1 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿8,000 | 2 ห้องนอน 1 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
   "url": "https://www.facebook.com/marketplace/item/2552890041836621",
   "seller_name": "",
@@ -898,7 +817,49 @@
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
+  "scoreBreakdown": {
+   "moveIn": {
+    "sub": 1,
+    "points": 40
+   },
+   "location": {
+    "sub": 0.3,
+    "points": 7.5
+   },
+   "recency": {
+    "sub": 0.9,
+    "points": 18
+   },
+   "price": {
+    "sub": 1,
+    "points": 15
+   }
+  },
+  "score": 80.5
+ },
+ {
+  "id": "1758188748689229",
+  "slug": "1758188748689229-fb-mp-unsure",
+  "title": "฿10,000 | บ้าน 2 ห้องนอน 2 ห้องน้ำ",
+  "price": "10,000",
+  "priceNum": 10000,
+  "beds": 2,
+  "beds_baths": "2 beds",
+  "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
+  "zone": "out",
+  "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
+  "listed": "Listed recently",
+  "move_in_date": "—",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿10,000 | บ้าน 2 ห้องนอน 2 ห้องน้ำ | Chiang Mai, Thailand",
+  "source_site": "Facebook Marketplace (location unsure)",
+  "url": "https://www.facebook.com/marketplace/item/1758188748689229",
+  "seller_name": "",
+  "seller_profile": "",
+  "contact": "Open on FB Marketplace to view location & message seller",
+  "images": [],
+  "imgCount": 0,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1026,27 +987,27 @@
   }
  },
  {
-  "id": "1466688592169370",
-  "slug": "1466688592169370-marketplace-location-unsure",
-  "title": "฿12,000 | 2 ห้องนอน 1 ห้องน้ำ - บ้าน",
+  "id": "4175590462731708",
+  "slug": "4175590462731708-fb-mp-unsure",
+  "title": "฿12,000 | บ้าน 2 ห้องนอน 2 ห้องน้ำ",
   "price": "12,000",
   "priceNum": 12000,
   "beds": 2,
-  "beds_baths": "2 beds · 1 baths",
+  "beds_baths": "2 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿12,000 | 2 ห้องนอน 1 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿12,000 | บ้าน 2 ห้องนอน 2 ห้องน้ำ | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
-  "url": "https://www.facebook.com/marketplace/item/1466688592169370",
+  "url": "https://www.facebook.com/marketplace/item/4175590462731708",
   "seller_name": "",
   "seller_profile": "",
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1068,27 +1029,27 @@
   "score": 77.5
  },
  {
-  "id": "2189155061929149",
-  "slug": "2189155061929149-marketplace-location-unsure",
-  "title": "฿12,800 | บ้าน 2 ห้องนอน 3 ห้องน้ำ",
-  "price": "12,800",
-  "priceNum": 12800,
+  "id": "987506910832115",
+  "slug": "987506910832115-fb-mp-unsure",
+  "title": "฿12,000 | บ้าน 2 ห้องนอน 2 ห้องน้ำ",
+  "price": "12,000",
+  "priceNum": 12000,
   "beds": 2,
-  "beds_baths": "2 beds · 3 baths",
+  "beds_baths": "2 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿12,800 | บ้าน 2 ห้องนอน 3 ห้องน้ำ | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿12,000 | บ้าน 2 ห้องนอน 2 ห้องน้ำ | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
-  "url": "https://www.facebook.com/marketplace/item/2189155061929149",
+  "url": "https://www.facebook.com/marketplace/item/987506910832115",
   "seller_name": "",
   "seller_profile": "",
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1103,34 +1064,34 @@
     "points": 18
    },
    "price": {
-    "sub": 0.72,
-    "points": 10.8
+    "sub": 0.8,
+    "points": 12
    }
   },
-  "score": 76.3
+  "score": 77.5
  },
  {
-  "id": "36463874566560712",
-  "slug": "36463874566560712-marketplace-location-unsure",
-  "title": "฿12,800 | 2 ห้องนอน 3 ห้องน้ำ - บ้าน",
-  "price": "12,800",
-  "priceNum": 12800,
+  "id": "1962330571136437",
+  "slug": "1962330571136437-fb-mp-unsure",
+  "title": "฿12,000 | บ้าน 2 ห้องนอน 2 ห้องน้ำ",
+  "price": "12,000",
+  "priceNum": 12000,
   "beds": 2,
-  "beds_baths": "2 beds · 3 baths",
+  "beds_baths": "2 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿12,800 | 2 ห้องนอน 3 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿12,000 | บ้าน 2 ห้องนอน 2 ห้องน้ำ | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
-  "url": "https://www.facebook.com/marketplace/item/36463874566560712",
+  "url": "https://www.facebook.com/marketplace/item/1962330571136437",
   "seller_name": "",
   "seller_profile": "",
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1145,26 +1106,68 @@
     "points": 18
    },
    "price": {
-    "sub": 0.72,
-    "points": 10.8
+    "sub": 0.8,
+    "points": 12
    }
   },
-  "score": 76.3
+  "score": 77.5
+ },
+ {
+  "id": "1659893641791880",
+  "slug": "1659893641791880-fb-mp-unsure",
+  "title": "฿12,000 | อพาร์ทเมนท์ 2 ห้องนอน 1 ห้องน้ำ",
+  "price": "12,000",
+  "priceNum": 12000,
+  "beds": 2,
+  "beds_baths": "2 beds",
+  "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
+  "zone": "out",
+  "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
+  "listed": "Listed recently",
+  "move_in_date": "—",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿12,000 | อพาร์ทเมนท์ 2 ห้องนอน 1 ห้องน้ำ | Chiang Mai, Thailand",
+  "source_site": "Facebook Marketplace (location unsure)",
+  "url": "https://www.facebook.com/marketplace/item/1659893641791880",
+  "seller_name": "",
+  "seller_profile": "",
+  "contact": "Open on FB Marketplace to view location & message seller",
+  "images": [],
+  "imgCount": 0,
+  "fbRefresh": true,
+  "scoreBreakdown": {
+   "moveIn": {
+    "sub": 1,
+    "points": 40
+   },
+   "location": {
+    "sub": 0.3,
+    "points": 7.5
+   },
+   "recency": {
+    "sub": 0.9,
+    "points": 18
+   },
+   "price": {
+    "sub": 0.8,
+    "points": 12
+   }
+  },
+  "score": 77.5
  },
  {
   "id": "1357327619659417",
-  "slug": "1357327619659417-marketplace-location-unsure",
+  "slug": "1357327619659417-fb-mp-unsure",
   "title": "฿12,800 | 2 ห้องนอน 3 ห้องน้ำ - บ้าน",
   "price": "12,800",
   "priceNum": 12800,
   "beds": 2,
-  "beds_baths": "2 beds · 3 baths",
+  "beds_baths": "2 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿12,800 | 2 ห้องนอน 3 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿12,800 | 2 ห้องนอน 3 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
   "url": "https://www.facebook.com/marketplace/item/1357327619659417",
   "seller_name": "",
@@ -1172,7 +1175,7 @@
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1195,18 +1198,18 @@
  },
  {
   "id": "1551125193069610",
-  "slug": "1551125193069610-marketplace-location-unsure",
+  "slug": "1551125193069610-fb-mp-unsure",
   "title": "฿12,800 | บ้าน 2 ห้องนอน 3 ห้องน้ำ",
   "price": "12,800",
   "priceNum": 12800,
   "beds": 2,
-  "beds_baths": "2 beds · 3 baths",
+  "beds_baths": "2 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿12,800 | บ้าน 2 ห้องนอน 3 ห้องน้ำ | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿12,800 | บ้าน 2 ห้องนอน 3 ห้องน้ำ | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
   "url": "https://www.facebook.com/marketplace/item/1551125193069610",
   "seller_name": "",
@@ -1214,7 +1217,7 @@
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1237,18 +1240,18 @@
  },
  {
   "id": "1915290846541212",
-  "slug": "1915290846541212-marketplace-location-unsure",
+  "slug": "1915290846541212-fb-mp-unsure",
   "title": "฿13,000 | บ้าน 3 ห้องนอน 2 ห้องน้ำ",
   "price": "13,000",
   "priceNum": 13000,
   "beds": 3,
-  "beds_baths": "3 beds · 2 baths",
+  "beds_baths": "3 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿13,000 | บ้าน 3 ห้องนอน 2 ห้องน้ำ | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿13,000 | บ้าน 3 ห้องนอน 2 ห้องน้ำ | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
   "url": "https://www.facebook.com/marketplace/item/1915290846541212",
   "seller_name": "",
@@ -1256,7 +1259,7 @@
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1332,27 +1335,27 @@
   }
  },
  {
-  "id": "2020888235201322",
-  "slug": "2020888235201322-marketplace-location-unsure",
-  "title": "฿14,000 | 3 ห้องนอน 2 ห้องน้ำ - บ้าน",
+  "id": "2134635347081598",
+  "slug": "2134635347081598-fb-mp-unsure",
+  "title": "฿14,000 | 4 ห้องนอน 2 ห้องน้ำ - บ้าน",
   "price": "14,000",
   "priceNum": 14000,
-  "beds": 3,
-  "beds_baths": "3 beds · 2 baths",
+  "beds": 4,
+  "beds_baths": "4 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: ฿14,000 | 3 ห้องนอน 2 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿14,000 | 4 ห้องนอน 2 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
-  "url": "https://www.facebook.com/marketplace/item/2020888235201322",
+  "url": "https://www.facebook.com/marketplace/item/2134635347081598",
   "seller_name": "",
   "seller_profile": "",
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1374,61 +1377,19 @@
   "score": 74.5
  },
  {
-  "id": "986059964184439",
-  "slug": "986059964184439-marketplace-location-unsure",
-  "title": "฿15,000 | 3 ห้องนอน 2 ห้องน้ำ - บ้าน",
-  "price": "15,000",
-  "priceNum": 15000,
-  "beds": 3,
-  "beds_baths": "3 beds · 2 baths",
-  "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
-  "zone": "out",
-  "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
-  "listed": "Listed recently",
-  "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: ฿15,000 | 3 ห้องนอน 2 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
-  "source_site": "Facebook Marketplace (location unsure)",
-  "url": "https://www.facebook.com/marketplace/item/986059964184439",
-  "seller_name": "",
-  "seller_profile": "",
-  "contact": "Open on FB Marketplace to view location & message seller",
-  "images": [],
-  "imgCount": 0,
-  "locationUnsure": true,
-  "scoreBreakdown": {
-   "moveIn": {
-    "sub": 1,
-    "points": 40
-   },
-   "location": {
-    "sub": 0.3,
-    "points": 7.5
-   },
-   "recency": {
-    "sub": 0.9,
-    "points": 18
-   },
-   "price": {
-    "sub": 0.5,
-    "points": 7.5
-   }
-  },
-  "score": 73
- },
- {
   "id": "1055748890469935",
-  "slug": "1055748890469935-marketplace-location-unsure",
+  "slug": "1055748890469935-fb-mp-unsure",
   "title": "฿15,000 | 2 ห้องนอน 4 ห้องน้ำ - ทาวน์เฮาส์",
   "price": "15,000",
   "priceNum": 15000,
   "beds": 2,
-  "beds_baths": "2 beds · 4 baths",
+  "beds_baths": "2 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿15,000 | 2 ห้องนอน 4 ห้องน้ำ - ทาวน์เฮาส์ | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿15,000 | 2 ห้องนอน 4 ห้องน้ำ - ทาวน์เฮาส์ | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
   "url": "https://www.facebook.com/marketplace/item/1055748890469935",
   "seller_name": "",
@@ -1436,7 +1397,7 @@
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1458,69 +1419,27 @@
   "score": 73
  },
  {
-  "id": "1556543416011139",
-  "slug": "1556543416011139-marketplace-location-unsure",
-  "title": "฿17,000 | 3 ห้องนอน 2 ห้องน้ำ - บ้าน",
-  "price": "17,000",
-  "priceNum": 17000,
-  "beds": 3,
-  "beds_baths": "3 beds · 2 baths",
-  "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
-  "zone": "out",
-  "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
-  "listed": "Listed recently",
-  "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: ฿17,000 | 3 ห้องนอน 2 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
-  "source_site": "Facebook Marketplace (location unsure)",
-  "url": "https://www.facebook.com/marketplace/item/1556543416011139",
-  "seller_name": "",
-  "seller_profile": "",
-  "contact": "Open on FB Marketplace to view location & message seller",
-  "images": [],
-  "imgCount": 0,
-  "locationUnsure": true,
-  "scoreBreakdown": {
-   "moveIn": {
-    "sub": 1,
-    "points": 40
-   },
-   "location": {
-    "sub": 0.3,
-    "points": 7.5
-   },
-   "recency": {
-    "sub": 0.9,
-    "points": 18
-   },
-   "price": {
-    "sub": 0.3,
-    "points": 4.5
-   }
-  },
-  "score": 70
- },
- {
-  "id": "3404996946348562",
-  "slug": "3404996946348562-marketplace-location-unsure",
-  "title": "฿18,000 | ทาวน์เฮาส์ 3 ห้องนอน 2 ห้องน้ำ",
+  "id": "1520587209518384",
+  "slug": "1520587209518384-fb-mp-unsure",
+  "title": "฿18,000 | บ้าน 3 ห้องนอน 3 ห้องน้ำ",
   "price": "18,000",
   "priceNum": 18000,
   "beds": 3,
-  "beds_baths": "3 beds · 2 baths",
+  "beds_baths": "3 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: ฿18,000 | ทาวน์เฮาส์ 3 ห้องนอน 2 ห้องน้ำ | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿18,000 | บ้าน 3 ห้องนอน 3 ห้องน้ำ | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
-  "url": "https://www.facebook.com/marketplace/item/3404996946348562",
+  "url": "https://www.facebook.com/marketplace/item/1520587209518384",
   "seller_name": "",
   "seller_profile": "",
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1542,27 +1461,27 @@
   "score": 68.5
  },
  {
-  "id": "1676463850281281",
-  "slug": "1676463850281281-marketplace-location-unsure",
-  "title": "฿18,000 | 3 ห้องนอน 4 ห้องน้ำ - ทาวน์เฮาส์",
+  "id": "1954532831843761",
+  "slug": "1954532831843761-fb-mp-unsure",
+  "title": "฿18,000 | 3 ห้องนอน 3 ห้องน้ำ - ทาวน์เฮาส์",
   "price": "18,000",
   "priceNum": 18000,
   "beds": 3,
-  "beds_baths": "3 beds · 4 baths",
+  "beds_baths": "3 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: ฿18,000 | 3 ห้องนอน 4 ห้องน้ำ - ทาวน์เฮาส์ | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿18,000 | 3 ห้องนอน 3 ห้องน้ำ - ทาวน์เฮาส์ | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
-  "url": "https://www.facebook.com/marketplace/item/1676463850281281",
+  "url": "https://www.facebook.com/marketplace/item/1954532831843761",
   "seller_name": "",
   "seller_profile": "",
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1584,27 +1503,27 @@
   "score": 68.5
  },
  {
-  "id": "997559016473810",
-  "slug": "997559016473810-marketplace-location-unsure",
-  "title": "฿19,000 | ทาวน์เฮาส์ 3 ห้องนอน 2 ห้องน้ำ",
+  "id": "1004423039222165",
+  "slug": "1004423039222165-fb-mp-unsure",
+  "title": "฿19,000 | ทาวน์เฮาส์ 3 ห้องนอน 3 ห้องน้ำ",
   "price": "19,000",
   "priceNum": 19000,
   "beds": 3,
-  "beds_baths": "3 beds · 2 baths",
+  "beds_baths": "3 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: ฿19,000 | ทาวน์เฮาส์ 3 ห้องนอน 2 ห้องน้ำ | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿19,000 | ทาวน์เฮาส์ 3 ห้องนอน 3 ห้องน้ำ | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
-  "url": "https://www.facebook.com/marketplace/item/997559016473810",
+  "url": "https://www.facebook.com/marketplace/item/1004423039222165",
   "seller_name": "",
   "seller_profile": "",
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1626,27 +1545,27 @@
   "score": 67
  },
  {
-  "id": "1847464716639194",
-  "slug": "1847464716639194-marketplace-location-unsure",
+  "id": "865984856557777",
+  "slug": "865984856557777-fb-mp-unsure",
   "title": "฿19,000 | 3 ห้องนอน 3 ห้องน้ำ - บ้าน",
   "price": "19,000",
   "priceNum": 19000,
   "beds": 3,
-  "beds_baths": "3 beds · 3 baths",
+  "beds_baths": "3 beds",
   "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
   "zone": "out",
   "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
   "listed": "Listed recently",
   "move_in_date": "—",
-  "description": "⚠️ LOCATION UNSURE. From the Facebook Marketplace 'เช่า สุเทพ' search, but Marketplace does not expose the precise pin to automation — open the link to check it falls between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿19,000 | 3 ห้องนอน 3 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿19,000 | 3 ห้องนอน 3 ห้องน้ำ - บ้าน | Chiang Mai, Thailand",
   "source_site": "Facebook Marketplace (location unsure)",
-  "url": "https://www.facebook.com/marketplace/item/1847464716639194",
+  "url": "https://www.facebook.com/marketplace/item/865984856557777",
   "seller_name": "",
   "seller_profile": "",
   "contact": "Open on FB Marketplace to view location & message seller",
   "images": [],
   "imgCount": 0,
-  "locationUnsure": true,
+  "fbRefresh": true,
   "scoreBreakdown": {
    "moveIn": {
     "sub": 1,
@@ -1761,6 +1680,90 @@
     "points": 6
    }
   }
+ },
+ {
+  "id": "857469247437283",
+  "slug": "857469247437283-fb-mp-unsure",
+  "title": "฿20,000 | ทาวน์เฮาส์ 3 ห้องนอน 2 ห้องน้ำ",
+  "price": "20,000",
+  "priceNum": 20000,
+  "beds": 3,
+  "beds_baths": "3 beds",
+  "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
+  "zone": "out",
+  "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
+  "listed": "Listed recently",
+  "move_in_date": "—",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿20,000 | ทาวน์เฮาส์ 3 ห้องนอน 2 ห้องน้ำ | Chiang Mai, Thailand",
+  "source_site": "Facebook Marketplace (location unsure)",
+  "url": "https://www.facebook.com/marketplace/item/857469247437283",
+  "seller_name": "",
+  "seller_profile": "",
+  "contact": "Open on FB Marketplace to view location & message seller",
+  "images": [],
+  "imgCount": 0,
+  "fbRefresh": true,
+  "scoreBreakdown": {
+   "moveIn": {
+    "sub": 1,
+    "points": 40
+   },
+   "location": {
+    "sub": 0.3,
+    "points": 7.5
+   },
+   "recency": {
+    "sub": 0.9,
+    "points": 18
+   },
+   "price": {
+    "sub": 0,
+    "points": 0
+   }
+  },
+  "score": 65.5
+ },
+ {
+  "id": "1048093687707453",
+  "slug": "1048093687707453-fb-mp-unsure",
+  "title": "฿20,000 | บ้าน 3 ห้องนอน 3 ห้องน้ำ",
+  "price": "20,000",
+  "priceNum": 20000,
+  "beds": 3,
+  "beds_baths": "3 beds",
+  "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
+  "zone": "out",
+  "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
+  "listed": "Listed recently",
+  "move_in_date": "—",
+  "description": "⚠️ LOCATION UNSURE — from the FB Marketplace 'เช่า สุเทพ' search; open the link to confirm it sits between Chiang Mai Zoo and Wat Umong.\n\nCard: Just listed | ฿20,000 | บ้าน 3 ห้องนอน 3 ห้องน้ำ | Chiang Mai, Thailand",
+  "source_site": "Facebook Marketplace (location unsure)",
+  "url": "https://www.facebook.com/marketplace/item/1048093687707453",
+  "seller_name": "",
+  "seller_profile": "",
+  "contact": "Open on FB Marketplace to view location & message seller",
+  "images": [],
+  "imgCount": 0,
+  "fbRefresh": true,
+  "scoreBreakdown": {
+   "moveIn": {
+    "sub": 1,
+    "points": 40
+   },
+   "location": {
+    "sub": 0.3,
+    "points": 7.5
+   },
+   "recency": {
+    "sub": 0.9,
+    "points": 18
+   },
+   "price": {
+    "sub": 0,
+    "points": 0
+   }
+  },
+  "score": 65.5
  },
  {
   "id": "1018919887168485",

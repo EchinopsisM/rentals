@@ -56,6 +56,18 @@ try {
     }
   }
 
+  // ~Hourly: refresh Facebook groups + Marketplace (heavy ~10min; the daemon's
+  // running-guard skips intervening ticks so this never overlaps another cycle).
+  // If the saved FB session is logged out, fb-to-site exits cleanly and changes nothing.
+  if (Math.floor(Date.now() / 300000) % 12 === 0) {
+    console.log(`[cron-scrape] running Facebook refresh...`);
+    try {
+      execFileSync("node", ["/home/noah/bot/fb/fb-to-site.js"], { timeout: 14 * 60 * 1000, stdio: ["pipe", "pipe", "pipe"] });
+    } catch (e) {
+      console.log(`[cron-scrape] fb refresh skipped/failed: ${e.message}`);
+    }
+  }
+
   // Rebuild site
   console.log(`[cron-scrape] rebuilding site...`);
   execFileSync("npx", ["@11ty/eleventy"], { cwd: SITE, stdio: "pipe", timeout: 30000 });
