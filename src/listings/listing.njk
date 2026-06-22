@@ -61,6 +61,11 @@ eleventyComputed:
         <dt>Posted by</dt><dd>{{ l.seller_name or "—" }}</dd>
         <dt>Contact</dt><dd>{{ l.contact or "—" }}</dd>
       </dl>
+      {% set touch = l | getInTouch %}
+      {% if touch %}
+      <a class="btn btn-touch" href="{{ touch.wa }}" target="_blank" rel="noopener">💬 Get in touch — WhatsApp</a>
+      <p class="touch-note">Opens WhatsApp to <strong>{{ touch.phone }}</strong> with a Thai + English message ready to send (“is it still available, can I view ASAP?”). <a href="{{ touch.sms }}">SMS instead</a> · <a href="{{ touch.tel }}">call</a></p>
+      {% endif %}
       <a class="btn" href="{{ l.url }}" target="_blank" rel="noopener">Open on Facebook ↗</a>
       {% if l.seller_profile %}<a class="btn ghost" href="{{ l.seller_profile }}" target="_blank" rel="noopener">Poster's profile ↗</a>{% endif %}
     </aside>

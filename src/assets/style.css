@@ -134,6 +134,10 @@ main { max-width: 1180px; margin: 0 auto; padding: 0 clamp(1rem, 4vw, 3rem); }
 .detail-side dd { margin: 0; }
 .btn { display: block; text-align: center; text-decoration: none; background: var(--ink); color: #fff; padding: .6rem; border-radius: 10px; font-size: .88rem; font-weight: 500; margin-bottom: .5rem; }
 .btn.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+.btn-touch { background: #25d366; color: #073d22; font-weight: 600; }
+.btn-touch:hover { background: #1fbf5b; }
+.touch-note { font-size: .76rem; color: var(--muted); margin: -.2rem 0 .7rem; line-height: 1.4; }
+.touch-note a { color: var(--accent); }
 
 /* Score breakdown */
 .scorecard { border: 1px solid var(--line); border-radius: 12px; padding: .9rem 1rem 1rem; margin-bottom: 1.4rem; background: var(--card); }
