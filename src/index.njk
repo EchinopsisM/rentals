@@ -6,7 +6,7 @@ layout: layout.njk
 <section class="hero">
   <h1>{{ site.title }}</h1>
   <p class="lede">{{ site.tagline }}</p>
-  <p class="count"><strong id="visible-count">{{ listings | length }}</strong> listings · ranked by target score · filter &amp; sort below · <a href="/map/">map →</a> · <a href="/buildings/">buildings to ask directly →</a> · <a href="/leads/">manual-check leads →</a></p>
+  <p class="count"><strong id="visible-count">{{ listings | length }}</strong> listings · ranked by target score · <span id="fav-summary"></span>filter &amp; sort below · <a href="/map/">map →</a> · <a href="/buildings/">buildings to ask directly →</a> · <a href="/leads/">manual-check leads →</a></p>
 </section>
 
 <div class="filters" id="filters">
@@ -31,6 +31,11 @@ layout: layout.njk
     <button class="chip active" data-filter="beds" data-val="0">Any</button>
     <button class="chip" data-filter="beds" data-val="2">2+</button>
     <button class="chip" data-filter="beds" data-val="3">3+</button>
+  </div>
+  <div class="fgroup">
+    <span class="flabel">Marks</span>
+    <button class="chip" id="toggle-taken" type="button">Show taken (<span id="taken-count">0</span>)</button>
+    <button class="chip" id="clear-marks" type="button" hidden>Reset marks</button>
   </div>
   <div class="fgroup sortgroup">
     <span class="flabel">Sort by</span>
@@ -62,6 +67,7 @@ layout: layout.njk
   {% set sc = l.score %}
   {% if sc >= 85 %}{% set scol = "#1f8a4c" %}{% elif sc >= 70 %}{% set scol = "#3f9d62" %}{% elif sc >= 60 %}{% set scol = "#c98a1a" %}{% else %}{% set scol = "#b14b4b" %}{% endif %}
   <article class="card"
+    data-id="{{ l.id }}"
     data-zone="{{ l.zone }}"
     data-price="{{ l.priceNum }}"
     data-beds="{{ l.beds or 0 }}"
@@ -86,7 +92,12 @@ layout: layout.njk
       </div>
       <h2 class="card-area"><a href="/listings/{{ l.slug }}/">{{ l.area }}</a></h2>
       <p class="card-meta">{{ l.listed }}{% if l.move_in_date and l.move_in_date != "-" %} · {{ l.move_in_date }}{% endif %}</p>
+      <div class="card-actions">
+        <button type="button" class="act act-fav" data-act="fav" title="Favorite — sticky to top"><span class="star">☆</span> <span class="lbl">Favorite</span></button>
+        <button type="button" class="act act-taken" data-act="taken" title="Mark as taken (hides it)">✓ <span class="lbl">Taken</span></button>
+      </div>
     </div>
+    <span class="taken-flag">TAKEN</span>
   </article>
   {% endfor %}
 </div>
@@ -95,52 +106,101 @@ layout: layout.njk
 
 <script>
   const state = { zone: "all", price: 99999, beds: 0 };
+  let curSort = "score", showTaken = false;
   const grid = document.getElementById("grid");
   const cards = [...document.querySelectorAll(".card")];
 
+  // --- favorites + taken (persisted per-browser in localStorage) ---
+  const FAV_KEY = "cmr_fav", TAKEN_KEY = "cmr_taken";
+  const load = (k) => { try { return new Set(JSON.parse(localStorage.getItem(k) || "[]")); } catch (e) { return new Set(); } };
+  const save = (k, s) => localStorage.setItem(k, JSON.stringify([...s]));
+  let fav = load(FAV_KEY), taken = load(TAKEN_KEY);
+
+  function markState(c) {
+    const id = c.dataset.id;
+    c.classList.toggle("is-fav", fav.has(id));
+    c.classList.toggle("is-taken", taken.has(id));
+    const favBtn = c.querySelector(".act-fav");
+    if (favBtn) { favBtn.querySelector(".star").textContent = fav.has(id) ? "★" : "☆"; favBtn.classList.toggle("on", fav.has(id)); }
+    const tBtn = c.querySelector(".act-taken");
+    if (tBtn) { tBtn.querySelector(".lbl").textContent = taken.has(id) ? "Taken ✕" : "Taken"; tBtn.classList.toggle("on", taken.has(id)); }
+  }
+
   // --- filters ---
-  document.querySelectorAll(".chip").forEach(btn => {
+  document.querySelectorAll(".chip[data-filter]").forEach(btn => {
     btn.addEventListener("click", () => {
       const f = btn.dataset.filter;
-      btn.parentElement.querySelectorAll(".chip").forEach(b => b.classList.remove("active"));
+      btn.parentElement.querySelectorAll(".chip[data-filter]").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
       state[f] = f === "zone" ? btn.dataset.val : Number(btn.dataset.val);
-      apply();
+      refresh();
     });
   });
-  function apply() {
+
+  function refresh() {
     let n = 0;
     cards.forEach(c => {
+      const id = c.dataset.id;
       const okZone = state.zone === "all" || c.dataset.zone === state.zone;
       const okPrice = Number(c.dataset.price) <= state.price;
       const okBeds = Number(c.dataset.beds) >= state.beds;
-      const show = okZone && okPrice && okBeds;
+      const isTaken = taken.has(id);
+      const show = okZone && okPrice && okBeds && (!isTaken || showTaken);
       c.hidden = !show;
-      if (show) n++;
+      if (show && !isTaken) n++;
+      markState(c);
     });
+    order();
     document.getElementById("visible-count").textContent = n;
-    document.getElementById("empty").hidden = n > 0;
+    document.getElementById("empty").hidden = n > 0 || showTaken;
+    document.getElementById("taken-count").textContent = taken.size;
+    const favN = fav.size;
+    document.getElementById("fav-summary").innerHTML = favN ? `<strong>★ ${favN}</strong> favourited · ` : "";
+    document.getElementById("clear-marks").hidden = !(fav.size || taken.size);
   }
 
-  // --- sort ---
-  // Each entry: [data-attribute, direction] where -1 = descending, 1 = ascending.
-  const SORTS = {
-    score:      ["score", -1],
-    price:      ["price", 1],
-    "price-desc": ["price", -1],
-    recency:    ["recency", -1],
-    movein:     ["movein", -1],
-    location:   ["location", -1]
-  };
-  function sortBy(key) {
-    const [attr, dir] = SORTS[key] || SORTS.score;
-    // Stable tiebreak on score (desc) so equal keys still rank sensibly.
+  // --- sort (favourites float to top, taken sink to bottom) ---
+  const SORTS = { score:["score",-1], price:["price",1], "price-desc":["price",-1], recency:["recency",-1], movein:["movein",-1], location:["location",-1] };
+  function order() {
+    const [attr, dir] = SORTS[curSort] || SORTS.score;
+    const rank = (c) => fav.has(c.dataset.id) ? 0 : (taken.has(c.dataset.id) ? 2 : 1);
     const ordered = [...cards].sort((a, b) => {
+      const ra = rank(a), rb = rank(b);
+      if (ra !== rb) return ra - rb;                       // fav → normal → taken
       const av = Number(a.dataset[attr]), bv = Number(b.dataset[attr]);
       if (av !== bv) return (av - bv) * dir;
       return Number(b.dataset.score) - Number(a.dataset.score);
     });
     ordered.forEach(c => grid.appendChild(c));
   }
-  document.getElementById("sort").addEventListener("change", e => sortBy(e.target.value));
+  document.getElementById("sort").addEventListener("change", e => { curSort = e.target.value; order(); });
+
+  // --- mark buttons (event delegation) ---
+  grid.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-act]");
+    if (!b) return;
+    e.preventDefault();
+    const id = b.closest(".card").dataset.id;
+    if (b.dataset.act === "fav") {
+      fav.has(id) ? fav.delete(id) : (fav.add(id), taken.delete(id));
+    } else {
+      taken.has(id) ? taken.delete(id) : (taken.add(id), fav.delete(id));
+    }
+    save(FAV_KEY, fav); save(TAKEN_KEY, taken);
+    refresh();
+  });
+
+  document.getElementById("toggle-taken").addEventListener("click", (e) => {
+    showTaken = !showTaken;
+    e.target.classList.toggle("active", showTaken);
+    refresh();
+  });
+  document.getElementById("clear-marks").addEventListener("click", () => {
+    if (!confirm("Clear all your favourites and taken marks?")) return;
+    fav.clear(); taken.clear(); save(FAV_KEY, fav); save(TAKEN_KEY, taken);
+    showTaken = false; document.getElementById("toggle-taken").classList.remove("active");
+    refresh();
+  });
+
+  refresh();
 </script>
