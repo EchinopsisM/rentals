@@ -15,26 +15,29 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("zoneMeta", (z) => ZONES[z] || ZONES.other);
   eleventyConfig.addFilter("zoneRank", (z) => (ZONES[z] || ZONES.other).rank);
 
-  // --- "Get in touch": pull a Thai mobile from the post text and build a
-  //     WhatsApp deep-link pre-filled with a bilingual "is it still available?" message.
-  function extractPhone(...texts) {
-    let t = texts.filter(Boolean).join("  ");
-    if (!t) return null;
-    t = t.replace(/([0-9])️?⃣/g, "$1");                         // emoji keycap digits -> ascii
-    t = t.replace(/[０-９]/g, (d) => String.fromCharCode(d.charCodeAt(0) - 0xFEE0)); // fullwidth -> ascii
-    let prev;                                                             // join digit groups split by space/dash/dot
-    do { prev = t; t = t.replace(/(\d)[ \-.](\d)/g, "$1$2"); } while (t !== prev);
-    const m = t.match(/(?:\+?66|0)[689]\d{8}/);                          // Thai mobile (0 or +66 form)
-    if (!m) return null;
-    const raw = m[0].replace(/^\+/, "");
-    const intl = raw.startsWith("0") ? "66" + raw.slice(1) : raw;
-    const local = "0" + intl.slice(2);
-    return { intl, pretty: local.replace(/(\d{3})(\d{3})(\d{4})/, "$1-$2-$3") };
+  // --- Contact options: detect every channel in the post (phone / Line / WhatsApp /
+  //     WeChat / email / FB) and pre-fill a bilingual "is it still available?" message
+  //     wherever the channel supports it. The template lists them all to choose from.
+  function normalizeDigits(s) {
+    return (s || "")
+      .replace(/([0-9])️?⃣/g, "$1")                                  // emoji keycap digits
+      .replace(/[０-９]/g, (d) => String.fromCharCode(d.charCodeAt(0) - 0xFEE0)); // fullwidth
   }
-  eleventyConfig.addFilter("getInTouch", (l) => {
+  function extractPhones(text) {
+    let t = normalizeDigits(text);
+    let prev; do { prev = t; t = t.replace(/(\d)[ \-.](\d)/g, "$1$2"); } while (t !== prev);
+    const out = [];
+    const re = /(?:\+?66|0)[689]\d{8}/g; let m;
+    while ((m = re.exec(t))) {
+      const raw = m[0].replace(/^\+/, "");
+      const intl = raw.startsWith("0") ? "66" + raw.slice(1) : raw;
+      if (!out.find((o) => o.intl === intl)) out.push({ intl, pretty: ("0" + intl.slice(2)).replace(/(\d{3})(\d{3})(\d{4})/, "$1-$2-$3") });
+    }
+    return out.slice(0, 3);
+  }
+  eleventyConfig.addFilter("contacts", (l) => {
     if (!l) return null;
-    const p = extractPhone(l.description, l.contact, l.seller_name, l.title);
-    if (!p) return null;
+    const blob = [l.description, l.contact, l.seller_name].filter(Boolean).join("  ");
     const beds = l.beds ? `${l.beds}-bedroom ` : "";
     const bedsTh = l.beds ? `${l.beds} ห้องนอน ` : "";
     const msg =
@@ -43,7 +46,43 @@ module.exports = function (eleventyConfig) {
       `Hello! I'm interested in this ${beds}rental (฿${l.price}/mo). Is it still available? ` +
       `If so, I'd love to come and view it as soon as possible. Thank you!`;
     const enc = encodeURIComponent(msg);
-    return { phone: p.pretty, wa: `https://wa.me/${p.intl}?text=${enc}`, sms: `sms:+${p.intl}?&body=${enc}`, tel: `tel:+${p.intl}` };
+    const opts = [];
+
+    // phones -> WhatsApp (pre-filled), SMS (pre-filled), call
+    const phones = extractPhones(blob);
+    phones.forEach((p) => {
+      opts.push({ type: "WhatsApp", label: `WhatsApp ${p.pretty}`, href: `https://wa.me/${p.intl}?text=${enc}`, prefilled: true });
+      opts.push({ type: "SMS", label: `SMS ${p.pretty}`, href: `sms:+${p.intl}?&body=${enc}`, prefilled: true });
+      opts.push({ type: "Call", label: `Call ${p.pretty}`, href: `tel:+${p.intl}` });
+    });
+
+    // explicit Line — line.me URL, or "Line[:] <id>" / "@handle"
+    const lines = new Set();
+    (blob.match(/line\.me\/[^\s"'<)]+/gi) || []).forEach((u) => lines.add("https://" + u.replace(/^https?:\/\//, "")));
+    let lm; const lre = /(?:line\s*id|line|ไลน์)\s*[:：]?\s*(@?[a-z0-9._\-]{2,})/gi;
+    while ((lm = lre.exec(blob))) {
+      let id = lm[1].replace(/[.,)]+$/, "");
+      if (/^(id|me)$/i.test(id)) continue;
+      lines.add(id[0] === "@" ? `https://line.me/R/ti/p/${id}` : `https://line.me/ti/p/~${id}`);
+    }
+    [...lines].slice(0, 3).forEach((href) => {
+      const id = decodeURIComponent(href.split(/[~/]/).pop());
+      opts.push({ type: "Line", label: `Line${id && id.length < 24 ? " " + id : ""}`, href, prefilled: false });
+    });
+
+    // WeChat (no URL pre-fill — copy the id)
+    const wc = blob.match(/(?:wechat|weixin|微信)\s*[:：]?\s*([a-z][a-z0-9._\-]{3,})/i);
+    if (wc) opts.push({ type: "WeChat", label: `WeChat ${wc[1]}`, copy: wc[1], prefilled: false });
+
+    // email
+    const em = blob.match(/[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}/i);
+    if (em) opts.push({ type: "Email", label: em[0], href: `mailto:${em[0]}?subject=${encodeURIComponent("Rental enquiry")}&body=${enc}`, prefilled: true });
+
+    // Facebook profile / original post (always)
+    if (l.seller_profile) opts.push({ type: "Facebook", label: "Message poster on Facebook", href: l.seller_profile, prefilled: false });
+    if (l.url) opts.push({ type: "Facebook", label: "Open original post", href: l.url, prefilled: false });
+
+    return { message: msg, options: opts, hasDirect: phones.length > 0 || lines.size > 0 || !!wc || !!em };
   });
 
   return {

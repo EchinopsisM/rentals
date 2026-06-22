@@ -61,13 +61,32 @@ eleventyComputed:
         <dt>Posted by</dt><dd>{{ l.seller_name or "—" }}</dd>
         <dt>Contact</dt><dd>{{ l.contact or "—" }}</dd>
       </dl>
-      {% set touch = l | getInTouch %}
-      {% if touch %}
-      <a class="btn btn-touch" href="{{ touch.wa }}" target="_blank" rel="noopener">💬 Get in touch — WhatsApp</a>
-      <p class="touch-note">Opens WhatsApp to <strong>{{ touch.phone }}</strong> with a Thai + English message ready to send (“is it still available, can I view ASAP?”). <a href="{{ touch.sms }}">SMS instead</a> · <a href="{{ touch.tel }}">call</a></p>
-      {% endif %}
-      <a class="btn" href="{{ l.url }}" target="_blank" rel="noopener">Open on Facebook ↗</a>
-      {% if l.seller_profile %}<a class="btn ghost" href="{{ l.seller_profile }}" target="_blank" rel="noopener">Poster's profile ↗</a>{% endif %}
+      {% set ct = l | contacts %}
+      <h3>Get in touch</h3>
+      <div class="contact-opts">
+        {% for o in ct.options %}
+          {% if o.copy %}
+          <button type="button" class="btn ct ct-{{ o.type | lower }}" data-copyid="{{ o.copy }}" data-msg="{{ ct.message }}">{{ o.label }} <span class="ct-tag">copy ID</span></button>
+          {% else %}
+          <a class="btn ct ct-{{ o.type | lower }}" href="{{ o.href }}" target="_blank" rel="noopener">{{ o.label }}{% if o.prefilled %} <span class="ct-tag">message ready</span>{% endif %}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <p class="touch-note">
+        Channels that support it open with a Thai + English message pre-filled (“is it still available — can I view ASAP?”).
+        For Line / WeChat / Messenger, <button type="button" id="copymsg" class="linkbtn" data-msg="{{ ct.message }}">copy the message</button> and paste it.
+      </p>
     </aside>
   </div>
 </article>
+
+<script>
+  function flash(el, txt){ const o=el.textContent; el.textContent=txt; setTimeout(()=>el.textContent=o,1500); }
+  function copy(text){ return (navigator.clipboard && navigator.clipboard.writeText(text)) || Promise.reject(); }
+  document.querySelectorAll("[data-copyid]").forEach(b => b.addEventListener("click", () => {
+    copy(b.dataset.copyid).then(()=>flash(b,"✓ ID copied — message copied too")).catch(()=>{});
+    if (b.dataset.msg) copy(b.dataset.msg).catch(()=>{});
+  }));
+  const cm = document.getElementById("copymsg");
+  if (cm) cm.addEventListener("click", () => copy(cm.dataset.msg).then(()=>flash(cm,"✓ copied")).catch(()=>{}));
+</script>
