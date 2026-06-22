@@ -108,6 +108,13 @@ main { max-width: 1180px; margin: 0 auto; padding: 0 clamp(1rem, 4vw, 3rem); }
 .walkin-tip ul { margin: 0; padding-left: 1.1rem; font-size: .9rem; }
 .walkin-tip li { margin: .35rem 0; }
 
+/* Map */
+.maplegend { display: flex; flex-wrap: wrap; gap: .5rem 1.3rem; font-size: .82rem; color: var(--muted); margin: 0 0 2.5rem; }
+.maplegend span { display: inline-flex; align-items: center; gap: .4rem; }
+.maplegend .lg-ci { width: 13px; height: 13px; border-radius: 50%; border: 1.5px solid #fff; box-shadow: 0 0 0 1px var(--line); }
+.maplegend .lg-di { width: 12px; height: 12px; border: 2px solid #fff; box-shadow: 0 0 0 1px var(--line); transform: rotate(45deg); }
+.leaflet-popup-content { font-family: Inter, system-ui, sans-serif; font-size: .85rem; line-height: 1.4; }
+
 /* Detail */
 .back { padding-top: 1.4rem; }
 .back a { color: var(--muted); text-decoration: none; font-size: .85rem; }

@@ -5,7 +5,11 @@
     "area": "Huay Kaew Rd — walk to CMU front gate, Maya, Nimman",
     "zone": "target",
     "verified": false,
-    "note": "The single biggest walk-in near CMU. Four large towers on Huay Kaew with constant rental turnover; each has its own juristic office that keeps a list of owners renting out. Hillside 4 is the largest. Right at the north end of your band."
+    "note": "The single biggest walk-in near CMU. Four large towers on Huay Kaew with constant rental turnover; each has its own juristic office that keeps a list of owners renting out. Hillside 4 is the largest. Right at the north end of your band.",
+    "coords": [
+      18.8045,
+      98.9555
+    ]
   },
   {
     "name": "Green Hill Place / Green Hill Condominium",
@@ -13,7 +17,11 @@
     "area": "Huay Kaew Rd, near CMU / 700-Year Stadium side",
     "zone": "target",
     "verified": false,
-    "note": "Established Huay Kaew condo with steady owner-rented stock. Ask the juristic office on the ground floor. Verify on the ground."
+    "note": "Established Huay Kaew condo with steady owner-rented stock. Ask the juristic office on the ground floor. Verify on the ground.",
+    "coords": [
+      18.8065,
+      98.9585
+    ]
   },
   {
     "name": "The Resort Condominium",
@@ -21,7 +29,11 @@
     "area": "Huay Kaew Rd (soi off Huay Kaew), near CMU",
     "zone": "target",
     "verified": false,
-    "note": "Low-rise resort-style condo a short walk from CMU front gate. Worth asking reception/juristic for vacant owner units. Verify on the ground."
+    "note": "Low-rise resort-style condo a short walk from CMU front gate. Worth asking reception/juristic for vacant owner units. Verify on the ground.",
+    "coords": [
+      18.8055,
+      98.956
+    ]
   },
   {
     "name": "Punna Residence Oasis (Nimmana / CMU)",
@@ -29,7 +41,11 @@
     "area": "West Nimman / Huay Kaew, near CMU",
     "zone": "target",
     "verified": false,
-    "note": "Popular with CMU staff/students; several Punna projects on this side. Confirm the specific building and office on site. Verify on the ground."
+    "note": "Popular with CMU staff/students; several Punna projects on this side. Confirm the specific building and office on site. Verify on the ground.",
+    "coords": [
+      18.7995,
+      98.9665
+    ]
   },
   {
     "name": "Suthep Hill House",
@@ -37,7 +53,11 @@
     "area": "Suthep — opposite CMU Engineering",
     "zone": "target-edge",
     "verified": true,
-    "note": "2BR seen ~฿12k. Building-managed; walk in and ask the front office — they hold the keys and owner contacts. Squarely in the band."
+    "note": "2BR seen ~฿12k. Building-managed; walk in and ask the front office — they hold the keys and owner contacts. Squarely in the band.",
+    "coords": [
+      18.7985,
+      98.951
+    ]
   },
   {
     "name": "JJ Hometown",
@@ -45,7 +65,11 @@
     "area": "Suthep (50200)",
     "zone": "target-edge",
     "verified": true,
-    "note": "2BR ~฿12.5k seen. On-site management; ask at the office."
+    "note": "2BR ~฿12.5k seen. On-site management; ask at the office.",
+    "coords": [
+      18.796,
+      98.9485
+    ]
   },
   {
     "name": "North 4 Condominium",
@@ -53,7 +77,11 @@
     "area": "Suthep, Mueang Chiang Mai",
     "zone": "target-edge",
     "verified": true,
-    "note": "2BR ~฿16k seen (BaanFinder). Ask the juristic office for vacant/owner-rented units."
+    "note": "2BR ~฿16k seen (BaanFinder). Ask the juristic office for vacant/owner-rented units.",
+    "coords": [
+      18.7965,
+      98.9475
+    ]
   },
   {
     "name": "OnePlus Business Park 1",
@@ -61,7 +89,11 @@
     "area": "Canal Rd (Khlong Chonprathan) / Suthep",
     "zone": "target-edge",
     "verified": true,
-    "note": "2BR ~฿18.5k seen. One of several 'One Plus' projects on the Canal Rd / Suthep side."
+    "note": "2BR ~฿18.5k seen. One of several 'One Plus' projects on the Canal Rd / Suthep side.",
+    "coords": [
+      18.793,
+      98.945
+    ]
   },
   {
     "name": "The Star Hill Condo",
@@ -69,7 +101,11 @@
     "area": "Suthep — ~5 min to CMU",
     "zone": "target-edge",
     "verified": true,
-    "note": "Seen on Thailand-Property & in group posts (2BR 67 m² listed ฿25k there, but turnover is high — ask the juristic for cheaper owner deals). Pet-friendly building."
+    "note": "Seen on Thailand-Property & in group posts (2BR 67 m² listed ฿25k there, but turnover is high — ask the juristic for cheaper owner deals). Pet-friendly building.",
+    "coords": [
+      18.7945,
+      98.9495
+    ]
   },
   {
     "name": "Chom Doi Condominium",
@@ -77,7 +113,11 @@
     "area": "Canal Rd (Khlong Chonprathan), near CMU",
     "zone": "target-edge",
     "verified": true,
-    "note": "~12-storey with mountain views, 2BR ~฿16k seen. Ground-floor juristic office keeps a list of owners renting out."
+    "note": "~12-storey with mountain views, 2BR ~฿16k seen. Ground-floor juristic office keeps a list of owners renting out.",
+    "coords": [
+      18.792,
+      98.945
+    ]
   },
   {
     "name": "Chom Doi House (round tower)",
@@ -85,7 +125,11 @@
     "area": "Suthep / Canal Road",
     "zone": "target-edge",
     "verified": true,
-    "note": "2BR ~฿14k seen. Distinctive round tower on the Canal Rd / Suthep side; ask reception."
+    "note": "2BR ~฿14k seen. Distinctive round tower on the Canal Rd / Suthep side; ask reception.",
+    "coords": [
+      18.7925,
+      98.946
+    ]
   },
   {
     "name": "Galae Thong Tower",
@@ -93,7 +137,11 @@
     "area": "Suthep / Canal Rd area, toward Doi Suthep foothills",
     "zone": "target-edge",
     "verified": false,
-    "note": "Long-standing tower on the Suthep side with mountain views and regular owner rentals. Ask the juristic office. Verify on the ground."
+    "note": "Long-standing tower on the Suthep side with mountain views and regular owner rentals. Ask the juristic office. Verify on the ground.",
+    "coords": [
+      18.7905,
+      98.9455
+    ]
   },
   {
     "name": "Condos around Suan Dok / Maharaj Hospital",
@@ -101,7 +149,11 @@
     "area": "Suthep Rd, around Maharaj Nakorn (Suan Dok) Hospital",
     "zone": "fallback",
     "verified": true,
-    "note": "Rooks Condotel (2BR ฿20k, Doi Suthep view) was found here this run. Several apartment blocks line Suthep Rd by the hospital — walk in and ask front desks. South-central part of your band."
+    "note": "Rooks Condotel (2BR ฿20k, Doi Suthep view) was found here this run. Several apartment blocks line Suthep Rd by the hospital — walk in and ask front desks. South-central part of your band.",
+    "coords": [
+      18.789,
+      98.9625
+    ]
   },
   {
     "name": "Apartments along Soi Wat Umong / lower Suthep",
@@ -109,7 +161,11 @@
     "area": "Soi Wat Umong & lower Suthep Rd (south end of band)",
     "zone": "fallback",
     "verified": false,
-    "note": "The southern edge of your band (north of Wat Umong) has many small managed apartment buildings catering to CMU staff and med students. Mostly walk-in only, rarely listed online. Verify on the ground."
+    "note": "The southern edge of your band (north of Wat Umong) has many small managed apartment buildings catering to CMU staff and med students. Mostly walk-in only, rarely listed online. Verify on the ground.",
+    "coords": [
+      18.7855,
+      98.9445
+    ]
   },
   {
     "name": "My Hip Condo",
@@ -117,6 +173,10 @@
     "area": "Huay Kaew / Santitham side (east edge of band)",
     "zone": "fallback",
     "verified": true,
-    "note": "2BR ~฿18k seen. Ask the juristic office; close to Nimman/CMU but sits on the eastern edge of your band — confirm it's west of the Santitham line."
+    "note": "2BR ~฿18k seen. Ask the juristic office; close to Nimman/CMU but sits on the eastern edge of your band — confirm it's west of the Santitham line.",
+    "coords": [
+      18.806,
+      98.9725
+    ]
   }
 ]

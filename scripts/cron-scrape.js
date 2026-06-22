@@ -78,12 +78,16 @@ try {
   execFileSync("git", ["commit", "-m", `auto: scrape ${adapter} + cleanup`, "--allow-empty"], { cwd: SITE, stdio: "pipe" });
   execFileSync("git", ["push", "origin", "main"], { cwd: SITE, stdio: "pipe", timeout: 30000 });
 
-  // Trigger Netlify build
-  console.log(`[cron-scrape] triggering Netlify...`);
-  https.post(NETLIFY_HOOK, {}, (res) => {
-    console.log(`[cron-scrape] Netlify responded ${res.statusCode}`);
-    if (res.statusCode === 200 || res.statusCode === 201) console.log("[cron-scrape] OK");
-  });
+  // Trigger Netlify build (POST to the build hook). `https` has no `.post`,
+  // so use https.request with method POST; skip if no hook configured.
+  if (NETLIFY_HOOK) {
+    console.log(`[cron-scrape] triggering Netlify...`);
+    const req = https.request(NETLIFY_HOOK, { method: "POST" }, (res) => {
+      console.log(`[cron-scrape] Netlify responded ${res.statusCode}`);
+    });
+    req.on("error", (e) => console.log(`[cron-scrape] Netlify hook error: ${e.message}`));
+    req.end();
+  }
 
   console.log(`[cron-scrape] cycle complete`);
 } catch (e) {

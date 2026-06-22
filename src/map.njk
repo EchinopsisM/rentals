@@ -1,0 +1,97 @@
+---
+layout: layout.njk
+title: "Map — CMU / Suthep rentals"
+description: "Interactive map of every rental and walk-in building in the CMU/Suthep band. Complexes shown at real locations; unit listings at approximate zone positions."
+---
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<p class="back"><a href="/">← all listings</a></p>
+<section class="hero">
+  <h1>Map</h1>
+  <p class="lede">Everything plotted on one map. <strong>◆ Diamonds = condo/apartment complexes</strong> (walk-in, at their real locations). <strong>● Circles = individual unit listings</strong>, coloured by zone.</p>
+  <p class="count">Unit listings rarely publish exact coordinates (and FB Marketplace hides them), so circles sit at <strong>approximate zone-level positions</strong> — use them for rough area, not a street address. Diamonds are real building locations.</p>
+</section>
+
+<div id="map" style="height:70vh;min-height:460px;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:1rem 0 1.5rem;"></div>
+
+<div class="maplegend">
+  <span><i class="lg-di" style="background:#1f8a4c"></i> Complex (walk-in) — real location</span>
+  <span><i class="lg-ci" style="background:#1f8a4c"></i> Unit — zone-approximate</span>
+  <span><i class="lg-ci" style="background:#3f9d62"></i> Target zone</span>
+  <span><i class="lg-ci" style="background:#1f8a4c"></i> Suthep edge</span>
+  <span><i class="lg-ci" style="background:#c98a1a"></i> Suan Dok / south</span>
+  <span><i class="lg-ci" style="background:#9a8f80"></i> Undisclosed</span>
+</div>
+
+<script>
+  const BUILDINGS = {{ buildings | dump | safe }};
+  const RAW = {{ listings | dump | safe }};
+  const LISTINGS = RAW.map(l => ({
+    id:l.id, title:l.title, area:l.area, price:l.price, beds:l.beds,
+    zone:l.zone, url:l.url, src:l.source_site, pinned:!!l.pinned
+  }));
+
+  // zone -> colour + approximate centroid in the band
+  const ZONE = {
+    target:      {c:"#3f9d62", ctr:[18.8035,98.9540]},
+    "target-edge":{c:"#1f8a4c", ctr:[18.7925,98.9470]},
+    fallback:    {c:"#c98a1a", ctr:[18.7880,98.9580]},
+    backup:      {c:"#8a6d3b", ctr:[18.7950,98.9850]},
+    out:         {c:"#9a8f80", ctr:[18.7730,98.9720]}  // undisclosed / out of band
+  };
+  function zinfo(z){ return ZONE[z] || ZONE.out; }
+  // deterministic small offset per id so markers don't stack (≈±400m)
+  function jitter(id){
+    let h=0; const s=String(id); for(let i=0;i<s.length;i++) h=(h*31+s.charCodeAt(i))>>>0;
+    const a=(h%1000)/1000, b=((h>>10)%1000)/1000;
+    return [(a-0.5)*0.008, (b-0.5)*0.008];
+  }
+
+  const map = L.map("map").setView([18.7965,98.9540], 14);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19, attribution: "&copy; OpenStreetMap"
+  }).addTo(map);
+
+  const complexLayer = L.layerGroup().addTo(map);
+  const unitLayer = L.layerGroup().addTo(map);
+
+  // ◆ complexes — real coords, diamond divIcon
+  BUILDINGS.forEach(b => {
+    if(!b.coords) return;
+    const col = zinfo(b.zone).c;
+    const icon = L.divIcon({
+      className:"", iconSize:[18,18], iconAnchor:[9,9],
+      html:`<div style="width:14px;height:14px;background:${col};border:2px solid #fff;transform:rotate(45deg);box-shadow:0 1px 3px rgba(0,0,0,.4)"></div>`
+    });
+    L.marker(b.coords,{icon}).addTo(complexLayer).bindPopup(
+      `<strong>◆ ${b.name}</strong><br>${b.type}<br><span style="color:#666">${b.area}</span>`+
+      (b.verified?`<br><em style="color:#1f8a4c">seen in listings</em>`:`<br><em style="color:#c98a1a">verify on ground</em>`)
+    );
+  });
+
+  // ● unit listings — approximate (zone centroid + jitter), circle markers
+  LISTINGS.forEach(l => {
+    const z = zinfo(l.zone);
+    const [dla,dln] = jitter(l.id);
+    const pos = [z.ctr[0]+dla, z.ctr[1]+dln];
+    const undisclosed = l.zone==="out";
+    const m = L.circleMarker(pos, {
+      radius: l.pinned?8:6, color:"#fff", weight:1.5,
+      fillColor: z.c, fillOpacity: undisclosed?0.55:0.9
+    }).addTo(unitLayer);
+    m.bindPopup(
+      `<strong>● ฿${l.price}/mo · ${l.beds}BR</strong><br>${l.title||l.area}<br>`+
+      `<span style="color:#666">${l.src}</span><br>`+
+      (undisclosed?`<em style="color:#b14b4b">📍 location not disclosed — point is illustrative only</em><br>`
+                  :`<em style="color:#888">📍 approximate (zone-level)</em><br>`)+
+      (l.pinned?`<em style="color:#1f8a4c">★ verified location in post</em><br>`:``)+
+      `<a href="${l.url}" target="_blank" rel="noopener">open source →</a>`
+    );
+  });
+
+  L.control.layers(null, {
+    "◆ Complexes (walk-in)": complexLayer,
+    "● Unit listings": unitLayer
+  }, {collapsed:false}).addTo(map);
+</script>
