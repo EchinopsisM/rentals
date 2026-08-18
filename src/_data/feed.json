@@ -141,5 +141,27 @@
   "zone": "fallback",
   "move_in_date": null,
   "id": "bsa1c757a29fae"
+ },
+ {
+  "title": "ให้เช่าบ้าน 2 ห้องนอน 1 ห้องครัว พร้อมที่ดิน 2 ไร่ ต.ขัวมุง อ.สารภี จ.เชียงใหม่",
+  "listed": "Listed today",
+  "location_hint": null,
+  "bodytext": null,
+  "imgs": [
+   "https://www.livinginsider.com/og_post/3124719.jpg"
+  ],
+  "url": "https://www.livinginsider.com/detail/house-for-rent-2bedroom-3124719",
+  "source_site": "LivingInsider",
+  "price": "15000",
+  "beds_baths": "2 beds",
+  "rental_location": null,
+  "description": "บ้านชั้นเดียว2ห้องนอน เฟอร์นิเจอร์ครบ พร้อมเข้าอยู่ ที่ดิน 2 ไร่",
+  "seller_name": null,
+  "seller_profile": null,
+  "contact": "Contact owner/agent via LivingInsider listing",
+  "area": "ให้เช่าบ้าน 2 ห้องนอน 1 ห้องครัว พร้อมที่ดิน 2 ไร่ ต.ขัวมุง อ.สารภี จ.เชียงใหม่",
+  "zone": "out",
+  "move_in_date": null,
+  "id": "li6422e12d3b33"
  }
 ]
