@@ -3377,5 +3377,900 @@
         "points": 0
       }
     }
+  },
+  {
+    "id": "fwfw23d-condo-nim",
+    "slug": "fwfw23d-condo-nim-fa-ham-mueang-chiang-mai-chiang-mai",
+    "title": "D Condo Nim",
+    "price": "22976",
+    "priceNum": 22976,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Fa Ham, Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": null,
+    "listed": "2 YEARS AGO",
+    "move_in_date": null,
+    "description": null,
+    "source_site": "FazWaz",
+    "url": "https://www.fazwaz.com/projects/thailand/chiang-mai/mueang-chiang-mai/fa-ham/d-condo-nim",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "See listing on FazWaz",
+    "images": [
+      "/img/fwfw23d-condo-nim/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 28.3,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.05,
+        "points": 1.35
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "fwfw35103-condominium-2",
+    "slug": "fwfw35103-condominium-2-suthep-mueang-chiang-mai-chiang-mai",
+    "title": "103 Condominium 2",
+    "price": "19975",
+    "priceNum": 19975,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Suthep, Mueang Chiang Mai, Chiang Mai",
+    "zone": "target",
+    "rental_location": null,
+    "listed": "1 YEAR AGO",
+    "move_in_date": null,
+    "description": null,
+    "source_site": "FazWaz",
+    "url": "https://www.fazwaz.com/projects/thailand/chiang-mai/mueang-chiang-mai/suthep/103-condominium-2",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "See listing on FazWaz",
+    "images": [
+      "/img/fwfw35103-condominium-2/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 48.8,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 1,
+        "points": 30
+      },
+      "price": {
+        "sub": 0.21,
+        "points": 5.3
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "fwfw34the-laguna-home",
+    "slug": "fwfw34the-laguna-home-nong-chom-san-sai-chiang-mai",
+    "title": "The Laguna Home",
+    "price": "17982",
+    "priceNum": 17982,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Nong Chom, San Sai, Chiang Mai",
+    "zone": "out",
+    "rental_location": null,
+    "listed": "2 WEEKS AGO",
+    "move_in_date": null,
+    "description": null,
+    "source_site": "FazWaz",
+    "url": "https://www.fazwaz.com/projects/thailand/chiang-mai/san-sai/nong-chom/the-laguna-home",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "See listing on FazWaz",
+    "images": [
+      "/img/fwfw34the-laguna-home/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 29.8,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.32,
+        "points": 7.92
+      },
+      "recency": {
+        "sub": 0.33,
+        "points": 8.33
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "fwfw41diya-valley-hang-dong",
+    "slug": "fwfw41diya-valley-hang-dong-hang-dong-hang-dong-chiang-mai",
+    "title": "Diya Valley Hang Dong",
+    "price": "14981",
+    "priceNum": 14981,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Hang Dong, Hang Dong, Chiang Mai",
+    "zone": "out",
+    "rental_location": null,
+    "listed": "2 WEEKS AGO",
+    "move_in_date": null,
+    "description": null,
+    "source_site": "FazWaz",
+    "url": "https://www.fazwaz.com/projects/thailand/chiang-mai/hang-dong/hang-dong/diya-valley-hang-dong",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "See listing on FazWaz",
+    "images": [
+      "/img/fwfw41diya-valley-hang-dong/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 33.7,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.47,
+        "points": 11.87
+      },
+      "recency": {
+        "sub": 0.33,
+        "points": 8.33
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "lifbcae3dce5b5",
+    "slug": "lifbcae3dce5b5-ให้เช่าบ้านสไตล์มูจิมินิมอล-2ห้องนอน-หนองป่าคร",
+    "title": "ให้เช่าบ้านสไตล์มูจิมินิมอล 2ห้องนอน หนองป่าครั่ง เมืองเชียงใหม่",
+    "price": "20000",
+    "priceNum": 20000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "ให้เช่าบ้านสไตล์มูจิมินิมอล 2ห้องนอน หนองป่าครั่ง เมืองเชียงใหม่",
+    "zone": "backup",
+    "rental_location": null,
+    "listed": "Listed today",
+    "move_in_date": null,
+    "description": "ให้เช่าบ้านสไตล์มูจิมินิมอล 2ห้องนอน หนองป่าครั่ง เมืองเชียงใหม่ (TH8-02426) รายละเอียด - 2 ห้องนอน - 1 ห้องน้ำ - 1 ห้องนั่งเล่น+มินิครัว - 1 ที่จอดรถ (จอดหน้าบ้าน 1 คัน) - พักได้ 4 ท่าน - ไม่รับสัตว์",
+    "source_site": "LivingInsider",
+    "url": "https://www.livinginsider.com/detail/house-for-rent-2bedroom-2996172",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact owner/agent via LivingInsider listing",
+    "images": [
+      "/img/lifbcae3dce5b5/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": true,
+    "score": 54.8,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.21,
+        "points": 5.26
+      },
+      "recency": {
+        "sub": 1,
+        "points": 25
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 1,
+        "points": 5
+      }
+    }
+  },
+  {
+    "id": "ph95a05b5fb780",
+    "slug": "ph95a05b5fb780-เดอะ-ทรีโอ-เชียงใหม่-เมืองเชียงใหม่-เชียงใหม่",
+    "title": "คอนโดเช่า พร้อมเข้าอยู่ สุดยอดทำเลใจกลางนิมมาน เชื่อมต่อทุกอย่างใน 5 นาที วิวดอย",
+    "price": "24000",
+    "priceNum": 24000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "เดอะ ทรีโอ เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่",
+    "zone": "fallback",
+    "rental_location": "เดอะ ทรีโอ เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่",
+    "listed": "Listed 1 days ago",
+    "move_in_date": null,
+    "description": "Renthub.in.th\nเช่า\nขาย\nใกล้ฉัน\nทรัพย์ธนาคาร\nโครงการทั้งหมด\nติดต่อเว็บ\nข้อมูลแพ็กเกจโฆษณา\nTH/EN\nค้นหา ทำเล ชื่อโครงการ สถานีรถไฟฟ้า\nสมัครสมาชิก / เข้าสู่ระบบ\nลงประกาศฟรี\nคอนโดเช่า พร้อมเข้าอยู่ สุดยอดทำเลใจกลางนิมมาน เชื่อมต่อทุกอย่างใน 5 นาที วิวดอย\nให้เช่า\nคอนโดมิเนียม\nอัพเดทล่าสุด :\n18/08/2026 16:30:57\nเลขที่ประกาศ :\n6257964\nเข้าชม :\n43\nแจ้งรายงานประกาศ\nShare\nดูรูปทั้งหมด 15 รูป\n24,000/ เดือน\n2 ห้องนอน\n1 ห้องน้ำ\nชั้น 15\n60 ตร.ม.\nเดอะ ทรีโอ เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่ -\nไปที่แผนที่\nข้อมูลประกาศ\n🔥 TOP FLOOR หายากมาก! ชั้น 15 สูงสุด The Trio Condominium นิมมาน-ห้วยแก้ว\nสุดยอดทำเลใจกลางนิมมาน เชื่อมต่อทุกอย่างใน 5 นาที แต่ได้วิวหลักล้านที่ไม่มีตึกบัง\nให้เช่า 24,000 บาท/เดือน สัญญา 1 ปี\nรวมค่าส่วนกลาง + อินเทอร์เน็ต AIS แล้ว\nThe Trio Condominium | 60 ตร.ม. | 2 ห้องนอน 1 ห้องน้ำ | ชั้น 15\nวิวเมืองเชียงใหม่ + วิวดอยฝั่งแม่ออนแบบพาโนรามา เปิดม่านมาตอนเช้าคือสวยมากกก\nพร้อมอยู่ 100% หิ้วกระเป๋าเข้าได้เลย\nเฟอร์ครบตามรูป:\nเตียงนอน, ตู้เสื้อผ้า, โต๊ะเครื่องแป้ง, โซฟา, โต๊ะกินข้าว, โต๊ะทำงาน+เก้าอี้ทำงาน, ชั้นวางทีวี, ทีวี, ตู้เย็น, ไมโครเวฟ, เตาไฟฟ้า+ฮู้ดดูดควัน, ชุดครัว, เครื่องทำน้ำอุ่น, แอร์ครบทุกห้อง, เครื่องซักผ้า\nส่วนกลางคือดีมาก:\nที่จอดรถ, สระว่ายน้ำ, ฟิตเนส, ระบบคีย์การ์ด, รปภ",
+    "source_site": "PropertyHub",
+    "url": "https://propertyhub.in.th/listings/%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%94%E0%B9%80%E0%B8%8A%E0%B9%88%E0%B8%B2-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88-%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B8%97%E0%B8%B3%E0%B9%80%E0%B8%A5%E0%B9%83%E0%B8%88%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B8%B4%E0%B8%A1%E0%B8%A1%E0%B8%B2%E0%B8%99-%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%97%E0%B8%B8%E0%B8%81%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%99-5-%E0%B8%99%E0%B8%B2%E0%B8%97%E0%B8%B5-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%94%E0%B8%AD%E0%B8%A2---6257964",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact owner/agent via PropertyHub listing",
+    "images": [
+      "/img/ph95a05b5fb780/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 52.3,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.75,
+        "points": 22.5
+      },
+      "price": {
+        "sub": 0,
+        "points": 0
+      },
+      "recency": {
+        "sub": 0.95,
+        "points": 23.81
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "phb52c358ca3da",
+    "slug": "phb52c358ca3da-ดีคอนโด-ริน-เชียงใหม่-เมืองเชียงใหม่-เชียงใหม่",
+    "title": "คอนโด 2 ห้องนอน ให้เช่า ที่ Dcondo Rin Chiang Mai ใกล้ CentralFestival เชียงใหม่ (ID 2981578)",
+    "price": "23000",
+    "priceNum": 23000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "ดีคอนโด ริน เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่",
+    "zone": "backup",
+    "rental_location": "ดีคอนโด ริน เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่",
+    "listed": "Listed 1 days ago",
+    "move_in_date": null,
+    "description": "Renthub.in.th\nเช่า\nขาย\nใกล้ฉัน\nทรัพย์ธนาคาร\nโครงการทั้งหมด\nติดต่อเว็บ\nข้อมูลแพ็กเกจโฆษณา\nTH/EN\nค้นหา ทำเล ชื่อโครงการ สถานีรถไฟฟ้า\nสมัครสมาชิก / เข้าสู่ระบบ\nลงประกาศฟรี\nคอนโด 2 ห้องนอน ให้เช่า ที่ Dcondo Rin Chiang Mai ใกล้ CentralFestival เชียงใหม่ (ID 2981578)\nให้เช่า\nคอนโดมิเนียม\nอัพเดทล่าสุด :\n18/08/2026 16:19:00\nเลขที่ประกาศ :\n6136095\nเข้าชม :\n123\nแจ้งรายงานประกาศ\nShare\nดูรูปทั้งหมด 16 รูป\n23,000/ เดือน\n2 ห้องนอน\n2 ห้องน้ำ\n53 ตร.ม.\nดีคอนโด ริน เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่ -\nไปที่แผนที่\nข้อมูลประกาศ\nให้เช่า คอนโดตกแต่งพร้อมอยู่ 2 ห้องนอน 2 ห้องน้ำ ขนาด 53 ตารางเมตร, โครงการ ดี คอนโด ริน เชียงใหม่ ซึ่งตั้งอยู่ในเขตเมืองเชียงใหม่ ติดต่อเราเพื่อนัดหมายเข้าชมรายการที่คุณต้องการ\nพื้นที่ส่วนกลาง:\nสร้างเสร็จในปี 2019\nลานจอดรถในร่ม\nสระว่ายน้ำ\nกล้องวงจรปิด\nสวน\nจากุซซี่\nยังไม่เจอที่พักที่ถูกใจใช่หรือไม่\nเรามุ่งเน้นไปที่การปล่อยเช่าและขายอสังหาริมทรัพย์ทั่วประเทศไทย ทั้งในกรุงเทพฯ ภูเก็ต พัทยา หัวหิน เกาะสมุย เชียงใหม่ และที่อื่นๆ อีกมากมาย ด้วยบริการจากทีมงานที่เป็นมืออาชีพ รวดเร็ว และหลากหลายภาษา เราเป็นหนึ่งในตัวแทนอสังหาริมทรัพย์ชั้นนำของประเทศไทย และสามารถช่วยจัดหาที่พักสำหรับเช่า และขายให้กับคุณได้\nติดต่อเราเลยวันนี้ เพื่อจัดหาอสังหาริมทรัพย์ที่เหมาะสมที่สุดให้กับคุณในราคาสุดค",
+    "source_site": "PropertyHub",
+    "url": "https://propertyhub.in.th/listings/%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%94-2-%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%97%E0%B8%B5%E0%B9%88-%E0%B8%94%E0%B8%B5-%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%94-%E0%B8%A3%E0%B8%B4%E0%B8%99-%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89-%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%A5-%E0%B9%80%E0%B8%9F%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%A5-%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-id-2981578---6136095",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact owner/agent via PropertyHub listing",
+    "images": [
+      "/img/phb52c358ca3da/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 44.6,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.05,
+        "points": 1.32
+      },
+      "recency": {
+        "sub": 0.95,
+        "points": 23.81
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "ph7696eade5d50",
+    "slug": "ph7696eade5d50-เอสเซ็นท์-พาร์ควิลล์-เชียงใหม่-เมืองเชียงใหม่",
+    "title": "คอนโด 2 ห้องนอน Escent Park Ville Chiangmai ย่านฟ้าฮ่าม เชียงใหม่ (ID 2818044)",
+    "price": "22000",
+    "priceNum": 22000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "เอสเซ็นท์ พาร์ควิลล์ เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่",
+    "zone": "out",
+    "rental_location": "เอสเซ็นท์ พาร์ควิลล์ เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่",
+    "listed": "Listed 1 days ago",
+    "move_in_date": null,
+    "description": "Renthub.in.th\nเช่า\nขาย\nใกล้ฉัน\nทรัพย์ธนาคาร\nโครงการทั้งหมด\nติดต่อเว็บ\nข้อมูลแพ็กเกจโฆษณา\nTH/EN\nค้นหา ทำเล ชื่อโครงการ สถานีรถไฟฟ้า\nสมัครสมาชิก / เข้าสู่ระบบ\nลงประกาศฟรี\nคอนโด 2 ห้องนอน Escent Park Ville Chiangmai ย่านฟ้าฮ่าม เชียงใหม่ (ID 2818044)\nให้เช่า\nคอนโดมิเนียม\nอัพเดทล่าสุด :\n18/08/2026 16:19:00\nเลขที่ประกาศ :\n5979714\nเข้าชม :\n130\nแจ้งรายงานประกาศ\nShare\nดูรูปทั้งหมด 13 รูป\n22,000/ เดือน\n2 ห้องนอน\n2 ห้องน้ำ\nชั้น 2\n54 ตร.ม.\nเอสเซ็นท์ พาร์ควิลล์ เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่ -\nไปที่แผนที่\nข้อมูลประกาศ\nให้เช่า คอนโดตกแต่งพร้อมอยู่ 2 ห้องนอน 2 ห้องน้ำ ขนาด 54 ตารางเมตร ชั้น 2, โครงการ เอสเซ็นท์ พาร์ค วิลล์ เชียงใหม่ ซึ่งตั้งอยู่ในเขตเมืองเชียงใหม่ ติดต่อเราเพื่อนัดหมายเข้าชมรายการที่คุณต้องการ\nข้อมูลสิ่งอำนวยความสะดวกต่างๆ:\nระเบียง\nไมโครเวฟ\nตู้เย็น\nพื้นที่ส่วนกลาง:\nสร้างเสร็จในปี 2020\nสนามปั่นจักรยาน\nห้องสมุด\nสระว่ายน้ำ\nกล้องวงจรปิด\nห้องอบไอน้ำ\nยังไม่เจอที่พักที่ถูกใจใช่หรือไม่\nเรามุ่งเน้นไปที่การปล่อยเช่าและขายอสังหาริมทรัพย์ทั่วประเทศไทย ทั้งในกรุงเทพฯ ภูเก็ต พัทยา หัวหิน เกาะสมุย เชียงใหม่ และที่อื่นๆ อีกมากมาย ด้วยบริการจากทีมงานที่เป็นมืออาชีพ รวดเร็ว และหลากหลายภาษา เราเป็นหนึ่งในตัวแทนอสังหาริมทรัพย์ชั้นนำของประเทศไทย และสามารถช่วยจัดหาที่พักสำหรับเช่า และขายให้กับคุณ",
+    "source_site": "PropertyHub",
+    "url": "https://propertyhub.in.th/listings/%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%94-2-%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%97%E0%B8%B5%E0%B9%88-%E0%B9%80%E0%B8%AD%E0%B8%AA%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B8%97%E0%B9%8C-%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84-%E0%B8%A7%E0%B8%B4%E0%B8%A5%E0%B8%A5%E0%B9%8C-%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%83%E0%B8%99-%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%AE%E0%B9%88%E0%B8%B2%E0%B8%A1-id-2818044---5979714",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact owner/agent via PropertyHub listing",
+    "images": [
+      "/img/ph7696eade5d50/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 39.9,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.11,
+        "points": 2.63
+      },
+      "recency": {
+        "sub": 0.95,
+        "points": 23.81
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "ph45c9dfba1602",
+    "slug": "ph45c9dfba1602-ดีคอนโด-นิม-เชียงใหม่-239-เมืองเชียงใหม่-เชียง",
+    "title": "คอนโด 2 ห้องนอน ให้เช่า ราคาเด่น D Condo Nim เชียงใหม่ (ID 2902713)",
+    "price": "20000",
+    "priceNum": 20000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "ดีคอนโด นิม เชียงใหม่ 239 เมืองเชียงใหม่ เชียงใหม่",
+    "zone": "backup",
+    "rental_location": "ดีคอนโด นิม เชียงใหม่ 239 เมืองเชียงใหม่ เชียงใหม่",
+    "listed": "Listed 1 days ago",
+    "move_in_date": null,
+    "description": "Renthub.in.th\nเช่า\nขาย\nใกล้ฉัน\nทรัพย์ธนาคาร\nโครงการทั้งหมด\nติดต่อเว็บ\nข้อมูลแพ็กเกจโฆษณา\nTH/EN\nค้นหา ทำเล ชื่อโครงการ สถานีรถไฟฟ้า\nสมัครสมาชิก / เข้าสู่ระบบ\nลงประกาศฟรี\nคอนโด 2 ห้องนอน ให้เช่า ราคาเด่น D Condo Nim เชียงใหม่ (ID 2902713)\nให้เช่า\nคอนโดมิเนียม\nอัพเดทล่าสุด :\n18/08/2026 16:19:00\nเลขที่ประกาศ :\n6058562\nเข้าชม :\n171\nแจ้งรายงานประกาศ\nShare\nดูรูปทั้งหมด 19 รูป\n20,000/ เดือน\n2 ห้องนอน\n2 ห้องน้ำ\nชั้น 2\n60 ตร.ม.\nดีคอนโด นิม เชียงใหม่ 239 เมืองเชียงใหม่ เชียงใหม่ -\nไปที่แผนที่\nข้อมูลประกาศ\nให้เช่า คอนโดตกแต่งพร้อมอยู่ 2 ห้องนอน 2 ห้องน้ำ ขนาด 60 ตารางเมตร ชั้น 2, โครงการ ดีคอนโด นิม เชียงใหม่ ซึ่งตั้งอยู่ในเขตเมืองเชียงใหม่ ติดต่อเราเพื่อนัดหมายเข้าชมรายการที่คุณต้องการ\nพื้นที่ส่วนกลาง:\nสร้างเสร็จในปี 2017\nระบบรักษาความปลอดภัย 24 ชม.\nลานจอดรถในร่ม\nสระว่ายน้ำ\nฟิตเนส\nกล้องวงจรปิด\nสวน\nยังไม่เจอที่พักที่ถูกใจใช่หรือไม่\nเรามุ่งเน้นไปที่การปล่อยเช่าและขายอสังหาริมทรัพย์ทั่วประเทศไทย ทั้งในกรุงเทพฯ ภูเก็ต พัทยา หัวหิน เกาะสมุย เชียงใหม่ และที่อื่นๆ อีกมากมาย ด้วยบริการจากทีมงานที่เป็นมืออาชีพ รวดเร็ว และหลากหลายภาษา เราเป็นหนึ่งในตัวแทนอสังหาริมทรัพย์ชั้นนำของประเทศไทย และสามารถช่วยจัดหาที่พักสำหรับเช่า และขายให้กับคุณได้\nติดต่อเราเลยวันนี้ เพื่อจัดหาอสังหาริมทรัพย์ที่เหมาะสมที่สุดให",
+    "source_site": "PropertyHub",
+    "url": "https://propertyhub.in.th/listings/%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%94-2-%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%97%E0%B8%B5%E0%B9%88-%E0%B8%94%E0%B8%B5%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%94-%E0%B8%99%E0%B8%B4%E0%B8%A1-%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89-%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%A5-%E0%B9%80%E0%B8%9F%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%A7%E0%B8%B1%E0%B8%A5-%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-id-2902713---6058562",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact owner/agent via PropertyHub listing",
+    "images": [
+      "/img/ph45c9dfba1602/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 48.6,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.21,
+        "points": 5.26
+      },
+      "recency": {
+        "sub": 0.95,
+        "points": 23.81
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "ph99df29a638a2",
+    "slug": "ph99df29a638a2-ศุภาลัย-มอนเต้-แอท-เวียง-เชียงใหม่-เมืองเชียงใ",
+    "title": "คอนโด 2 ห้องนอน 82 ตร.ม. ชั้น 29 โครงการ ศุภาลัย มอนเตเวียง เชียงใหม่ (ID 1346149)",
+    "price": "20000",
+    "priceNum": 20000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "ศุภาลัย มอนเต้ แอท เวียง เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่",
+    "zone": "backup",
+    "rental_location": "ศุภาลัย มอนเต้ แอท เวียง เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่",
+    "listed": "Listed 1 days ago",
+    "move_in_date": null,
+    "description": "Renthub.in.th\nเช่า\nขาย\nใกล้ฉัน\nทรัพย์ธนาคาร\nโครงการทั้งหมด\nติดต่อเว็บ\nข้อมูลแพ็กเกจโฆษณา\nTH/EN\nค้นหา ทำเล ชื่อโครงการ สถานีรถไฟฟ้า\nสมัครสมาชิก / เข้าสู่ระบบ\nลงประกาศฟรี\nคอนโด 2 ห้องนอน 82 ตร.ม. ชั้น 29 โครงการ ศุภาลัย มอนเตเวียง เชียงใหม่ (ID 1346149)\nให้เช่า\nคอนโดมิเนียม\nอัพเดทล่าสุด :\n18/08/2026 16:19:00\nเลขที่ประกาศ :\n5537323\nเข้าชม :\n342\nแจ้งรายงานประกาศ\nShare\nดูรูปทั้งหมด 10 รูป\n20,000/ เดือน\n2 ห้องนอน\n2 ห้องน้ำ\nชั้น 29\n82 ตร.ม.\nศุภาลัย มอนเต้ แอท เวียง เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่ -\nไปที่แผนที่\nข้อมูลประกาศ\nให้เช่า คอนโดตกแต่งพร้อมอยู่ 2 ห้องนอน 2 ห้องน้ำ ขนาด 82 ตารางเมตร ชั้น 29, โครงการ ศุภาลัย มอนเต้ เวียงเชียงใหม่ ซึ่งตั้งอยู่ในเขตเมืองเชียงใหม่ ติดต่อเราเพื่อนัดหมายเข้าชมรายการที่คุณต้องการ\nข้อมูลสิ่งอำนวยความสะดวกต่างๆ:\nระเบียง\nตู้เย็น\nทีวี\nพื้นที่ส่วนกลาง:\nสร้างเสร็จในปี 2017\nกล้องวงจรปิด\nลานจอดรถในร่ม\nห้องสัมนา\nสวน\nฟิตเนส\nสนามเด็กเล่น\nเซาว์น่า\nระบบรักษาความปลอดภัย 24 ชม.\nสระว่ายน้ำ\nยังไม่เจอที่พักที่ถูกใจใช่หรือไม่\nเรามุ่งเน้นไปที่การปล่อยเช่าและขายอสังหาริมทรัพย์ทั่วประเทศไทย ทั้งในกรุงเทพฯ ภูเก็ต พัทยา หัวหิน เกาะสมุย เชียงใหม่ และที่อื่นๆ อีกมากมาย ด้วยบริการจากทีมงานที่เป็นมืออาชีพ รวดเร็ว และหลากหลายภาษา เราเป็นหนึ่งในตัวแทนอสังหาริมทรัพย์ชั้นนำของประเทศไท",
+    "source_site": "PropertyHub",
+    "url": "https://propertyhub.in.th/listings/%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%94-2-%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%97%E0%B8%B5%E0%B9%88-%E0%B8%A8%E0%B8%B8%E0%B8%A0%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2-%E0%B8%A1%E0%B8%AD%E0%B8%99%E0%B9%80%E0%B8%95%E0%B9%89-%E0%B9%80%E0%B8%A7%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%83%E0%B8%99-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%81%E0%B8%95-id-1346149--9c3208f7---5537323",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact owner/agent via PropertyHub listing",
+    "images": [
+      "/img/ph99df29a638a2/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 48.6,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.21,
+        "points": 5.26
+      },
+      "recency": {
+        "sub": 0.95,
+        "points": 23.81
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "ph431d02768cec",
+    "slug": "ph431d02768cec-เดอะ-เบส-ไฮท์-เชียงใหม่-เมืองเชียงใหม่-เชียงให",
+    "title": "คอนโดสองห้องนอนให้เช่า THE BASE Height-Chiang Mai (ID 3111809)",
+    "price": "24000",
+    "priceNum": 24000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "เดอะ เบส ไฮท์ - เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่",
+    "zone": "backup",
+    "rental_location": "เดอะ เบส ไฮท์ - เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่",
+    "listed": "Listed 1 days ago",
+    "move_in_date": null,
+    "description": "Renthub.in.th\nเช่า\nขาย\nใกล้ฉัน\nทรัพย์ธนาคาร\nโครงการทั้งหมด\nติดต่อเว็บ\nข้อมูลแพ็กเกจโฆษณา\nTH/EN\nค้นหา ทำเล ชื่อโครงการ สถานีรถไฟฟ้า\nสมัครสมาชิก / เข้าสู่ระบบ\nลงประกาศฟรี\nคอนโดสองห้องนอนให้เช่า THE BASE Height-Chiang Mai (ID 3111809)\nให้เช่า\nคอนโดมิเนียม\nอัพเดทล่าสุด :\n18/08/2026 16:19:00\nเลขที่ประกาศ :\n6241005\nเข้าชม :\n75\nแจ้งรายงานประกาศ\nShare\nดูรูปทั้งหมด 16 รูป\n24,000/ เดือน\n2 ห้องนอน\n2 ห้องน้ำ\nชั้น 7\n56.5 ตร.ม.\nเดอะ เบส ไฮท์ - เชียงใหม่ เมืองเชียงใหม่ เชียงใหม่ -\nไปที่แผนที่\nข้อมูลประกาศ\nให้เช่า คอนโดตกแต่งพร้อมอยู่ 2 ห้องนอน 2 ห้องน้ำ ขนาด 56.5 ตารางเมตร ชั้น 7, โครงการ เดอะ เบสท์ ไฮ เชียงใหม่ ซึ่งตั้งอยู่ในเขตเมืองเชียงใหม่ ติดต่อเราเพื่อนัดหมายเข้าชมรายการที่คุณต้องการ\nพื้นที่ส่วนกลาง:\nสร้างเสร็จในปี 2024\nลานจอดรถในร่ม\nสระว่ายน้ำ\nกล้องวงจรปิด\nสวน\nยังไม่เจอที่พักที่ถูกใจใช่หรือไม่\nเรามุ่งเน้นไปที่การปล่อยเช่าและขายอสังหาริมทรัพย์ทั่วประเทศไทย ทั้งในกรุงเทพฯ ภูเก็ต พัทยา หัวหิน เกาะสมุย เชียงใหม่ และที่อื่นๆ อีกมากมาย ด้วยบริการจากทีมงานที่เป็นมืออาชีพ รวดเร็ว และหลากหลายภาษา เราเป็นหนึ่งในตัวแทนอสังหาริมทรัพย์ชั้นนำของประเทศไทย และสามารถช่วยจัดหาที่พักสำหรับเช่า และขายให้กับคุณได้\nติดต่อเราเลยวันนี้ เพื่อจัดหาอสังหาริมทรัพย์ที่เหมาะสมที่สุดให้กับคุณในราคาสุดคุ้ม - โดยที่ไม่มีค",
+    "source_site": "PropertyHub",
+    "url": "https://propertyhub.in.th/listings/%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B9%82%E0%B8%94-2-%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B9%80%E0%B8%8A%E0%B9%88%E0%B8%B2-%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0-%E0%B9%80%E0%B8%9A%E0%B8%AA-%E0%B9%84%E0%B8%AE%E0%B8%97%E0%B9%8C-%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%80%E0%B8%82%E0%B8%95%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%81%E0%B8%95-id-3111809---6241005",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact owner/agent via PropertyHub listing",
+    "images": [
+      "/img/ph431d02768cec/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 43.3,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0,
+        "points": 0
+      },
+      "recency": {
+        "sub": 0.95,
+        "points": 23.81
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "hfe122201db556",
+    "slug": "hfe122201db556-mueang-chiang-mai-chiang-mai",
+    "title": "For rent 1 bed condo in Mueang Chiang Mai, Chiang Mai",
+    "price": "12000",
+    "priceNum": 12000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Mueang Chiang Mai, Chiang Mai",
+    "listed": null,
+    "move_in_date": null,
+    "description": "For Rent: D Condo – Next to Central Festival Chiang Mai<br><br>📍 30 sq.m. | Building B, 7th Floor | Central Festival View<br>💰 Rent: 11,500 THB/month<\n\n(Rent listed as USD348/mo on Hipflat; ≈฿12000 at ฿35/USD.)",
+    "source_site": "Hipflat",
+    "url": "https://www.hipflat.co.th/en/ads/nenlt0n98734l3c4ua01n1lt3ul3unch",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Hipflat listing",
+    "images": [
+      "/img/hfe122201db556/0.jpg",
+      "/img/hfe122201db556/1.jpg",
+      "/img/hfe122201db556/2.jpg",
+      "/img/hfe122201db556/3.jpg",
+      "/img/hfe122201db556/4.jpg",
+      "/img/hfe122201db556/5.jpg",
+      "/img/hfe122201db556/6.jpg",
+      "/img/hfe122201db556/7.jpg",
+      "/img/hfe122201db556/8.jpg",
+      "/img/hfe122201db556/9.jpg",
+      "/img/hfe122201db556/10.jpg",
+      "/img/hfe122201db556/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 42.8,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.63,
+        "points": 15.79
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "hf6edade930c65",
+    "slug": "hf6edade930c65-mueang-chiang-mai-chiang-mai",
+    "title": "For rent 1 bed condo in Mueang Chiang Mai, Chiang Mai",
+    "price": "22000",
+    "priceNum": 22000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Mueang Chiang Mai, Chiang Mai",
+    "zone": "fallback",
+    "rental_location": "Mueang Chiang Mai, Chiang Mai",
+    "listed": null,
+    "move_in_date": null,
+    "description": "🏢 Condo for Rent with swimming pool — Nakornping Condominium<br>Prime location near MAYA Lifestyle Shopping Center and Old city 🏙️<br>💰 Rent: 21,000 \n\n(Rent listed as USD635/mo on Hipflat; ≈฿22000 at ฿35/USD.)",
+    "source_site": "Hipflat",
+    "url": "https://www.hipflat.co.th/en/ads/l9tu48t9811t7ecal1377cte3ul3un97",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Hipflat listing",
+    "images": [
+      "/img/hf6edade930c65/0.jpg",
+      "/img/hf6edade930c65/1.jpg",
+      "/img/hf6edade930c65/2.jpg",
+      "/img/hf6edade930c65/3.jpg",
+      "/img/hf6edade930c65/4.jpg",
+      "/img/hf6edade930c65/5.jpg",
+      "/img/hf6edade930c65/6.jpg",
+      "/img/hf6edade930c65/7.jpg",
+      "/img/hf6edade930c65/8.jpg",
+      "/img/hf6edade930c65/9.jpg"
+    ],
+    "imgCount": 10,
+    "petFriendly": false,
+    "score": 38.6,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.75,
+        "points": 22.5
+      },
+      "price": {
+        "sub": 0.11,
+        "points": 2.63
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "hf517103b69605",
+    "slug": "hf517103b69605-saraphi-chiang-mai",
+    "title": "For rent 2 bedrooms condo in Saraphi, Chiang Mai",
+    "price": "16000",
+    "priceNum": 16000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Saraphi, Chiang Mai",
+    "zone": "out",
+    "rental_location": "Saraphi, Chiang Mai",
+    "listed": null,
+    "move_in_date": null,
+    "description": "Condo for rent: 15,000 THB/month<br>103 Central Condominium, located on the 2nd Ring Road, convenient transportation.<br>- Size: 72 sq m, 6th floor, cor\n\n(Rent listed as USD454/mo on Hipflat; ≈฿16000 at ฿35/USD.)",
+    "source_site": "Hipflat",
+    "url": "https://www.hipflat.co.th/en/ads/u12t4tu48nl0c9uc741nleu03u09903c",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Hipflat listing",
+    "images": [
+      "/img/hf517103b69605/0.jpg",
+      "/img/hf517103b69605/1.jpg",
+      "/img/hf517103b69605/2.jpg",
+      "/img/hf517103b69605/3.jpg",
+      "/img/hf517103b69605/4.jpg",
+      "/img/hf517103b69605/5.jpg",
+      "/img/hf517103b69605/6.jpg",
+      "/img/hf517103b69605/7.jpg",
+      "/img/hf517103b69605/8.jpg",
+      "/img/hf517103b69605/9.jpg",
+      "/img/hf517103b69605/10.jpg",
+      "/img/hf517103b69605/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 31.5,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.42,
+        "points": 10.53
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "hfdc731a8f5d50",
+    "slug": "hfdc731a8f5d50-mueang-chiang-mai-chiang-mai",
+    "title": "For rent 1 bed condo in Mueang Chiang Mai, Chiang Mai",
+    "price": "20000",
+    "priceNum": 20000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Mueang Chiang Mai, Chiang Mai",
+    "listed": null,
+    "move_in_date": null,
+    "description": "Stunning one bedroom condo to rent at Galare Thong Tower Condominium, Chang Klan. Set back just off the Chang Klan Road near the Ratti Lana Riverside Ho\n\n(Rent listed as USD575/mo on Hipflat; ≈฿20000 at ฿35/USD.)",
+    "source_site": "Hipflat",
+    "url": "https://www.hipflat.co.th/en/ads/307n02a38ce70l29n49n44e73ul3u374",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Hipflat listing",
+    "images": [
+      "/img/hfdc731a8f5d50/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 32.3,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.21,
+        "points": 5.26
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "hfc76cc812970d",
+    "slug": "hfc76cc812970d-mueang-chiang-mai-chiang-mai",
+    "title": "For rent 2 bedrooms condo in Mueang Chiang Mai, Chiang Mai",
+    "price": "12500",
+    "priceNum": 12500,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Mueang Chiang Mai, Chiang Mai",
+    "zone": "fallback",
+    "rental_location": "Mueang Chiang Mai, Chiang Mai",
+    "listed": null,
+    "move_in_date": null,
+    "description": "An attractive two bedroom, two bathroom condo situated on the 10th floor of Hill Park 2, Chonprathan (Canal) Road near MAYA Mall, Huay Kaew Road, and th\n\n(Rent listed as USD363/mo on Hipflat; ≈฿12500 at ฿35/USD.)",
+    "source_site": "Hipflat",
+    "url": "https://www.hipflat.co.th/en/ads/3cac4h3a8ltccc37ha301a9t3ul337uc",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Hipflat listing",
+    "images": [
+      "/img/hfc76cc812970d/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 51.1,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.75,
+        "points": 22.5
+      },
+      "price": {
+        "sub": 0.61,
+        "points": 15.13
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "hf4d740c60202a",
+    "slug": "hf4d740c60202a-mueang-chiang-mai-chiang-mai",
+    "title": "For rent 2 bedrooms condo in Mueang Chiang Mai, Chiang Mai",
+    "price": "21000",
+    "priceNum": 21000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Mueang Chiang Mai, Chiang Mai",
+    "listed": null,
+    "move_in_date": null,
+    "description": "Discover a fully furnished two-bedroom, one-bathroom condo for rent on the 16th floor of Supalai Monte 2. Embrace breathtaking views from this high-rise\n\n(Rent listed as USD605/mo on Hipflat; ≈฿21000 at ฿35/USD.)",
+    "source_site": "Hipflat",
+    "url": "https://www.hipflat.co.th/en/ads/7hue0lc1873091tnc3lc21un3u0c9ne4",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Hipflat listing",
+    "images": [
+      "/img/hf4d740c60202a/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 30.9,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.16,
+        "points": 3.95
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "hf88c141d61136",
+    "slug": "hf88c141d61136-mueang-chiang-mai-chiang-mai",
+    "title": "For rent 2 bedrooms condo in Mueang Chiang Mai, Chiang Mai",
+    "price": "18500",
+    "priceNum": 18500,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Mueang Chiang Mai, Chiang Mai",
+    "listed": null,
+    "move_in_date": null,
+    "description": "Enjoy fantastic city views from this two bedroom, 22nd floor condo at Supalai Monte 2, Chiang Mai. Supalai Monte 2 is located at the junction of the Sup\n\n(Rent listed as USD529/mo on Hipflat; ≈฿18500 at ฿35/USD.)",
+    "source_site": "Hipflat",
+    "url": "https://www.hipflat.co.th/en/ads/t19c07th8ace3aa173nt1aut3u0c9n7e",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Hipflat listing",
+    "images": [
+      "/img/hf88c141d61136/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 34.2,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.29,
+        "points": 7.24
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
   }
 ]
