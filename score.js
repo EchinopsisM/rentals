@@ -21,7 +21,11 @@
 const fs = require("fs");
 const path = require("path");
 
-const LISTINGS = path.join(__dirname, "src", "_data", "listings.json");
+// feed.json is the file the site actually renders from (see src/_data/listings.js,
+// which merges feed.json + pinned.json into the `listings` collection). Score
+// that file directly — a separate listings.json here would silently drift out
+// of sync with what's displayed.
+const LISTINGS = path.join(__dirname, "src", "_data", "feed.json");
 
 // "Today" for the purposes of recency/move-in horizons. Override with the
 // SCORE_TODAY env var (YYYY-MM-DD) if you re-run on a different day.
