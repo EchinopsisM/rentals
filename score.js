@@ -98,7 +98,7 @@ function moveInScore(text) {
 }
 
 // --- Price: within budget is best, linear across the search band ---------------
-const PRICE_FLOOR = 10000; // user's target minimum (best score)
+const PRICE_FLOOR = 5000; // user's target minimum (best score, expanded from 10k)
 const PRICE_CAP = 24000; // user's target maximum (worst score)
 
 function priceScore(priceNum) {
