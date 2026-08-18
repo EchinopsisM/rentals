@@ -1,4 +1,66 @@
 [
-  {"id":"1","title":"Sample Listing 1","price":"12500","priceNum":12500,"beds":2,"area":"Suthep","zone":"target","score":82.8},
-  {"id":"2","title":"Sample Listing 2","price":"12000","priceNum":12000,"beds":2,"area":"Suthep","zone":"target","score":78.6}
+  {
+    "id": "1",
+    "title": "Sample Listing 1",
+    "price": "12500",
+    "priceNum": 12500,
+    "beds": 2,
+    "area": "Suthep",
+    "zone": "target",
+    "score": 58.6,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 1,
+        "points": 30
+      },
+      "price": {
+        "sub": 0.61,
+        "points": 15.13
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "2",
+    "title": "Sample Listing 2",
+    "price": "12000",
+    "priceNum": 12000,
+    "beds": 2,
+    "area": "Suthep",
+    "zone": "target",
+    "score": 59.3,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 1,
+        "points": 30
+      },
+      "price": {
+        "sub": 0.63,
+        "points": 15.79
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  }
 ]
