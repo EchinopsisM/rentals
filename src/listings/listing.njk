@@ -26,9 +26,9 @@ eleventyComputed:
   </header>
 
   {% if l.images | length %}
-  <div class="gallery">
+  <div class="gallery" data-lightbox-gallery>
     {% for img in l.images %}
-      <a class="ph" href="{{ img }}" target="_blank" rel="noopener"><img loading="lazy" src="{{ img }}" alt="{{ l.area }} photo {{ loop.index }}"></a>
+      <a class="ph" href="{{ img }}" target="_blank" rel="noopener" data-lightbox-index="{{ loop.index0 }}"><img loading="lazy" src="{{ img }}" alt="{{ l.area }} photo {{ loop.index }}"></a>
     {% endfor %}
   </div>
   {% endif %}
