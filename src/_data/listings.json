@@ -3096,17 +3096,15 @@
     "source_site": "BahtSold",
     "url": "https://www.bahtsold.com/view/1-house-1-private-apartment-1-commercial-restaurant-showroom-area-in-hang-dong-chiang-mai-578179",
     "seller_name": null,
-    "seller_profile": null,
     "contact": "Contact via BahtSold listing",
     "images": [
-      "/img/bsfaa39a7f5e28/0.jpg",
-      "/img/bsfaa39a7f5e28/1.jpg",
-      "/img/bsfaa39a7f5e28/2.jpg",
-      "/img/bsfaa39a7f5e28/3.jpg"
+      "https://images.bahtsold.com/drafts/2798/0edaaa17-48b0-4e35-9c8a-4f88f564e405/800_c67a7cd1be7140949aff56d9bfff9e4d.webp",
+      "https://images.bahtsold.com/drafts/2798/0edaaa17-48b0-4e35-9c8a-4f88f564e405/c67a7cd1be7140949aff56d9bfff9e4d.jpg?v=1784597939",
+      "https://images.bahtsold.com/drafts/2798/0edaaa17-48b0-4e35-9c8a-4f88f564e405/800_0b97eeeb61cf421a9830b377942d44ef.webp",
+      "https://images.bahtsold.com/drafts/2798/0edaaa17-48b0-4e35-9c8a-4f88f564e405/800_069b30fb377d4739a7fa6eed75333025.webp"
     ],
     "imgCount": 4,
-    "petFriendly": true,
-    "score": 29,
+    "score": 24,
     "scoreBreakdown": {
       "location": {
         "sub": 0.25,
@@ -3125,8 +3123,8 @@
         "points": 6
       },
       "petFriendly": {
-        "sub": 1,
-        "points": 5
+        "sub": 0,
+        "points": 0
       }
     }
   },
@@ -3147,18 +3145,16 @@
     "source_site": "BahtSold",
     "url": "https://www.bahtsold.com/view/newly-renovated-2br-townhouse-for-rent-in-hang-dong-pet-friendly-577577",
     "seller_name": null,
-    "seller_profile": null,
     "contact": "Contact via BahtSold listing",
     "images": [
-      "/img/bsf78452834e99/0.jpg",
-      "/img/bsf78452834e99/1.jpg",
-      "/img/bsf78452834e99/2.jpg",
-      "/img/bsf78452834e99/3.jpg",
-      "/img/bsf78452834e99/4.jpg"
+      "https://images.bahtsold.com/drafts/190717/e3f54181-50a6-40e5-bcf6-b2817efdd1ca/800_8a9558f1bbb845dc99cc4b02cdcac881.webp",
+      "https://images.bahtsold.com/drafts/190717/e3f54181-50a6-40e5-bcf6-b2817efdd1ca/8a9558f1bbb845dc99cc4b02cdcac881.jpg?v=1783455318",
+      "https://images.bahtsold.com/drafts/190717/e3f54181-50a6-40e5-bcf6-b2817efdd1ca/800_e11bca0a04d9498a9a6fccd731a5a0dd.webp",
+      "https://images.bahtsold.com/drafts/190717/e3f54181-50a6-40e5-bcf6-b2817efdd1ca/800_896fed05a163463ca410a7be58834877.webp",
+      "https://images.bahtsold.com/drafts/190717/e3f54181-50a6-40e5-bcf6-b2817efdd1ca/800_4c0343ef66a5437b8690ba4e66ec37ad.webp"
     ],
     "imgCount": 5,
-    "petFriendly": true,
-    "score": 40.9,
+    "score": 35.9,
     "scoreBreakdown": {
       "location": {
         "sub": 0.25,
@@ -3177,8 +3173,8 @@
         "points": 6
       },
       "petFriendly": {
-        "sub": 1,
-        "points": 5
+        "sub": 0,
+        "points": 0
       }
     }
   },
@@ -3199,17 +3195,15 @@
     "source_site": "BahtSold",
     "url": "https://www.bahtsold.com/view/modern2-bedroom-condo-at-dcondo-ping-dping089-578423",
     "seller_name": null,
-    "seller_profile": null,
     "contact": "Contact via BahtSold listing",
     "images": [
-      "/img/bs80360edfa873/0.jpg",
-      "/img/bs80360edfa873/1.jpg",
-      "/img/bs80360edfa873/2.jpg",
-      "/img/bs80360edfa873/3.jpg",
-      "/img/bs80360edfa873/4.jpg"
+      "https://images.bahtsold.com/drafts/172303/00e4de7a-c37b-49b1-8a97-aaed718c8fb0/800_59784e76358a43b9b3da624957b95d93.webp",
+      "https://images.bahtsold.com/drafts/172303/00e4de7a-c37b-49b1-8a97-aaed718c8fb0/59784e76358a43b9b3da624957b95d93.jpg?v=1785058553",
+      "https://images.bahtsold.com/drafts/172303/00e4de7a-c37b-49b1-8a97-aaed718c8fb0/800_de57190e3e8442608f11c5f3a1a8938c.webp",
+      "https://images.bahtsold.com/drafts/172303/00e4de7a-c37b-49b1-8a97-aaed718c8fb0/800_91a026d07c124589aad39c446f558b0a.webp",
+      "https://images.bahtsold.com/drafts/172303/00e4de7a-c37b-49b1-8a97-aaed718c8fb0/800_1802185e0a494e098e8fca3ee6a5bda5.webp"
     ],
     "imgCount": 5,
-    "petFriendly": false,
     "score": 24.8,
     "scoreBreakdown": {
       "location": {
@@ -3251,14 +3245,12 @@
     "source_site": "BahtSold",
     "url": "https://www.bahtsold.com/view/rent-to-buy-with-amazing-views-568402",
     "seller_name": null,
-    "seller_profile": null,
     "contact": "Contact via BahtSold listing",
     "images": [
-      "/img/bs9e9575cb892d/0.jpg"
+      "https://www.bahtsold.com/api/og/ad/568402?v=1779243598"
     ],
     "imgCount": 1,
-    "petFriendly": true,
-    "score": 29.8,
+    "score": 24.8,
     "scoreBreakdown": {
       "location": {
         "sub": 0.45,
@@ -3277,8 +3269,8 @@
         "points": 6
       },
       "petFriendly": {
-        "sub": 1,
-        "points": 5
+        "sub": 0,
+        "points": 0
       }
     }
   },
@@ -3299,14 +3291,12 @@
     "source_site": "BahtSold",
     "url": "https://www.bahtsold.com/view/luxury-penthouse-in-prime-chiang-mai-rent-or-own--548909",
     "seller_name": null,
-    "seller_profile": null,
     "contact": "Contact via BahtSold listing",
     "images": [
-      "/img/bsc737e38b9d9f/0.jpg"
+      "https://www.bahtsold.com/api/og/ad/548909?v=1777263290"
     ],
     "imgCount": 1,
-    "petFriendly": true,
-    "score": 32.4,
+    "score": 27.4,
     "scoreBreakdown": {
       "location": {
         "sub": 0.45,
@@ -3325,8 +3315,8 @@
         "points": 6
       },
       "petFriendly": {
-        "sub": 1,
-        "points": 5
+        "sub": 0,
+        "points": 0
       }
     }
   },
@@ -3347,13 +3337,11 @@
     "source_site": "BahtSold",
     "url": "https://www.bahtsold.com/view/viengping-mansion-stunning-2br-mountain-view-best-location--548836",
     "seller_name": null,
-    "seller_profile": null,
     "contact": "Contact via BahtSold listing",
     "images": [
-      "/img/bsa1c757a29fae/0.jpg"
+      "https://www.bahtsold.com/api/og/ad/548836?v=1777263288"
     ],
     "imgCount": 1,
-    "petFriendly": false,
     "score": 33.8,
     "scoreBreakdown": {
       "location": {
