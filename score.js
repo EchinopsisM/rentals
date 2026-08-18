@@ -1,15 +1,15 @@
-// Target-quality scoring for the Chiang Mai rental listings.
+// Target-quality scoring for the Chiang Mai 2BR condo search.
 //
-// Each listing gets a 0–100 score built from four weighted sub-scores, each
-// normalised to 0–1 (1 = best). Move-in date is weighted most strongly, per
-// the brief.
+// Each listing gets a 0–100 score built from five weighted sub-scores, each
+// normalised to 0–1 (1 = best).
 //
 //   factor      weight   why
 //   ----------------------------------------------------------------------
-//   move-in       40     earliest move-in wins — weighted strongest
-//   location      25     closeness to the CMU/Suthep target zone
-//   recency       20     more recently posted = more likely still available
-//   price         15     cheaper = better target
+//   location      30     target zone (CMU/Suthep) has hiking + downtown access
+//   price         25     10k–24k/mo budget match
+//   recency       25     PRIORITIZED: recently posted = more likely available
+//   move-in       15     availability (ready now is best)
+//   pet-friendly   5     minor bonus if pets allowed (user preference)
 //
 // Run directly to (re)score every listing, persist the result back into
 // src/_data/listings.json, and print a ranked leaderboard:
@@ -29,17 +29,28 @@ const TODAY = process.env.SCORE_TODAY
   ? new Date(process.env.SCORE_TODAY + "T00:00:00Z")
   : new Date();
 
-const WEIGHTS = { moveIn: 40, location: 25, recency: 20, price: 15 };
+// Zone coordinates for geographic scoring (lat, lon)
+const ZONE_COORDS = {
+  "target": [18.8092, 98.9453], // Doi Suthep / CMU core
+  "target-edge": [18.8050, 98.9500], // Suthep edge
+  "fallback": [18.8800, 98.9500], // Nimman / Huay Kaew
+  "backup": [18.7900, 98.9900], // Old City / Tha Phae center
+};
+const DOWNTOWN_COORDS = [18.7883, 98.9853]; // Tha Phae area (downtown)
+const TRAIL_COORDS = [18.8092, 98.9453]; // Doi Suthep (hiking base)
+
+const WEIGHTS = { location: 30, price: 25, recency: 25, moveIn: 15, petFriendly: 5 };
 
 // --- Location: zone -> 0–1 closeness score -----------------------------------
-// Ranks come from .eleventy.js; the qualitative gaps between zones are not
-// uniform, so we map each zone to an explicit score rather than scaling rank.
+// Balances proximity to hiking trails (Suthep core) with downtown access (Tha Phae).
+// "Out" zone includes nearby suburbs: Hang Dong (south), San Sai (north),
+// Mae Rim (northeast), Saraphi (SE), San Kamphaeng (NE) — scored low but included.
 const ZONE_SCORE = {
-  "target": 1.0, // CMU / Ang Kaew / Wat Umong / Suthep core
-  "target-edge": 0.8, // Suthep edge, Canal Rd foothills
-  "fallback": 0.55, // Nimman / Huay Kaew / Santitham — close enough
-  "backup": 0.35, // wider city, still commutable
-  "out": 0.1, // out of the desired area
+  "target": 1.0, // CMU / Suthep core — prime hiking + reasonable downtown
+  "target-edge": 0.85, // Suthep edge — excellent trails
+  "fallback": 0.75, // Nimman / Huay Kaew — closer to downtown, trail access
+  "backup": 0.45, // Old City / Tha Phae — downtown but far from trails
+  "out": 0.25, // adjacent areas: Hang Dong, San Sai, Mae Rim, Saraphi, San Kamphaeng
   "reject-type": 0.0,
   "other": 0.0
 };
@@ -86,9 +97,9 @@ function moveInScore(text) {
   return clamp01(1 - d / MOVEIN_HORIZON_DAYS);
 }
 
-// --- Price: lower is better, linear across the search band -------------------
-const PRICE_FLOOR = 10000; // at/below this = best
-const PRICE_CAP = 20000; // at/above this = worst
+// --- Price: within budget is best, linear across the search band ---------------
+const PRICE_FLOOR = 10000; // user's target minimum (best score)
+const PRICE_CAP = 24000; // user's target maximum (worst score)
 
 function priceScore(priceNum) {
   if (!priceNum || isNaN(priceNum)) return 0.3;
@@ -99,28 +110,36 @@ function clamp01(x) {
   return Math.max(0, Math.min(1, x));
 }
 
+// --- Pet-friendly: bonus if listing allows pets -------------------------------
+function petFriendlyScore(petFriendly) {
+  return petFriendly ? 1.0 : 0.0; // full bonus if confirmed pet-friendly, none otherwise
+}
+
 // --- Combine -----------------------------------------------------------------
 function scoreListing(l) {
   const sub = {
-    moveIn: moveInScore(l.move_in_date),
     location: ZONE_SCORE[l.zone] ?? 0,
+    price: priceScore(l.priceNum),
     recency: recencyScore(l.listed),
-    price: priceScore(l.priceNum)
+    moveIn: moveInScore(l.move_in_date),
+    petFriendly: petFriendlyScore(l.petFriendly)
   };
   const total =
-    sub.moveIn * WEIGHTS.moveIn +
     sub.location * WEIGHTS.location +
+    sub.price * WEIGHTS.price +
     sub.recency * WEIGHTS.recency +
-    sub.price * WEIGHTS.price;
+    sub.moveIn * WEIGHTS.moveIn +
+    sub.petFriendly * WEIGHTS.petFriendly;
 
   const round2 = (x) => Math.round(x * 100) / 100;
   return {
     score: Math.round(total * 10) / 10, // 0–100, one decimal
     breakdown: {
-      moveIn: { sub: round2(sub.moveIn), points: round2(sub.moveIn * WEIGHTS.moveIn) },
       location: { sub: round2(sub.location), points: round2(sub.location * WEIGHTS.location) },
+      price: { sub: round2(sub.price), points: round2(sub.price * WEIGHTS.price) },
       recency: { sub: round2(sub.recency), points: round2(sub.recency * WEIGHTS.recency) },
-      price: { sub: round2(sub.price), points: round2(sub.price * WEIGHTS.price) }
+      moveIn: { sub: round2(sub.moveIn), points: round2(sub.moveIn * WEIGHTS.moveIn) },
+      petFriendly: { sub: round2(sub.petFriendly), points: round2(sub.petFriendly * WEIGHTS.petFriendly) }
     }
   };
 }
@@ -143,24 +162,26 @@ if (require.main === module) {
 
   const today = TODAY.toISOString().slice(0, 10);
   console.log(`Scored ${listings.length} listings  (today=${today})`);
-  console.log(`weights: move-in ${WEIGHTS.moveIn} · location ${WEIGHTS.location} · recency ${WEIGHTS.recency} · price ${WEIGHTS.price}\n`);
-  console.log("  #  score | mv  loc rec pr | zone        price   listed                  title");
+  console.log(`weights: location ${WEIGHTS.location} · price ${WEIGHTS.price} · recency ${WEIGHTS.recency} · move-in ${WEIGHTS.moveIn} · pets ${WEIGHTS.petFriendly}\n`);
+  console.log("  #  score | loc  pr rec  mv pet | zone        price   pets  area");
   console.log("  ".padEnd(95, "-"));
   ranked.forEach((l, i) => {
     const b = l.scoreBreakdown;
+    const petFlag = l.petFriendly ? "✓" : "·";
     const row = [
       String(i + 1).padStart(3),
       String(l.score).padStart(5),
       "|",
-      String(b.moveIn.points).padStart(3),
-      String(b.location.points).padStart(3),
-      String(b.recency.points).padStart(3),
+      String(b.location.points).padStart(4),
       String(b.price.points).padStart(3),
+      String(b.recency.points).padStart(4),
+      String(b.moveIn.points).padStart(3),
+      String(b.petFriendly.points).padStart(3),
       "|",
       (l.zone || "?").padEnd(11),
       String(l.priceNum).padStart(6),
-      (l.listed || "?").padEnd(22),
-      (l.area || l.title || "").slice(0, 32)
+      petFlag.padStart(4),
+      (l.area || l.title || "").slice(0, 26)
     ];
     console.log("  " + row.join(" "));
   });
