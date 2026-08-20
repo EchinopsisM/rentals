@@ -2243,54 +2243,6 @@
     }
   },
   {
-    "id": "fwfw21",
-    "slug": "fwfw21-san-kamphaeng-san-kamphaeng-chiang-mai",
-    "title": "House for Sale and Rent in San Kamphaeng",
-    "price": "10000",
-    "priceNum": 10000,
-    "beds": 2,
-    "beds_baths": "2 beds",
-    "area": "San Kamphaeng, San Kamphaeng, Chiang Mai",
-    "zone": "out",
-    "rental_location": null,
-    "listed": "1 YEAR AGO",
-    "move_in_date": null,
-    "description": null,
-    "source_site": "FazWaz",
-    "url": "https://www.fazwaz.com",
-    "seller_name": null,
-    "seller_profile": null,
-    "contact": "See listing on FazWaz",
-    "images": [
-      "/img/fwfw21/0.jpg"
-    ],
-    "imgCount": 1,
-    "petFriendly": false,
-    "score": 39.4,
-    "scoreBreakdown": {
-      "location": {
-        "sub": 0.25,
-        "points": 7.5
-      },
-      "price": {
-        "sub": 0.74,
-        "points": 18.42
-      },
-      "recency": {
-        "sub": 0.3,
-        "points": 7.5
-      },
-      "moveIn": {
-        "sub": 0.4,
-        "points": 6
-      },
-      "petFriendly": {
-        "sub": 0,
-        "points": 0
-      }
-    }
-  },
-  {
     "id": "bf4f25f5de3ddd",
     "slug": "bf4f25f5de3ddd-ฟ้าฮ่าม-เมืองเชียงใหม่-เชียงใหม่",
     "title": "ให้เช่าบ้านเดี่ยว ใน ฟ้าฮ่าม , เมืองเชียงใหม่ , เชียงใหม่",
