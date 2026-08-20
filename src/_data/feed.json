@@ -10059,5 +10059,1242 @@
         "points": 0
       }
     }
+  },
+  {
+    "id": "kbtf2d18fc034fe",
+    "slug": "kbtf2d18fc034fe-pa-daet-mueang-chiang-mai-chiang-mai",
+    "title": "House for Rent in Pa Daet, Chiang Mai",
+    "price": "18000",
+    "priceNum": 18000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Pa Daet, Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Pa Daet, Mueang Chiang Mai, Chiang Mai",
+    "listed": "6 hours ago",
+    "move_in_date": null,
+    "description": "Floor size: 100 sqm. This spacious house is located in the Pa Daet area of Chiang Mai, offering a convenient and comfortable living environment with easy access to shopping, dining,...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-house-for-rent-in-pa-daet-chiang-mai-u6692739",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbtf2d18fc034fe/0.jpg",
+      "/img/kbtf2d18fc034fe/1.jpg",
+      "/img/kbtf2d18fc034fe/2.jpg",
+      "/img/kbtf2d18fc034fe/3.jpg",
+      "/img/kbtf2d18fc034fe/4.jpg",
+      "/img/kbtf2d18fc034fe/5.jpg",
+      "/img/kbtf2d18fc034fe/6.jpg",
+      "/img/kbtf2d18fc034fe/7.jpg",
+      "/img/kbtf2d18fc034fe/8.jpg",
+      "/img/kbtf2d18fc034fe/9.jpg",
+      "/img/kbtf2d18fc034fe/10.jpg",
+      "/img/kbtf2d18fc034fe/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 52.4,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.32,
+        "points": 7.89
+      },
+      "recency": {
+        "sub": 1,
+        "points": 25
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbtdfea79542a80",
+    "slug": "kbtdfea79542a80-nong-pa-khrang-mueang-chiang-mai-chiang-mai",
+    "title": "2 Bedroom Condo for rent at The Treasure",
+    "price": "20000",
+    "priceNum": 20000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Nong Pa Khrang, Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Nong Pa Khrang, Mueang Chiang Mai, Chiang Mai",
+    "listed": "7 hours ago",
+    "move_in_date": null,
+    "description": "Floor size: 60 sqm. This property is a 60 SqM condo with 2 bedrooms and 2 bathrooms that is available for rent. It is part of the The Treasure project in Nong Pa Khrang, Chian...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-condo-for-rent-at-the-treasure-in-nong-pa-khrang-chiang-mai-u5632240",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbtdfea79542a80/0.jpg",
+      "/img/kbtdfea79542a80/1.jpg",
+      "/img/kbtdfea79542a80/2.jpg",
+      "/img/kbtdfea79542a80/3.jpg",
+      "/img/kbtdfea79542a80/4.jpg",
+      "/img/kbtdfea79542a80/5.jpg",
+      "/img/kbtdfea79542a80/6.jpg",
+      "/img/kbtdfea79542a80/7.jpg",
+      "/img/kbtdfea79542a80/8.jpg",
+      "/img/kbtdfea79542a80/9.jpg",
+      "/img/kbtdfea79542a80/10.jpg",
+      "/img/kbtdfea79542a80/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 49.8,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.21,
+        "points": 5.26
+      },
+      "recency": {
+        "sub": 1,
+        "points": 25
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt2ad0476d4ca2",
+    "slug": "kbt2ad0476d4ca2-nam-bo-luang-san-pa-tong-chiang-mai",
+    "title": "House For Rent in Nam Bo Luang Chiang Mai",
+    "price": "11000",
+    "priceNum": 11000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Nam Bo Luang, San Pa Tong, Chiang Mai",
+    "zone": "out",
+    "rental_location": "Nam Bo Luang, San Pa Tong, Chiang Mai",
+    "listed": "10 hours ago",
+    "move_in_date": null,
+    "description": "Floor size: 80 sqm. This property is a 80 SqM house with 2 bedrooms and 2 bathrooms that is available for rent. It is located in Nam Bo Luang, Chiang Mai and was complete...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-house-for-rent-in-nam-bo-luang-chiang-mai-u1663722",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt2ad0476d4ca2/0.jpg",
+      "/img/kbt2ad0476d4ca2/1.jpg",
+      "/img/kbt2ad0476d4ca2/2.jpg",
+      "/img/kbt2ad0476d4ca2/3.jpg",
+      "/img/kbt2ad0476d4ca2/4.jpg",
+      "/img/kbt2ad0476d4ca2/5.jpg",
+      "/img/kbt2ad0476d4ca2/6.jpg",
+      "/img/kbt2ad0476d4ca2/7.jpg",
+      "/img/kbt2ad0476d4ca2/8.jpg",
+      "/img/kbt2ad0476d4ca2/9.jpg",
+      "/img/kbt2ad0476d4ca2/10.jpg",
+      "/img/kbt2ad0476d4ca2/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 55.6,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.68,
+        "points": 17.11
+      },
+      "recency": {
+        "sub": 1,
+        "points": 25
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt6a41b7083a9e",
+    "slug": "kbt6a41b7083a9e-nong-hoi-mueang-chiang-mai-chiang-mai",
+    "title": "House for rent at Nong Hoi, Mueang Chiang Mai",
+    "price": "18000",
+    "priceNum": 18000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Nong Hoi, Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Nong Hoi, Mueang Chiang Mai, Chiang Mai",
+    "listed": "1 day ago",
+    "move_in_date": null,
+    "description": "Floor size: 80 sqm. This property is a 80 SqM house with 2 bedrooms and 2 bathrooms that is available for rent. It is located in Nong Hoi, Chiang Mai. You can rent this house...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-house-for-rent-in-nong-hoi-chiang-mai-u1968606",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt6a41b7083a9e/0.jpg",
+      "/img/kbt6a41b7083a9e/1.jpg",
+      "/img/kbt6a41b7083a9e/2.jpg",
+      "/img/kbt6a41b7083a9e/3.jpg",
+      "/img/kbt6a41b7083a9e/4.jpg",
+      "/img/kbt6a41b7083a9e/5.jpg",
+      "/img/kbt6a41b7083a9e/6.jpg",
+      "/img/kbt6a41b7083a9e/7.jpg",
+      "/img/kbt6a41b7083a9e/8.jpg",
+      "/img/kbt6a41b7083a9e/9.jpg",
+      "/img/kbt6a41b7083a9e/10.jpg",
+      "/img/kbt6a41b7083a9e/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 51.2,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.32,
+        "points": 7.89
+      },
+      "recency": {
+        "sub": 0.95,
+        "points": 23.81
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt753e16d950e6",
+    "slug": "kbt753e16d950e6-sop-poeng-mae-taeng-chiang-mai",
+    "title": "Mountain View Home For Sale or Rent | Chiang Mai | 828 Sq.M",
+    "price": "15000",
+    "priceNum": 15000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Sop Poeng, Mae Taeng, Chiang Mai",
+    "zone": "out",
+    "rental_location": "Sop Poeng, Mae Taeng, Chiang Mai",
+    "listed": "1 day ago",
+    "move_in_date": null,
+    "description": "Floor size: 63 sqm. Mountain View Home in Mae Taeng | Your Peaceful Escape from the City, A little more space. A lot more peace. Looking for a place where you can slow down, breath...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-house-for-rent-in-sop-poeng-chiang-mai-u6689247",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt753e16d950e6/0.jpg",
+      "/img/kbt753e16d950e6/1.jpg",
+      "/img/kbt753e16d950e6/2.jpg",
+      "/img/kbt753e16d950e6/3.jpg",
+      "/img/kbt753e16d950e6/4.jpg",
+      "/img/kbt753e16d950e6/5.jpg",
+      "/img/kbt753e16d950e6/6.jpg",
+      "/img/kbt753e16d950e6/7.jpg",
+      "/img/kbt753e16d950e6/8.jpg",
+      "/img/kbt753e16d950e6/9.jpg",
+      "/img/kbt753e16d950e6/10.jpg",
+      "/img/kbt753e16d950e6/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 49.2,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.47,
+        "points": 11.84
+      },
+      "recency": {
+        "sub": 0.95,
+        "points": 23.81
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbtb8af2ef913dc",
+    "slug": "kbtb8af2ef913dc-suthep-mueang-chiang-mai-chiang-mai",
+    "title": "2 Bedroom Condo for rent at Hillside 3 Condominium",
+    "price": "20000",
+    "priceNum": 20000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Suthep, Mueang Chiang Mai, Chiang Mai",
+    "zone": "target",
+    "rental_location": "Suthep, Mueang Chiang Mai, Chiang Mai",
+    "listed": "2 days ago",
+    "move_in_date": null,
+    "description": "Floor size: 88 sqm. This property is a 88 SqM condo with 2 bedrooms and 2 bathrooms that is available for rent. It is part of the Hillside 3 Condominium project in Suthep, Chi...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-condo-for-rent-at-hillside-3-condominium-in-suthep-chiang-mai-u1174376",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbtb8af2ef913dc/0.jpg",
+      "/img/kbtb8af2ef913dc/1.jpg",
+      "/img/kbtb8af2ef913dc/2.jpg",
+      "/img/kbtb8af2ef913dc/3.jpg",
+      "/img/kbtb8af2ef913dc/4.jpg",
+      "/img/kbtb8af2ef913dc/5.jpg",
+      "/img/kbtb8af2ef913dc/6.jpg",
+      "/img/kbtb8af2ef913dc/7.jpg",
+      "/img/kbtb8af2ef913dc/8.jpg",
+      "/img/kbtb8af2ef913dc/9.jpg",
+      "/img/kbtb8af2ef913dc/10.jpg",
+      "/img/kbtb8af2ef913dc/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 63.9,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 1,
+        "points": 30
+      },
+      "price": {
+        "sub": 0.21,
+        "points": 5.26
+      },
+      "recency": {
+        "sub": 0.9,
+        "points": 22.62
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbtc3633378b650",
+    "slug": "kbtc3633378b650-pa-tan-mueang-chiang-mai-chiang-mai",
+    "title": "House for rent in Pa Tan",
+    "price": "20000",
+    "priceNum": 20000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Pa Tan, Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Pa Tan, Mueang Chiang Mai, Chiang Mai",
+    "listed": "2 days ago",
+    "move_in_date": null,
+    "description": "Floor size: 90 sqm. This property is a 90 SqM house with 2 bedrooms and 2 bathrooms that is available for rent. It is located in Pa Tan, Chiang Mai. You can rent this house lo...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-house-for-rent-in-pa-tan-chiang-mai-u6688502",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbtc3633378b650/0.jpg",
+      "/img/kbtc3633378b650/1.jpg",
+      "/img/kbtc3633378b650/2.jpg",
+      "/img/kbtc3633378b650/3.jpg",
+      "/img/kbtc3633378b650/4.jpg",
+      "/img/kbtc3633378b650/5.jpg",
+      "/img/kbtc3633378b650/6.jpg",
+      "/img/kbtc3633378b650/7.jpg",
+      "/img/kbtc3633378b650/8.jpg",
+      "/img/kbtc3633378b650/9.jpg",
+      "/img/kbtc3633378b650/10.jpg",
+      "/img/kbtc3633378b650/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 47.4,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.21,
+        "points": 5.26
+      },
+      "recency": {
+        "sub": 0.9,
+        "points": 22.62
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt29db17eeee6c",
+    "slug": "kbt29db17eeee6c-pa-lan-doi-saket-chiang-mai",
+    "title": "Dillenia Home: Secluded Little Lakeside Bungalow + Pavilion",
+    "price": "12600",
+    "priceNum": 12600,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Pa Lan, Doi Saket, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Pa Lan, Doi Saket, Chiang Mai",
+    "listed": "2 days ago",
+    "move_in_date": null,
+    "description": "Floor size: 48 sqm. Location: 10 mi (15 km) northeast of Chiang Mai, or: 11 mi (18 km) to Tha Phae Gate, or: 4 mi (7 km) to Doi Saket; in the countryside, within a fenced, quiet a...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-house-for-rent-in-pa-lan-chiang-mai-u1692988",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt29db17eeee6c/0.jpg",
+      "/img/kbt29db17eeee6c/1.jpg",
+      "/img/kbt29db17eeee6c/2.jpg",
+      "/img/kbt29db17eeee6c/3.jpg",
+      "/img/kbt29db17eeee6c/4.jpg",
+      "/img/kbt29db17eeee6c/5.jpg",
+      "/img/kbt29db17eeee6c/6.jpg",
+      "/img/kbt29db17eeee6c/7.jpg",
+      "/img/kbt29db17eeee6c/8.jpg",
+      "/img/kbt29db17eeee6c/9.jpg",
+      "/img/kbt29db17eeee6c/10.jpg",
+      "/img/kbt29db17eeee6c/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 57.1,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.6,
+        "points": 15
+      },
+      "recency": {
+        "sub": 0.9,
+        "points": 22.62
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt30545b3b68c5",
+    "slug": "kbt30545b3b68c5-san-na-meng-san-sai-chiang-mai",
+    "title": "2 Bedroom Townhouse for rent at Villaggio Sansai Chiangmai",
+    "price": "20000",
+    "priceNum": 20000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "San Na Meng, San Sai, Chiang Mai",
+    "zone": "out",
+    "rental_location": "San Na Meng, San Sai, Chiang Mai",
+    "listed": "3 days ago",
+    "move_in_date": null,
+    "description": "Floor size: 89 sqm. This property is a 89 SqM townhouse with 2 bedrooms and 3 bathrooms that is available for rent. It is part of the Villaggio Sansai Chiangmai project in San...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-townhouse-for-rent-at-villaggio-sansai-chiangmai-in-san-na-meng-chiang-mai-u6536544",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt30545b3b68c5/0.jpg",
+      "/img/kbt30545b3b68c5/1.jpg",
+      "/img/kbt30545b3b68c5/2.jpg",
+      "/img/kbt30545b3b68c5/3.jpg",
+      "/img/kbt30545b3b68c5/4.jpg",
+      "/img/kbt30545b3b68c5/5.jpg",
+      "/img/kbt30545b3b68c5/6.jpg",
+      "/img/kbt30545b3b68c5/7.jpg",
+      "/img/kbt30545b3b68c5/8.jpg",
+      "/img/kbt30545b3b68c5/9.jpg",
+      "/img/kbt30545b3b68c5/10.jpg",
+      "/img/kbt30545b3b68c5/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 40.2,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.21,
+        "points": 5.26
+      },
+      "recency": {
+        "sub": 0.86,
+        "points": 21.43
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt79689cfac615",
+    "slug": "kbt79689cfac615-suthep-mueang-chiang-mai-chiang-mai",
+    "title": "2 Bedroom Condo for rent at The Nimmana Condo",
+    "price": "23000",
+    "priceNum": 23000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Suthep, Mueang Chiang Mai, Chiang Mai",
+    "zone": "target",
+    "rental_location": "Suthep, Mueang Chiang Mai, Chiang Mai",
+    "listed": "3 days ago",
+    "move_in_date": null,
+    "description": "Floor size: 55 sqm. The Nimmana Condo – 2 Bed, 1 Bath, 55 SqM | Summary of Features\n🛏️ Unit Details: 2 bedrooms, 1 bathroom, 55 SqM — modern layout with comfortable liv...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-condo-for-rent-at-the-nimmana-condo-in-suthep-chiang-mai-u5584979",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt79689cfac615/0.jpg",
+      "/img/kbt79689cfac615/1.jpg",
+      "/img/kbt79689cfac615/2.jpg",
+      "/img/kbt79689cfac615/3.jpg",
+      "/img/kbt79689cfac615/4.jpg",
+      "/img/kbt79689cfac615/5.jpg",
+      "/img/kbt79689cfac615/6.jpg",
+      "/img/kbt79689cfac615/7.jpg",
+      "/img/kbt79689cfac615/8.jpg",
+      "/img/kbt79689cfac615/9.jpg",
+      "/img/kbt79689cfac615/10.jpg",
+      "/img/kbt79689cfac615/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 58.7,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 1,
+        "points": 30
+      },
+      "price": {
+        "sub": 0.05,
+        "points": 1.32
+      },
+      "recency": {
+        "sub": 0.86,
+        "points": 21.43
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt3613a75428d6",
+    "slug": "kbt3613a75428d6-pa-daet-mueang-chiang-mai-chiang-mai",
+    "title": "2 Bedroom House for rent at Baan Amorn Nivet",
+    "price": "15000",
+    "priceNum": 15000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Pa Daet, Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Pa Daet, Mueang Chiang Mai, Chiang Mai",
+    "listed": "3 days ago",
+    "move_in_date": null,
+    "description": "Floor size: 180 sqm. House for Rent in Baan Amorn Nivet, Pa Daet Chiang Mai. Convenient location, but yet quiet and peaceful.\n- 4 minutes to Chiang Mai Klai Mor Hospital and Lotus S...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-house-for-rent-at-baan-amorn-nivet-in-pa-daet-chiang-mai-u6256336",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt3613a75428d6/0.jpg",
+      "/img/kbt3613a75428d6/1.jpg",
+      "/img/kbt3613a75428d6/2.jpg",
+      "/img/kbt3613a75428d6/3.jpg",
+      "/img/kbt3613a75428d6/4.jpg",
+      "/img/kbt3613a75428d6/5.jpg",
+      "/img/kbt3613a75428d6/6.jpg",
+      "/img/kbt3613a75428d6/7.jpg",
+      "/img/kbt3613a75428d6/8.jpg",
+      "/img/kbt3613a75428d6/9.jpg",
+      "/img/kbt3613a75428d6/10.jpg",
+      "/img/kbt3613a75428d6/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 52.8,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.47,
+        "points": 11.84
+      },
+      "recency": {
+        "sub": 0.86,
+        "points": 21.43
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbtda6074165947",
+    "slug": "kbtda6074165947-suthep-mueang-chiang-mai-chiang-mai",
+    "title": "2 Bedroom Condo for rent at The Nimmana Condo",
+    "price": "24000",
+    "priceNum": 24000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Suthep, Mueang Chiang Mai, Chiang Mai",
+    "zone": "target",
+    "rental_location": "Suthep, Mueang Chiang Mai, Chiang Mai",
+    "listed": "4 days ago",
+    "move_in_date": null,
+    "description": "Floor size: 55 sqm. This property is a 55 SqM condo with 2 bedrooms and 2 bathrooms that is available for rent. It is part of the The Nimmana Condo project in Suthep, Chiang M...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-condo-for-rent-at-the-nimmana-condo-in-suthep-chiang-mai-u1926691",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbtda6074165947/0.jpg",
+      "/img/kbtda6074165947/1.jpg",
+      "/img/kbtda6074165947/2.jpg",
+      "/img/kbtda6074165947/3.jpg",
+      "/img/kbtda6074165947/4.jpg",
+      "/img/kbtda6074165947/5.jpg",
+      "/img/kbtda6074165947/6.jpg",
+      "/img/kbtda6074165947/7.jpg",
+      "/img/kbtda6074165947/8.jpg",
+      "/img/kbtda6074165947/9.jpg",
+      "/img/kbtda6074165947/10.jpg",
+      "/img/kbtda6074165947/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 56.2,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 1,
+        "points": 30
+      },
+      "price": {
+        "sub": 0,
+        "points": 0
+      },
+      "recency": {
+        "sub": 0.81,
+        "points": 20.24
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbtc90608c20c12",
+    "slug": "kbtc90608c20c12-suthep-mueang-chiang-mai-chiang-mai",
+    "title": "2 Bedroom Condo for rent at Srithana Condominium 1",
+    "price": "22000",
+    "priceNum": 22000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Suthep, Mueang Chiang Mai, Chiang Mai",
+    "zone": "target",
+    "rental_location": "Suthep, Mueang Chiang Mai, Chiang Mai",
+    "listed": "5 days ago",
+    "move_in_date": null,
+    "description": "Floor size: 52 sqm. 🛏 2 bedrooms | 1 bathroom | 1 living room | Separate kitchen\n☀️ Corner room, natural light all day | No balcony\n \nFull set of furniture and appliances:\n&nd...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-condo-for-rent-at-srithana-condominium-1-in-suthep-chiang-mai-u5378363",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbtc90608c20c12/0.jpg",
+      "/img/kbtc90608c20c12/1.jpg",
+      "/img/kbtc90608c20c12/2.jpg",
+      "/img/kbtc90608c20c12/3.jpg",
+      "/img/kbtc90608c20c12/4.jpg",
+      "/img/kbtc90608c20c12/5.jpg",
+      "/img/kbtc90608c20c12/6.jpg",
+      "/img/kbtc90608c20c12/7.jpg",
+      "/img/kbtc90608c20c12/8.jpg",
+      "/img/kbtc90608c20c12/9.jpg",
+      "/img/kbtc90608c20c12/10.jpg",
+      "/img/kbtc90608c20c12/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 57.7,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 1,
+        "points": 30
+      },
+      "price": {
+        "sub": 0.11,
+        "points": 2.63
+      },
+      "recency": {
+        "sub": 0.76,
+        "points": 19.05
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt8881b0110197",
+    "slug": "kbt8881b0110197-pa-daet-mueang-chiang-mai-chiang-mai",
+    "title": "2 Bedroom Penthouse for rent at Galae Thong Tower",
+    "price": "20500",
+    "priceNum": 20500,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Pa Daet, Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Pa Daet, Mueang Chiang Mai, Chiang Mai",
+    "listed": "6 days ago",
+    "move_in_date": null,
+    "description": "Floor size: 100 sqm. Galare Thong Tower for Sale. Located on Chang Klan Road in Chiang Mai city, a perfect location with amazing views over the city. Private finance available for u...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-penthouse-for-rent-at-galae-thong-tower-in-pa-daet-chiang-mai-u476172",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt8881b0110197/0.jpg",
+      "/img/kbt8881b0110197/1.jpg",
+      "/img/kbt8881b0110197/2.jpg",
+      "/img/kbt8881b0110197/3.jpg",
+      "/img/kbt8881b0110197/4.jpg",
+      "/img/kbt8881b0110197/5.jpg",
+      "/img/kbt8881b0110197/6.jpg",
+      "/img/kbt8881b0110197/7.jpg",
+      "/img/kbt8881b0110197/8.jpg",
+      "/img/kbt8881b0110197/9.jpg",
+      "/img/kbt8881b0110197/10.jpg",
+      "/img/kbt8881b0110197/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 42,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.18,
+        "points": 4.61
+      },
+      "recency": {
+        "sub": 0.71,
+        "points": 17.86
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt22e601cc68b0",
+    "slug": "kbt22e601cc68b0-tha-sala-mueang-chiang-mai-chiang-mai",
+    "title": "2 Bedroom Townhouse for rent at The Urbana 3",
+    "price": "15000",
+    "priceNum": 15000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Tha Sala, Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Tha Sala, Mueang Chiang Mai, Chiang Mai",
+    "listed": "6 days ago",
+    "move_in_date": null,
+    "description": "Floor size: 135 sqm. This property is a 135 SqM townhouse with 2 bedrooms and 3 bathrooms that is available for rent. It is part of the The Urbana 3 project in Tha Sala, Chiang...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-townhouse-for-rent-at-the-urbana-3-in-tha-sala-chiang-mai-u6678607",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt22e601cc68b0/0.jpg",
+      "/img/kbt22e601cc68b0/1.jpg",
+      "/img/kbt22e601cc68b0/2.jpg",
+      "/img/kbt22e601cc68b0/3.jpg",
+      "/img/kbt22e601cc68b0/4.jpg",
+      "/img/kbt22e601cc68b0/5.jpg",
+      "/img/kbt22e601cc68b0/6.jpg",
+      "/img/kbt22e601cc68b0/7.jpg",
+      "/img/kbt22e601cc68b0/8.jpg",
+      "/img/kbt22e601cc68b0/9.jpg",
+      "/img/kbt22e601cc68b0/10.jpg",
+      "/img/kbt22e601cc68b0/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 49.2,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.47,
+        "points": 11.84
+      },
+      "recency": {
+        "sub": 0.71,
+        "points": 17.86
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbtf318b57e2672",
+    "slug": "kbtf318b57e2672-san-phranet-san-sai-chiang-mai",
+    "title": "2 Bedroom Condo for rent at V Residence Payap",
+    "price": "16500",
+    "priceNum": 16500,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "San Phranet, San Sai, Chiang Mai",
+    "zone": "out",
+    "rental_location": "San Phranet, San Sai, Chiang Mai",
+    "listed": "1 week ago",
+    "move_in_date": null,
+    "description": "Floor size: 64 sqm. This property is a 64 SqM condo with 2 bedrooms and 1 bathroom that is available for rent. It is part of the V Residence Payap project in San Phranet, Chia...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-condo-for-rent-at-v-residence-payap-in-san-phranet-chiang-mai-u1023394",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbtf318b57e2672/0.jpg",
+      "/img/kbtf318b57e2672/1.jpg",
+      "/img/kbtf318b57e2672/2.jpg",
+      "/img/kbtf318b57e2672/3.jpg",
+      "/img/kbtf318b57e2672/4.jpg",
+      "/img/kbtf318b57e2672/5.jpg",
+      "/img/kbtf318b57e2672/6.jpg",
+      "/img/kbtf318b57e2672/7.jpg",
+      "/img/kbtf318b57e2672/8.jpg",
+      "/img/kbtf318b57e2672/9.jpg",
+      "/img/kbtf318b57e2672/10.jpg",
+      "/img/kbtf318b57e2672/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 40,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.39,
+        "points": 9.87
+      },
+      "recency": {
+        "sub": 0.67,
+        "points": 16.67
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt985187de8607",
+    "slug": "kbt985187de8607-nong-khwai-hang-dong-chiang-mai",
+    "title": "2 Bedroom Condo for rent at The New Concept Office Plus",
+    "price": "8000",
+    "priceNum": 8000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Nong Khwai, Hang Dong, Chiang Mai",
+    "zone": "out",
+    "rental_location": "Nong Khwai, Hang Dong, Chiang Mai",
+    "listed": "1 week ago",
+    "move_in_date": null,
+    "description": "Floor size: 48 sqm. new two-bedrooms condo, low price for rent",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-condo-for-rent-at-the-new-concept-office-plus-in-nong-khwai-chiang-mai-u1633744",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt985187de8607/0.jpg",
+      "/img/kbt985187de8607/1.jpg",
+      "/img/kbt985187de8607/2.jpg",
+      "/img/kbt985187de8607/3.jpg",
+      "/img/kbt985187de8607/4.jpg",
+      "/img/kbt985187de8607/5.jpg",
+      "/img/kbt985187de8607/6.jpg",
+      "/img/kbt985187de8607/7.jpg",
+      "/img/kbt985187de8607/8.jpg",
+      "/img/kbt985187de8607/9.jpg",
+      "/img/kbt985187de8607/10.jpg",
+      "/img/kbt985187de8607/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 51.2,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.84,
+        "points": 21.05
+      },
+      "recency": {
+        "sub": 0.67,
+        "points": 16.67
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt0dc1048171b7",
+    "slug": "kbt0dc1048171b7-hang-dong-hang-dong-chiang-mai",
+    "title": "2 Bedroom House for rent at Diya Valley Hang Dong",
+    "price": "16000",
+    "priceNum": 16000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Hang Dong, Hang Dong, Chiang Mai",
+    "zone": "out",
+    "rental_location": "Hang Dong, Hang Dong, Chiang Mai",
+    "listed": "1 week ago",
+    "move_in_date": null,
+    "description": "Floor size: 115 sqm. This property is a 115 SqM house with 2 bedrooms and 2 bathrooms that is available for rent. It is part of the Diya Valley Hang Dong project in Hang Dong,...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-house-for-rent-at-diya-valley-hang-dong-in-hang-dong-chiang-mai-u6241680",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt0dc1048171b7/0.jpg",
+      "/img/kbt0dc1048171b7/1.jpg",
+      "/img/kbt0dc1048171b7/2.jpg",
+      "/img/kbt0dc1048171b7/3.jpg",
+      "/img/kbt0dc1048171b7/4.jpg",
+      "/img/kbt0dc1048171b7/5.jpg",
+      "/img/kbt0dc1048171b7/6.jpg",
+      "/img/kbt0dc1048171b7/7.jpg",
+      "/img/kbt0dc1048171b7/8.jpg",
+      "/img/kbt0dc1048171b7/9.jpg",
+      "/img/kbt0dc1048171b7/10.jpg",
+      "/img/kbt0dc1048171b7/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 40.7,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.42,
+        "points": 10.53
+      },
+      "recency": {
+        "sub": 0.67,
+        "points": 16.67
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt00cceca2528f",
+    "slug": "kbt00cceca2528f-hang-dong-hang-dong-chiang-mai",
+    "title": "2 Bedroom House for rent at Thippirom Village",
+    "price": "15000",
+    "priceNum": 15000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Hang Dong, Hang Dong, Chiang Mai",
+    "zone": "out",
+    "rental_location": "Hang Dong, Hang Dong, Chiang Mai",
+    "listed": "1 week ago",
+    "move_in_date": null,
+    "description": "Floor size: 137 sqm. Diya Valley Hangdong is a 177 sq.m house with 2 bedrooms and 2 bathrooms, fully furnished, that is available for rent. It is part of the Diya Valley, Lake Fores...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-house-for-rent-at-thippirom-village-in-hang-dong-chiang-mai-u6662376",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt00cceca2528f/0.jpg",
+      "/img/kbt00cceca2528f/1.jpg",
+      "/img/kbt00cceca2528f/2.jpg",
+      "/img/kbt00cceca2528f/3.jpg",
+      "/img/kbt00cceca2528f/4.jpg",
+      "/img/kbt00cceca2528f/5.jpg",
+      "/img/kbt00cceca2528f/6.jpg",
+      "/img/kbt00cceca2528f/7.jpg",
+      "/img/kbt00cceca2528f/8.jpg",
+      "/img/kbt00cceca2528f/9.jpg",
+      "/img/kbt00cceca2528f/10.jpg",
+      "/img/kbt00cceca2528f/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 42,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.47,
+        "points": 11.84
+      },
+      "recency": {
+        "sub": 0.67,
+        "points": 16.67
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt4e1ed9b09d19",
+    "slug": "kbt4e1ed9b09d19-nong-pa-khrang-mueang-chiang-mai-chiang-mai",
+    "title": "2 Bedroom House for rent at Baan Sawang Nakhon",
+    "price": "15000",
+    "priceNum": 15000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Nong Pa Khrang, Mueang Chiang Mai, Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Nong Pa Khrang, Mueang Chiang Mai, Chiang Mai",
+    "listed": "1 week ago",
+    "move_in_date": null,
+    "description": "Floor size: 80 sqm. This property is a 80 SqM house with 2 bedrooms and 1 bathroom that is available for rent. It is part of the Baan Sawang Nakhon project in Nong Pa Khrang,...",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-house-for-rent-at-baan-sawang-nakhon-in-nong-pa-khrang-chiang-mai-u6668900",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt4e1ed9b09d19/0.jpg",
+      "/img/kbt4e1ed9b09d19/1.jpg",
+      "/img/kbt4e1ed9b09d19/2.jpg",
+      "/img/kbt4e1ed9b09d19/3.jpg",
+      "/img/kbt4e1ed9b09d19/4.jpg",
+      "/img/kbt4e1ed9b09d19/5.jpg",
+      "/img/kbt4e1ed9b09d19/6.jpg",
+      "/img/kbt4e1ed9b09d19/7.jpg",
+      "/img/kbt4e1ed9b09d19/8.jpg",
+      "/img/kbt4e1ed9b09d19/9.jpg",
+      "/img/kbt4e1ed9b09d19/10.jpg",
+      "/img/kbt4e1ed9b09d19/11.jpg"
+    ],
+    "imgCount": 12,
+    "petFriendly": false,
+    "score": 48,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0.47,
+        "points": 11.84
+      },
+      "recency": {
+        "sub": 0.67,
+        "points": 16.67
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "kbt1d0c5b7a7f64",
+    "slug": "kbt1d0c5b7a7f64-san-na-meng-san-sai-chiang-mai",
+    "title": "2 Bedroom Townhouse for rent at Villaggio Sansai Chiangmai",
+    "price": "23000",
+    "priceNum": 23000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "San Na Meng, San Sai, Chiang Mai",
+    "zone": "out",
+    "rental_location": "San Na Meng, San Sai, Chiang Mai",
+    "listed": "1 week ago",
+    "move_in_date": null,
+    "description": "Floor size: 98 sqm. For Rent Villaggio San Sai (Land and House)  A Perfect Fully Furnished house Modern Luxury design with Brand New Furniture In a quality surrounding 98 sqm....",
+    "source_site": "KaiBaanThai",
+    "url": "https://www.kaibaanthai.com/en/property-rent/2-bedroom-townhouse-for-rent-at-villaggio-sansai-chiangmai-in-san-na-meng-chiang-mai-u1901279",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via KaiBaanThai listing",
+    "images": [
+      "/img/kbt1d0c5b7a7f64/0.jpg",
+      "/img/kbt1d0c5b7a7f64/1.jpg",
+      "/img/kbt1d0c5b7a7f64/2.jpg",
+      "/img/kbt1d0c5b7a7f64/3.jpg",
+      "/img/kbt1d0c5b7a7f64/4.jpg",
+      "/img/kbt1d0c5b7a7f64/5.jpg",
+      "/img/kbt1d0c5b7a7f64/6.jpg",
+      "/img/kbt1d0c5b7a7f64/7.jpg",
+      "/img/kbt1d0c5b7a7f64/8.jpg",
+      "/img/kbt1d0c5b7a7f64/9.jpg"
+    ],
+    "imgCount": 10,
+    "petFriendly": false,
+    "score": 31.5,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.05,
+        "points": 1.32
+      },
+      "recency": {
+        "sub": 0.67,
+        "points": 16.67
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
   }
 ]
