@@ -350,7 +350,7 @@
     "beds": 2,
     "beds_baths": "2 beds",
     "area": "⚠️ Location UNSURE — FB Marketplace (Suthep search)",
-    "zone": "out",
+    "zone": "target",
     "rental_location": "Chiang Mai (exact location hidden by Marketplace — verify by opening link)",
     "listed": "Listed recently",
     "move_in_date": "—",
@@ -365,8 +365,8 @@
     "fbRefresh": true,
     "scoreBreakdown": {
       "location": {
-        "sub": 0.25,
-        "points": 7.5
+        "sub": 1,
+        "points": 30
       },
       "price": {
         "sub": 0.74,
@@ -385,7 +385,7 @@
         "points": 0
       }
     },
-    "score": 39.4
+    "score": 61.9
   },
   {
     "id": "1644915826804657",
@@ -510,7 +510,7 @@
     "beds": 2,
     "beds_baths": "2 beds · 2 baths",
     "area": "Central Chiang Mai (50000) near Central",
-    "zone": "backup",
+    "zone": "target-edge",
     "rental_location": "หมู่ที่ 2, 50000",
     "listed": "Listed over a week ago",
     "move_in_date": "Ready now",
@@ -531,11 +531,11 @@
       "/img/4429452474010588/7.jpg"
     ],
     "imgCount": 8,
-    "score": 52.8,
+    "score": 64.8,
     "scoreBreakdown": {
       "location": {
-        "sub": 0.45,
-        "points": 13.5
+        "sub": 0.85,
+        "points": 25.5
       },
       "price": {
         "sub": 0.45,
@@ -623,7 +623,7 @@
     "beds": 2,
     "beds_baths": "2 beds · 2 baths",
     "area": "Khlong Mae Kha / Tha Phae (central east) 50100",
-    "zone": "backup",
+    "zone": "fallback",
     "rental_location": "เชียงใหม่, 50100",
     "listed": "Listed over a week ago",
     "move_in_date": "Ready now",
@@ -648,11 +648,11 @@
       "/img/1526979715695498/11.jpg"
     ],
     "imgCount": 12,
-    "score": 47.5,
+    "score": 56.5,
     "scoreBreakdown": {
       "location": {
-        "sub": 0.45,
-        "points": 13.5
+        "sub": 0.75,
+        "points": 22.5
       },
       "price": {
         "sub": 0.24,
@@ -681,7 +681,7 @@
     "beds": 2,
     "beds_baths": "2 beds · 2 baths",
     "area": "D Condo Nim (near Central Festival, east) — NOT Nimman",
-    "zone": "backup",
+    "zone": "fallback",
     "rental_location": "หมู่ที่ 4, 50000",
     "listed": "Listed over a week ago",
     "move_in_date": "Ready now",
@@ -706,11 +706,11 @@
       "/img/1295515022568686/11.jpg"
     ],
     "imgCount": 12,
-    "score": 46.9,
+    "score": 55.9,
     "scoreBreakdown": {
       "location": {
-        "sub": 0.45,
-        "points": 13.5
+        "sub": 0.75,
+        "points": 22.5
       },
       "price": {
         "sub": 0.21,
@@ -739,7 +739,7 @@
     "beds": 2,
     "beds_baths": "2 beds · 2 baths",
     "area": "Faham (NE, near Central Festival) — unfurnished",
-    "zone": "out",
+    "zone": "fallback",
     "rental_location": "หมู่ที่ 3, 50000",
     "listed": "Listed over a week ago",
     "move_in_date": "Ready now",
@@ -761,11 +761,11 @@
       "/img/876742074930920/8.jpg"
     ],
     "imgCount": 9,
-    "score": 46.1,
+    "score": 61.1,
     "scoreBreakdown": {
       "location": {
-        "sub": 0.25,
-        "points": 7.5
+        "sub": 0.75,
+        "points": 22.5
       },
       "price": {
         "sub": 0.42,
@@ -2107,7 +2107,7 @@
     "beds": 2,
     "beds_baths": "2 beds",
     "area": "หาหอ มช. (CMU room-finding)",
-    "zone": "target-edge",
+    "zone": "target",
     "rental_location": "Facebook group post — หาหอ มช. (CMU room-finding) (verify exact location on the post)",
     "listed": "Listed recently",
     "move_in_date": null,
@@ -2120,11 +2120,11 @@
     "images": [],
     "imgCount": 0,
     "petFriendly": false,
-    "score": 54.1,
+    "score": 58.6,
     "scoreBreakdown": {
       "location": {
-        "sub": 0.85,
-        "points": 25.5
+        "sub": 1,
+        "points": 30
       },
       "price": {
         "sub": 0.61,
@@ -2199,7 +2199,7 @@
     "beds": 2,
     "beds_baths": "2 beds",
     "area": "หาหอพัก อพาร์ทเมนท์ ใกล้ มช.",
-    "zone": "backup",
+    "zone": "target",
     "rental_location": "Facebook group post — หาหอพัก อพาร์ทเมนท์ ใกล้ มช. (verify exact location on the post)",
     "listed": "Listed recently",
     "move_in_date": null,
@@ -2212,11 +2212,11 @@
     "images": [],
     "imgCount": 0,
     "petFriendly": false,
-    "score": 34.9,
+    "score": 51.4,
     "scoreBreakdown": {
       "location": {
-        "sub": 0.45,
-        "points": 13.5
+        "sub": 1,
+        "points": 30
       },
       "price": {
         "sub": 0.32,
@@ -2245,7 +2245,7 @@
     "beds": 2,
     "beds_baths": "2 beds",
     "area": "หาหอพัก อพาร์ทเมนท์ ใกล้ มช.",
-    "zone": "backup",
+    "zone": "target",
     "rental_location": "Facebook group post — หาหอพัก อพาร์ทเมนท์ ใกล้ มช. (verify exact location on the post)",
     "listed": "Listed recently",
     "move_in_date": null,
@@ -2258,11 +2258,11 @@
     "images": [],
     "imgCount": 0,
     "petFriendly": false,
-    "score": 32.3,
+    "score": 48.8,
     "scoreBreakdown": {
       "location": {
-        "sub": 0.45,
-        "points": 13.5
+        "sub": 1,
+        "points": 30
       },
       "price": {
         "sub": 0.21,

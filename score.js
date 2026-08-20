@@ -47,8 +47,9 @@ const WEIGHTS = { location: 30, price: 25, recency: 25, moveIn: 15, petFriendly:
 
 // --- Location: zone -> 0–1 closeness score -----------------------------------
 // Balances proximity to hiking trails (Suthep core) with downtown access (Tha Phae).
-// "Out" zone includes nearby suburbs: Hang Dong (south), San Sai (north),
-// Mae Rim (northeast), Saraphi (SE), San Kamphaeng (NE) — scored low but included.
+// "Out" zone includes nearby suburbs: Hang Dong, San Sai, Mae Rim, Saraphi,
+// San Kamphaeng, Doi Saket, plus the next ring bordering those (San Pa Tong,
+// Doi Lo, Mae Wang, Samoeng, Mae Taeng, Phrao, Mae On) — scored low but included.
 const ZONE_SCORE = {
   "target": 1.0, // CMU / Suthep core — prime hiking + reasonable downtown
   "target-edge": 0.85, // Suthep edge — excellent trails
