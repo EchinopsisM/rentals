@@ -72,6 +72,7 @@ function daysSinceListed(text) {
   if ((m = s.match(/(\d+)\s*day/))) return +m[1];
   if ((m = s.match(/(\d+)\s*week/))) return +m[1] * 7;
   if ((m = s.match(/(\d+)\s*month/))) return +m[1] * 30;
+  if ((m = s.match(/(\d+)\s*year/))) return +m[1] * 365;
   // "over a week ago" / "a week ago" — no exact figure; assume ~10 days.
   if (/over a week|a week ago|last week/.test(s)) return 10;
   return null;
