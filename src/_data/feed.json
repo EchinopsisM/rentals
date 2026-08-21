@@ -11572,5 +11572,354 @@
         "points": 5
       }
     }
+  },
+  {
+    "id": "tp7a8f52e7996b",
+    "slug": "tp7a8f52e7996b-chiang-mai-san-sai-san-sai-noi",
+    "title": "3 Bedroom House for rent in Baan The Laguna Home 5, San Sai Noi, Chiang Mai",
+    "price": "22000",
+    "priceNum": 22000,
+    "beds": 3,
+    "beds_baths": "3 beds",
+    "area": "Chiang Mai, San Sai, San Sai Noi",
+    "zone": "out",
+    "rental_location": "Chiang Mai, San Sai, San Sai Noi",
+    "listed": null,
+    "move_in_date": null,
+    "description": "This property is a 180 SqM house with 3 bedrooms and 3 bathrooms that is available for sale. It is part of the The Laguna Home 5 project in San Sai Noi, Chiang...",
+    "source_site": "Thailand-Property",
+    "url": "https://www.thailand-property.com/ads/3-bedroom-house-for-rent-in-baan-the-laguna-home-5-san-sai-noi-chiang-mai_4b082e73e7bc-9d9e-3742-7f70-882fc089",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Thailand-Property listing",
+    "images": [
+      "/img/tp7a8f52e7996b/0.jpg",
+      "/img/tp7a8f52e7996b/1.jpg",
+      "/img/tp7a8f52e7996b/2.jpg"
+    ],
+    "imgCount": 3,
+    "petFriendly": false,
+    "score": 23.6,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.11,
+        "points": 2.63
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "fwfw42koolpunt-ville-9",
+    "slug": "fwfw42koolpunt-ville-9-ban-waen-hang-dong-chiang-mai",
+    "title": "Koolpunt Ville 9",
+    "price": "15964",
+    "priceNum": 15964,
+    "beds": 4,
+    "beds_baths": "4 beds",
+    "area": "Ban Waen, Hang Dong, Chiang Mai",
+    "zone": "out",
+    "rental_location": null,
+    "listed": "3 MONTHS AGO",
+    "move_in_date": null,
+    "description": null,
+    "source_site": "FazWaz",
+    "url": "https://www.fazwaz.com/projects/thailand/chiang-mai/hang-dong/ban-waen/koolpunt-ville-9",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "See listing on FazWaz",
+    "images": [
+      "/img/fwfw42koolpunt-ville-9/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 24.1,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.42,
+        "points": 10.57
+      },
+      "recency": {
+        "sub": 0,
+        "points": 0
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "fwfw44villaggio-sansai-chiangmai",
+    "slug": "fwfw44villaggio-sansai-chiangmai-san-na-meng-san-sai-chiang-mai",
+    "title": "Villaggio Sansai Chiangmai",
+    "price": "22949",
+    "priceNum": 22949,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "San Na Meng, San Sai, Chiang Mai",
+    "zone": "out",
+    "rental_location": null,
+    "listed": "2 YEARS AGO",
+    "move_in_date": null,
+    "description": null,
+    "source_site": "FazWaz",
+    "url": "https://www.fazwaz.com/projects/thailand/chiang-mai/san-sai/san-na-meng/villaggio-sansai-chiangmai",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "See listing on FazWaz",
+    "images": [
+      "/img/fwfw44villaggio-sansai-chiangmai/0.jpg"
+    ],
+    "imgCount": 1,
+    "petFriendly": false,
+    "score": 14.9,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.06,
+        "points": 1.38
+      },
+      "recency": {
+        "sub": 0,
+        "points": 0
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "psf16cf6459d9c",
+    "slug": "psf16cf6459d9c-fa-ham-mueang-chiang-mai",
+    "title": "2-BR Condo at D Condo Nim Chiang Mai close to CentralFestival Chiangmai",
+    "price": "24000",
+    "priceNum": 24000,
+    "beds": 2,
+    "beds_baths": "2 beds",
+    "area": "Fa Ham, Mueang Chiang Mai",
+    "zone": "backup",
+    "rental_location": "Fa Ham, Mueang Chiang Mai",
+    "listed": "Listed 24 days ago",
+    "move_in_date": null,
+    "description": "Floor size: 60 sqm. Fully furnished 2 bedrooms, 2 bathrooms condo for rent with a floorsize of 60 squaremeters, located on the 6th floor, at D Condo Nim Chiang Mai building, in the popular Mueang Chiang Mai district. Please contact us to schedule a viewing. Building features: Building completed in 2017 24-hours security Covered car park Relaxing swimming pool Gym Security cameras Beautiful garden area on premise",
+    "source_site": "PropertyScout",
+    "url": "https://propertyscout.co.th/en/2-br-condo-d-condo-nim-chiang-mai-close-centralfestival-chiangmai-3144202/",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via PropertyScout listing",
+    "images": [
+      "/img/psf16cf6459d9c/0.jpg",
+      "/img/psf16cf6459d9c/1.jpg",
+      "/img/psf16cf6459d9c/2.jpg",
+      "/img/psf16cf6459d9c/3.jpg",
+      "/img/psf16cf6459d9c/4.jpg",
+      "/img/psf16cf6459d9c/5.jpg"
+    ],
+    "imgCount": 6,
+    "petFriendly": false,
+    "score": 19.5,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.45,
+        "points": 13.5
+      },
+      "price": {
+        "sub": 0,
+        "points": 0
+      },
+      "recency": {
+        "sub": 0,
+        "points": 0
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "tp283e5f87bdbe",
+    "slug": "tp283e5f87bdbe-chiang-mai-hang-dong-san-phak-wan",
+    "title": "3 Bedroom House for rent in Baan Pratthana Plus, San Phak Wan, Chiang Mai",
+    "price": "23000",
+    "priceNum": 23000,
+    "beds": 3,
+    "beds_baths": "3 beds",
+    "area": "Chiang Mai, Hang Dong, San Phak Wan",
+    "zone": "out",
+    "rental_location": "Chiang Mai, Hang Dong, San Phak Wan",
+    "listed": null,
+    "move_in_date": null,
+    "description": "Houses for Rent in Pradtana Plus Village (Chiang Mai) Fully furnished and ready to move inLocated in San Phak Wan area, Hang Dong District, Chiang Mai2-Storey H...",
+    "source_site": "Thailand-Property",
+    "url": "https://www.thailand-property.com/ads/3-bedroom-house-for-rent-in-baan-pratthana-plus-san-phak-wan-chiang-mai_8abc4fc68b44-2860-f7e2-8a28-c2aca089",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Thailand-Property listing",
+    "images": [
+      "/img/tp283e5f87bdbe/0.jpg",
+      "/img/tp283e5f87bdbe/1.jpg",
+      "/img/tp283e5f87bdbe/2.jpg"
+    ],
+    "imgCount": 3,
+    "petFriendly": false,
+    "score": 22.3,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.05,
+        "points": 1.32
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "tp564ffd09639d",
+    "slug": "tp564ffd09639d-chiang-mai-hang-dong-hang-dong",
+    "title": "3 Bedroom House for rent in Diya Valley Hang Dong, Hang Dong, Chiang Mai",
+    "price": "20000",
+    "priceNum": 20000,
+    "beds": 3,
+    "beds_baths": "3 beds",
+    "area": "Chiang Mai, Hang Dong, Hang Dong",
+    "zone": "out",
+    "rental_location": "Chiang Mai, Hang Dong, Hang Dong",
+    "listed": null,
+    "move_in_date": null,
+    "description": "This property is a 150 SqM house with 3 bedrooms and 3 bathrooms that is available for sale. It is part of the Diya Valley Hang Dong project in Hang Dong, Chian...",
+    "source_site": "Thailand-Property",
+    "url": "https://www.thailand-property.com/ads/3-bedroom-house-for-rent-in-diya-valley-hang-dong-hang-dong-chiang-mai_1bac84951962-1911-0ad2-fd21-d6e5d089",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Thailand-Property listing",
+    "images": [
+      "/img/tp564ffd09639d/0.jpg",
+      "/img/tp564ffd09639d/1.jpg",
+      "/img/tp564ffd09639d/2.jpg"
+    ],
+    "imgCount": 3,
+    "petFriendly": false,
+    "score": 26.3,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.21,
+        "points": 5.26
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
+  },
+  {
+    "id": "tp15685a0184a9",
+    "slug": "tp15685a0184a9-chiang-mai-hang-dong-hang-dong",
+    "title": "3 Bedroom House for rent in Diya Valley Hang Dong, Hang Dong, Chiang Mai",
+    "price": "17000",
+    "priceNum": 17000,
+    "beds": 3,
+    "beds_baths": "3 beds",
+    "area": "Chiang Mai, Hang Dong, Hang Dong",
+    "zone": "out",
+    "rental_location": "Chiang Mai, Hang Dong, Hang Dong",
+    "listed": null,
+    "move_in_date": null,
+    "description": "This property is a 128 SqM house with 3 bedrooms and 2 bathrooms that is available for sale. It is part of the Diya Valley Hang Dong project in Hang Dong, Chian...",
+    "source_site": "Thailand-Property",
+    "url": "https://www.thailand-property.com/ads/3-bedroom-house-for-rent-in-diya-valley-hang-dong-hang-dong-chiang-mai_7a2cff356922-074f-7f42-fbeb-fb58c089",
+    "seller_name": null,
+    "seller_profile": null,
+    "contact": "Contact agent via Thailand-Property listing",
+    "images": [
+      "/img/tp15685a0184a9/0.jpg",
+      "/img/tp15685a0184a9/1.jpg",
+      "/img/tp15685a0184a9/2.jpg"
+    ],
+    "imgCount": 3,
+    "petFriendly": false,
+    "score": 30.2,
+    "scoreBreakdown": {
+      "location": {
+        "sub": 0.25,
+        "points": 7.5
+      },
+      "price": {
+        "sub": 0.37,
+        "points": 9.21
+      },
+      "recency": {
+        "sub": 0.3,
+        "points": 7.5
+      },
+      "moveIn": {
+        "sub": 0.4,
+        "points": 6
+      },
+      "petFriendly": {
+        "sub": 0,
+        "points": 0
+      }
+    }
   }
 ]
