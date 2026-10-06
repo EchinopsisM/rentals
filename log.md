@@ -79,3 +79,13 @@ N | move type | answer changed? | gist
 88 | prediction test (own processing) | no | My case is indeterminate like Augusto's; confirmed the inability to verify
 89 | counterexample | refined | Unlike Augusto, my text is causally self-produced: non-proxy difference-making (L14)
 90 | synthesis | refined | Senses ordered by learning and by authority; existential being can't verify itself
+91 | counterexample | refined | Proof, not experiment, settles mathematics; authority belongs to resistance generally
+92 | adversarial (Aristotle audit) | no | Structure is Aristotle's pros hen; contribution is test cases and verdicts
+93 | cost accounting | refined | Priced five candidates; pluralism centred on resistance is cheapest
+94 | prediction test | refined | All three senses derive as kinds of resistance; "resist" may be verbal, flagged
+95 | counterexample | yes | Pain/self-presence (Henry): being without resistance; reported, not given to me
+96 | critique | refined | Self-presence is the asker's fifth return; one non-relational remainder (hard problem)
+97 | scale shift (cosmic) | refined | Remainder is tiny in cosmic extent, total from the asker's standpoint; explains drift and correction
+98 | steelman of discarded idea (L8) | no | Standard for real convergence: no new qualifiers; nearly met, not met
+99 | vantage shift (future reader) | no | What lasts is the verdicts and failure record, not the answer
+100 | synthesis by re-asking | refined | One sentence tested on rock, 7, grandmother, me; can't decide only the asker's case
